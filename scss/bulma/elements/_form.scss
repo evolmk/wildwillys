@@ -1,0 +1,1227 @@
+$input-color: $grey-darker !default;
+$input-background-color: #f1f3f4 !default;
+$input-border-color: darken($input-background-color, 5%) !default;
+$input-height: $control-height !default;
+$input-shadow: inset 0 1px 2px rgba($black, 0.1) !default;
+$input-placeholder-color: rgba($input-color, 0.5) !default;
+
+$input-padding-vertical: calc(1.2em - 1px) !default;
+$input-padding-horizontal: calc(0.7em - 1px) !default;
+
+$input-hover-color: $grey-darker !default;
+$input-hover-border-color: darken($input-border-color, 10%) !default;
+
+$input-focus-color: $grey-darker !default;
+$input-focus-background-color: #fff !default;
+$input-focus-border-color: $input-hover-border-color !default;
+$input-focus-box-shadow-size: 0 0 0 0.125em !default;
+$input-focus-box-shadow-color: rgba($link, 0.25) !default;
+
+$input-disabled-color: $text-light !default;
+$input-disabled-background-color: $background !default;
+$input-disabled-border-color: $background !default;
+$input-disabled-placeholder-color: rgba($input-disabled-color, 0.3) !default;
+
+$input-arrow: #4c4f52 !default;
+
+$input-icon-color: $grey-lighter !default;
+$input-icon-active-color: $grey !default;
+
+$input-radius: $radius !default;
+
+$file-border-color: $border !default;
+$file-radius: $radius !default;
+
+$file-cta-background-color: $white-ter !default;
+$file-cta-color: $grey-dark !default;
+$file-cta-hover-color: $grey-darker !default;
+$file-cta-active-color: $grey-darker !default;
+
+$file-name-border-color: $border !default;
+$file-name-border-style: solid !default;
+$file-name-border-width: 1px 1px 1px 0 !default;
+$file-name-max-width: 16em !default;
+
+$label-color: #72787b !default;
+$label-weight: 500 !default;
+$label-size: 0.85rem !default;
+
+$help-size: $size-small !default;
+
+$select-font-size: 1rem !default;
+
+form {
+  //reduce gap between columns
+  .columns:not(:last-child) {
+    margin-bottom: .5rem;
+  }
+
+  &.condensed {
+    .columns:not(:last-child) {
+      margin-bottom: .1rem;
+    }
+  }
+
+  &.is-padded {
+    padding: .5em 2em;
+  }
+
+  // auto-fill colors
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  textarea:-webkit-autofill,
+  textarea:-webkit-autofill:hover,
+  select:-webkit-autofill,
+  select:-webkit-autofill:hover {
+    border: 1px solid $input-background-color;
+    -webkit-text-fill-color: $input-color; //text
+    -webkit-box-shadow: 0 0 0 1000px $input-background-color inset; //background
+    transition: background-color 5000s ease-in-out 0s;
+  }
+
+  input:-webkit-autofill:focus,
+  textarea:-webkit-autofill:focus,
+  select:-webkit-autofill:focus {
+    border: 1px solid $input-focus-border-color;
+    -webkit-text-fill-color: $input-color; //text
+    -webkit-box-shadow: 0 0 0 1000px $input-focus-background-color inset; //background
+    transition: background-color 5000s ease-in-out 0s;
+  }
+}
+
+@mixin input {
+  @extend %control;
+
+  background-color: $input-background-color;
+  border-color: $input-border-color;
+  color: $input-color;
+
+  @include placeholder {
+    color: $input-placeholder-color;
+  }
+
+
+  &:hover,
+  &.is-hovered {
+    color: $input-hover-color;
+    border-color: $input-hover-border-color;
+  }
+
+  &:focus,
+  &.is-focused,
+  &:active,
+  &.is-active {
+    color: $input-focus-color;
+    background-color: $input-focus-background-color;
+    border-color: $input-focus-border-color;
+    //box-shadow: $input-focus-box-shadow-size $input-focus-box-shadow-color;
+  }
+
+  &[disabled],
+  fieldset[disabled] & {
+    background-color: $input-disabled-background-color;
+    border-color: $input-disabled-border-color;
+    box-shadow: none;
+    color: $input-disabled-color;
+
+    @include placeholder {
+      color: $input-disabled-placeholder-color;
+    }
+  }
+}
+
+.input,
+.textarea {
+  @include input;
+
+  //box-shadow: $input-shadow;
+  max-width: 100%;
+  width: 100%;
+
+  &[readonly] {
+    box-shadow: none;
+  }
+
+  &.is-on-grey {
+    border-color: #d5d5d5;
+    &:focus,
+    &.is-focused,
+    &:active,
+    &.is-active {
+      border-color: $input-focus-border-color;
+    }
+  }
+
+  // Colors
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+
+    &.is-#{$name} {
+      border-color: $color;
+
+      &:focus,
+      &.is-focused,
+      &:active,
+      &.is-active {
+        box-shadow: $input-focus-box-shadow-size rgba($color, 0.25);
+      }
+    }
+  }
+
+  // Sizes
+  &.is-xsmall {
+    @include control-xsmall;
+  }
+  &.is-small {
+    @include control-small;
+  }
+
+  &.is-medium {
+    @include control-medium;
+  }
+
+  &.is-large {
+    @include control-large;
+  }
+
+  // Modifiers
+  &.is-fullwidth {
+    display: block;
+    width: 100%;
+  }
+
+  &.is-inline {
+    display: inline;
+    width: auto;
+  }
+}
+
+.input {
+  &.is-rounded {
+    border-radius: $radius-rounded;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  &.is-static {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.textarea {
+  display: block;
+  max-width: 100%;
+  min-width: 100%;
+  padding: 0.625em;
+  resize: vertical;
+
+  &:not([rows]) {
+    max-height: 600px;
+    min-height: 120px;
+  }
+
+  &[rows] {
+    height: initial;
+  }
+
+  // Modifiers
+  &.has-fixed-size {
+    resize: none;
+  }
+}
+
+.checkbox,
+.radio {
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.25;
+  position: relative;
+
+  input {
+    cursor: pointer;
+  }
+
+  &:hover {
+    color: $input-hover-color;
+  }
+
+  &[disabled],
+  fieldset[disabled] & {
+    color: $input-disabled-color;
+    cursor: not-allowed;
+  }
+}
+
+.radio {
+  & + .radio {
+    margin-left: 0.5em;
+  }
+}
+
+.select {
+  display: inline-block;
+  max-width: 100%;
+  position: relative;
+  vertical-align: top;
+
+  &:not(.is-multiple) {
+    height: $input-height;
+  }
+
+  &:not(.is-multiple):not(.is-loading) {
+    &::after {
+      @extend %arrow;
+
+      border-color: $input-arrow;
+      margin-top: -0.1em;
+      right: 1.125em;
+      z-index: 4;
+    }
+  }
+
+  &.is-rounded {
+    select {
+      border-radius: $radius-rounded;
+      padding-left: 1em;
+    }
+  }
+
+  select {
+    @include input;
+
+    cursor: pointer;
+    display: block;
+    font-size: $select-font-size;
+    max-width: 100%;
+    outline: none;
+
+    &::-ms-expand {
+      display: none;
+    }
+
+    &[disabled]:hover,
+    fieldset[disabled] &:hover {
+      border-color: $input-disabled-border-color;
+    }
+
+    &:not([multiple]) {
+      padding-right: 2.4em;
+    }
+
+    &[multiple] {
+      height: auto;
+      padding: 0;
+
+      option {
+        padding: 0.5em 1em;
+      }
+    }
+  }
+
+  // States
+  &:not(.is-multiple):not(.is-loading):hover {
+    &::after {
+      border-color: $input-hover-color;
+    }
+  }
+
+  // Colors
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+
+    &.is-#{$name} {
+      &:not(:hover)::after {
+        border-color: $color;
+      }
+
+      select {
+        border-color: $color;
+
+        &:hover,
+        &.is-hovered {
+          border-color: darken($color, 5%);
+        }
+
+        &:focus,
+        &.is-focused,
+        &:active,
+        &.is-active {
+          box-shadow: $input-focus-box-shadow-size rgba($color, 0.25);
+        }
+      }
+    }
+  }
+
+  // Sizes
+  &.is-small {
+    @include control-small;
+  }
+
+  &.is-medium {
+    @include control-medium;
+  }
+
+  &.is-large {
+    @include control-large;
+  }
+
+  // Modifiers
+  &.is-disabled {
+    &::after {
+      border-color: $input-disabled-color;
+    }
+  }
+
+  &.is-fullwidth {
+    width: 100%;
+
+    select {
+      width: 100%;
+    }
+  }
+
+  &.is-loading {
+    &::after {
+      @extend %loader;
+
+      margin-top: 0;
+      position: absolute;
+      right: 0.625em;
+      top: 0.625em;
+      transform: none;
+    }
+
+    &.is-small:after {
+      font-size: $size-small;
+    }
+
+    &.is-medium:after {
+      font-size: $size-medium;
+    }
+
+    &.is-large:after {
+      font-size: $size-large;
+    }
+  }
+}
+
+.file {
+  @extend %unselectable;
+
+  align-items: stretch;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+
+  // Colors
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+    $color-invert: nth($pair, 2);
+
+    &.is-#{$name} {
+      .file-cta {
+        background-color: $color;
+        border-color: transparent;
+        color: $color-invert;
+      }
+
+      &:hover,
+      &.is-hovered {
+        .file-cta {
+          background-color: darken($color, 2.5%);
+          border-color: transparent;
+          color: $color-invert;
+        }
+      }
+
+      &:focus,
+      &.is-focused {
+        .file-cta {
+          border-color: transparent;
+          box-shadow: 0 0 0.5em rgba($color, 0.25);
+          color: $color-invert;
+        }
+      }
+
+      &:active,
+      &.is-active {
+        .file-cta {
+          background-color: darken($color, 5%);
+          border-color: transparent;
+          color: $color-invert;
+        }
+      }
+    }
+  }
+
+  // Sizes
+  &.is-xsmall {
+    font-size: $size-xsmall;
+  }
+
+  &.is-small {
+    font-size: $size-small;
+  }
+
+  &.is-medium {
+    font-size: $size-medium;
+
+    .file-icon {
+      .fa {
+        font-size: 21px;
+      }
+    }
+  }
+
+  &.is-large {
+    font-size: $size-large;
+
+    .file-icon {
+      .fa {
+        font-size: 28px;
+      }
+    }
+  }
+
+  // Modifiers
+  &.has-name {
+    .file-cta {
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+
+    .file-name {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+    }
+
+    &.is-empty {
+      .file-cta {
+        border-radius: $file-radius;
+      }
+
+      .file-name {
+        display: none;
+      }
+    }
+  }
+
+  &.is-boxed {
+    .file-label {
+      flex-direction: column;
+    }
+
+    .file-cta {
+      flex-direction: column;
+      height: auto;
+      padding: 1em 3em;
+    }
+
+    .file-name {
+      border-width: 0 1px 1px;
+    }
+
+    .file-icon {
+      height: 1.5em;
+      width: 1.5em;
+
+      .fa {
+        font-size: 21px;
+      }
+    }
+
+    &.is-small {
+      .file-icon .fa {
+        font-size: 14px;
+      }
+    }
+
+    &.is-medium {
+      .file-icon .fa {
+        font-size: 28px;
+      }
+    }
+
+    &.is-large {
+      .file-icon .fa {
+        font-size: 35px;
+      }
+    }
+
+    &.has-name {
+      .file-cta {
+        border-radius: $file-radius $file-radius 0 0;
+      }
+
+      .file-name {
+        border-radius: 0 0 $file-radius $file-radius;
+        border-width: 0 1px 1px;
+      }
+    }
+  }
+
+  &.is-centered {
+    justify-content: center;
+  }
+
+  &.is-fullwidth {
+    .file-label {
+      width: 100%;
+    }
+
+    .file-name {
+      flex-grow: 1;
+      max-width: none;
+    }
+  }
+
+  &.is-right {
+    justify-content: flex-end;
+
+    .file-cta {
+      border-radius: 0 $file-radius $file-radius 0;
+    }
+
+    .file-name {
+      border-radius: $file-radius 0 0 $file-radius;
+      border-width: 1px 0 1px 1px;
+      order: -1;
+    }
+  }
+}
+
+.file-label {
+  align-items: stretch;
+  display: flex;
+  cursor: pointer;
+  justify-content: flex-start;
+  overflow: hidden;
+  position: relative;
+
+  &:hover {
+    .file-cta {
+      background-color: darken($file-cta-background-color, 2.5%);
+      color: $file-cta-hover-color;
+    }
+
+    .file-name {
+      border-color: darken($file-name-border-color, 2.5%);
+    }
+  }
+
+  &:active {
+    .file-cta {
+      background-color: darken($file-cta-background-color, 5%);
+      color: $file-cta-active-color;
+    }
+
+    .file-name {
+      border-color: darken($file-name-border-color, 5%);
+    }
+  }
+}
+
+.file-input {
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  outline: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.file-cta,
+.file-name {
+  @extend %control;
+
+  border-color: $file-border-color;
+  border-radius: $file-radius;
+  font-size: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  white-space: nowrap;
+}
+
+.file-cta {
+  background-color: $file-cta-background-color;
+  color: $file-cta-color;
+}
+
+.file-name {
+  border-color: $file-name-border-color;
+  border-style: $file-name-border-style;
+  border-width: $file-name-border-width;
+  display: block;
+  max-width: $file-name-max-width;
+  overflow: hidden;
+  text-align: left;
+  text-overflow: ellipsis;
+}
+
+.file-icon {
+  align-items: center;
+  display: flex;
+  height: 1em;
+  justify-content: center;
+  margin-right: 0.5em;
+  width: 1em;
+
+  .fa {
+    font-size: 14px;
+  }
+}
+
+.label {
+  color: $label-color;
+  display: block;
+  font-size: $size-normal;
+  font-weight: $label-weight;
+
+  &:not(:last-child) {
+    margin-bottom: 0.5em;
+  }
+
+  // Sizes
+  &.is-small {
+    font-size: $size-small;
+  }
+
+  &.is-medium {
+    font-size: $size-medium;
+  }
+
+  &.is-large {
+    font-size: $size-large;
+  }
+}
+
+.help {
+  display: block;
+  font-size: $help-size;
+  margin-top: 0.25rem;
+
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+
+    &.is-#{$name} {
+      color: $color;
+    }
+  }
+}
+
+// Containers
+
+.field {
+  &:not(:last-child) {
+    margin-bottom: 0.75rem;
+  }
+
+  // Modifiers
+  &.has-addons {
+    display: flex;
+    justify-content: flex-start;
+
+    .control {
+      &:not(:last-child) {
+        margin-right: -1px;
+      }
+
+      &:not(:first-child):not(:last-child) {
+        .button,
+        .input,
+        .select select {
+          border-radius: 0;
+        }
+      }
+
+      &:first-child:not(:only-child) {
+        .button,
+        .input,
+        .select select {
+          border-bottom-right-radius: 0;
+          border-top-right-radius: 0;
+        }
+      }
+
+      &:last-child:not(:only-child) {
+        .button,
+        .input,
+        .select select {
+          border-bottom-left-radius: 0;
+          border-top-left-radius: 0;
+        }
+      }
+
+      .button,
+      .input,
+      .select select {
+        &:not([disabled]) {
+          &:hover,
+          &.is-hovered {
+            z-index: 2;
+          }
+
+          &:focus,
+          &.is-focused,
+          &:active,
+          &.is-active {
+            z-index: 3;
+
+            &:hover {
+              z-index: 4;
+            }
+          }
+        }
+      }
+
+      &.is-expanded {
+        flex-grow: 1;
+      }
+    }
+
+    &.has-addons-centered {
+      justify-content: center;
+    }
+
+    &.has-addons-right {
+      justify-content: flex-end;
+    }
+
+    &.has-addons-fullwidth {
+      .control {
+        flex-grow: 1;
+        flex-shrink: 0;
+      }
+    }
+  }
+
+  &.is-grouped {
+    display: flex;
+    justify-content: flex-start;
+
+    & > .control {
+      flex-shrink: 0;
+
+      &:not(:last-child) {
+        margin-bottom: 0;
+        margin-right: 0.75rem;
+      }
+
+      &.is-expanded {
+        flex-grow: 1;
+        flex-shrink: 1;
+      }
+    }
+
+    &.is-grouped-centered {
+      justify-content: center;
+    }
+
+    &.is-grouped-right {
+      justify-content: flex-end;
+    }
+
+    &.is-grouped-multiline {
+      flex-wrap: wrap;
+
+      & > .control {
+        &:last-child,
+        &:not(:last-child) {
+          margin-bottom: 0.75rem;
+        }
+      }
+
+      &:last-child {
+        margin-bottom: -0.75rem;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &.is-horizontal {
+    @include tablet {
+      display: flex;
+    }
+  }
+}
+
+.field-label {
+  .label {
+    font-size: inherit;
+  }
+
+  @include mobile {
+    margin-bottom: 0.5rem;
+  }
+
+
+  @include tablet {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin-right: 1.5rem;
+    text-align: right;
+
+    &.is-small {
+      font-size: $size-small;
+      padding-top: 0.375em;
+    }
+
+    &.is-normal {
+      padding-top: 0.375em;
+    }
+
+    &.is-medium {
+      font-size: $size-medium;
+      padding-top: 0.375em;
+    }
+
+    &.is-large {
+      font-size: $size-large;
+      padding-top: 0.375em;
+    }
+  }
+}
+
+.field-body {
+  .field .field {
+    margin-bottom: 0;
+  }
+
+  @include tablet {
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 5;
+    flex-shrink: 1;
+
+    .field {
+      margin-bottom: 0;
+    }
+
+    & > .field {
+      flex-shrink: 1;
+
+      &:not(.is-narrow) {
+        flex-grow: 1;
+      }
+
+      &:not(:last-child) {
+        margin-right: 0.75rem;
+      }
+    }
+  }
+}
+
+.control {
+  box-sizing: border-box;
+  clear: both;
+  font-size: $size-normal;
+  position: relative;
+  text-align: left;
+
+  // Modifiers
+  &.has-icons-left,
+  &.has-icons-right {
+    .input,
+    .select {
+      &:focus {
+        & ~ .icon {
+          color: $input-icon-active-color;
+        }
+      }
+
+      &.is-small ~ .icon {
+        font-size: $size-small;
+      }
+
+      &.is-medium ~ .icon {
+        font-size: $size-medium;
+      }
+
+      &.is-large ~ .icon {
+        font-size: $size-large;
+      }
+    }
+
+    .icon {
+      color: $input-icon-color;
+      height: $input-height;
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      width: $input-height;
+      z-index: 4;
+    }
+  }
+
+  &.has-icons-left {
+    .input,
+    .select select {
+      padding-left: $input-height;
+    }
+
+    .icon.is-left {
+      left: 0;
+    }
+  }
+
+  &.has-icons-right {
+    .input,
+    .select select {
+      padding-right: $input-height;
+    }
+
+    .icon.is-right {
+      right: 0;
+    }
+  }
+
+  &.is-loading {
+    &::after {
+      @extend %loader;
+
+      position: absolute !important;
+      right: 0.625em;
+      top: 0.625em;
+      z-index: 4;
+    }
+
+    &.is-small:after {
+      font-size: $size-small;
+    }
+
+    &.is-medium:after {
+      font-size: $size-medium;
+    }
+
+    &.is-large:after {
+      font-size: $size-large;
+    }
+  }
+}
+
+
+// Validator float right
+.validator {
+  display: inline-block;
+  color: $danger;
+  font-size: $label-size;
+  &.is-medium {
+    font-size: 1rem;
+  }
+  @each $name, $pair in $colors {
+    $color: nth($pair, 1);
+
+    &.is-#{$name} {
+      color: $color;
+    }
+  }
+  .is-right {
+    display: block;
+    text-align: right;
+  }
+}
+.validator + .validator, label.inline + .validator {
+  margin-left: 6px;
+}
+
+// Search Control
+.control-search {
+  input {
+    padding-right: 2.25em;
+  }
+  .icon-remove {
+    color: #bbb;
+    height: 100%;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1.5em;
+    z-index: 10;
+    cursor: pointer;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    &:hover {
+      color: #888;
+    }
+  }
+}
+
+// Select2
+
+.select2 > .select2-choice.ui-select-match {
+  /* Because of the inclusion of Bootstrap */
+  height: 29px;
+}
+.selectize-control > .selectize-dropdown {
+  top: 36px;
+}
+.select-box {
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+.alert-info.positioned {
+  margin-top: 1em;
+  position: relative;
+  z-index: 10000;
+}
+// results
+.select2-results .select2-result-label {
+  padding: 2px 7px 2px;
+  margin: 0;
+  font-size: 13px;
+  line-height: 14px;
+  cursor: pointer;
+  min-height: 1em;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  small {
+    font-size: 11px;
+    color: #888;
+  }
+}
+// results - selected
+.select2-results .select2-highlighted {
+  background: #3875d7;
+  color: #fff;
+  small {
+    color: #bbd5ff;
+  }
+}
+
+// Separator line
+
+.separator {
+  border-top: 1px solid #eaeced;
+  position: relative;
+  margin: 30px 0 15px;
+  text-align: center;
+  span {
+    background-color: #fff;
+    padding: 0 .5em;
+    position: relative;
+    color: #b8bcbd;
+    top: -.8em;
+  }
+}
+
+// Auth
+
+.auth-box {
+  margin: 0 auto;
+  padding: 20px 40px 30px 40px;
+  border: 1px solid #eaeced;
+  overflow: hidden;
+  border-radius: 5px;
+
+}
+
+
+// Checkbox
+
+
+.b-checkbox {
+  position: relative;
+  label {
+    padding-left: .8em;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 17px;
+      height: 17px;
+      left: 0;
+      top: 1px;
+      border: 1px solid #dbdbdb;
+      border-radius: 2px;
+      background-color: #fff;
+      transition: background .1s ease-in-out;
+    }
+    &::after {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      left: 3px;
+      top: 4px;
+      font-size: 12px;
+      color: #363636;
+    }
+  }
+  input {
+    &[type="checkbox"], &[type="radio"] {
+      opacity: 0;
+      z-index: 1;
+      cursor: pointer;
+    }
+    //&[type="checkbox"]:focus + label::before, &[type="radio"]:focus + label::before {
+    //  outline: thin dotted;
+    //  outline: 5px auto -webkit-focus-ring-color;
+    //  outline-offset: -2px;
+    //}
+    &[type="checkbox"]:checked + label::after, &[type="radio"]:checked + label::after {
+      content: "✔";
+    }
+    &[type="checkbox"]:disabled, &[type="radio"]:disabled {
+      cursor: not-allowed;
+    }
+    &[type="checkbox"]:disabled + label, &[type="radio"]:disabled + label {
+      opacity: 0.65;
+    }
+    &[type="checkbox"]:disabled + label::before, &[type="radio"]:disabled + label::before {
+      background-color: whitesmoke;
+      cursor: not-allowed;
+    }
+  }
+  &.is-circular label::before {
+    border-radius: 50%;
+  }
+  &.is-inline {
+    display: inline-block;
+    font-weight: normal;
+    + .is-inline {
+      margin-left: 10px;
+    }
+  }
+}
+
+@each $name, $pair in $colors {
+  $color: nth($pair, 1);
+  .is-#{$name} input[type="checkbox"]:checked + label {
+    &::before {
+      background-color: $color;
+      border-color: $color;
+    }
+    &::after {
+      color: #fff;
+    }
+  }
+}
+
+
+input[type="checkbox"] {
+  &.styled:checked + label:after {
+    font-family: "FontAwesome";
+    content: "";
+  }
+  .styled:checked + label {
+    &::before, &::after {
+      color: #fff;
+    }
+  }
+}

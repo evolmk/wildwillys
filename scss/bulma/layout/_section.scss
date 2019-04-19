@@ -1,0 +1,112 @@
+$section-padding: 3rem 1.5rem !default;
+$section-padding-small: 1.5rem .75rem !default;
+$section-padding-medium: 5rem 1.5rem !default;
+$section-padding-large: 10rem 1.5rem !default;
+$section-padding-xl: 18rem 1.5rem !default;
+
+.section {
+  padding: $section-padding;
+
+  @include desktop {
+    padding: $section-padding;
+  }
+
+  @each $name, $pair in $colors-sections {
+    $color: nth($pair, 1);
+    $color-invert: nth($pair, 2);
+    $color-darker: darken($color, 20%);
+
+    @if $name == 'CustomOverride' {
+      // custom overrides
+      &.is-light {
+        background-color: #E3E6E8;
+        color: $color-invert;
+        &.is-outlined {
+          border: 2px solid $color-darker;
+        }
+      }
+    } @else {
+      // each color
+      &.is-#{$name} {
+        background-color: $color;
+        color: $color-invert;
+        &.is-outlined {
+          border: 2px solid $color-darker;
+        }
+      }
+    }
+  }
+
+  //@each $name, $pair in $shades {
+  //  $color: nth($pair, 1);
+  //  $color-invert: findColorInvert($color);
+  //
+  //  &.is-#{$name} {
+  //    background-color: $color;
+  //    color: $color-invert;
+  //  }
+  //}
+
+  @each $name, $pair in $shades {
+    $color: nth($pair, 1);
+    $color-invert: findColorInvert($color);
+    $color-darker: darken($color, 20%);
+
+    @if $name == 'CustomOverride' {
+      // custom overrides
+      &.is-light {
+        background-color: #000;
+        color: $color-invert;
+        &.is-outlined {
+          border: 2px solid $color-darker;
+        }
+      }
+    } @else {
+      // each color
+      &.is-#{$name} {
+        background-color: $color;
+        color: $color-invert;
+        &.is-outlined {
+          border: 2px solid $color-darker;
+        }
+      }
+    }
+  }
+
+  &.is-no-pad {
+    padding: 0;
+  }
+
+  &.is-outlined {
+    border: 1px solid #ccc;
+  }
+
+  // Responsiveness
+  @include desktop {
+    // Sizes
+    &.is-small {
+      padding: $section-padding-small;
+    }
+    &.is-medium {
+      padding: $section-padding-medium;
+    }
+    &.is-large {
+      padding: $section-padding-large;
+    }
+    &.is-xl {
+      padding: $section-padding-xl;
+    }
+  }
+}
+
+// Page Containers
+
+.home-container {
+  padding: 50px 0 50px 0;
+}
+.page-container {
+  padding: 15px 0 50px 0;
+}
+.fullheight-container {
+  padding: 25px 0 50px 0;
+}

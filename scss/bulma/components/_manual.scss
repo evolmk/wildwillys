@@ -1,0 +1,17 @@
+@media print {
+  .page-break	{ display: block; page-break-before: always; padding: 10px; }
+  .page-break-auto	{ display: block; page-break-before: auto; border: 2px dashed #eeeeee; padding: 5px; }
+
+  .print-changeto-block{
+    display: block !important;
+  }
+
+  p {
+    font-size: 13px;
+    color: #7A7F88;
+    letter-spacing: 0;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+  }
+
+}

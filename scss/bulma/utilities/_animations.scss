@@ -1,0 +1,29 @@
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+// Angular Animations
+
+.item-animate.ng-enter,
+.item-animate.ng-leave {
+  -webkit-transition: 0.4s linear all;
+  transition: 0.4s linear all;
+}
+
+.item-animate.ng-enter,
+.item-animate.ng-leave.ng-leave-active {
+  opacity: 0;
+
+}
+.item-animate.ng-leave,
+.item-animate.ng-enter.ng-enter-active {
+  opacity: 1;
+
+}

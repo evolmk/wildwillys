@@ -1,0 +1,369 @@
+$table-color: $grey-darker !default;
+$table-background-color: $white !default;
+
+$table-cell-border: 1px solid $grey-lighter !default;
+$table-cell-border-width: 0 0 1px !default;
+$table-cell-padding: 0.5em 0.75em !default;
+$table-cell-heading-color: $text-strong !default;
+
+$table-head-cell-border-width: 0 0 2px !default;
+$table-head-cell-color: $text-strong !default;
+$table-foot-cell-border-width: 2px 0 0 !default;
+$table-foot-cell-color: $text-strong !default;
+
+$table-head-background-color: transparent !default;
+$table-body-background-color: transparent !default;
+$table-foot-background-color: transparent !default;
+
+$table-row-hover-background-color: rgba(239, 240, 243, 0.6) !default;
+
+$table-row-active-background-color: $primary !default;
+$table-row-active-color: $primary-invert !default;
+
+$table-striped-row-even-background-color: $white-bis !default;
+$table-striped-row-even-hover-background-color: $white-ter !default;
+
+.table {
+  @extend %block;
+
+  background-color: $table-background-color;
+  color: $table-color;
+
+  td,
+  th {
+    border: $table-cell-border;
+    border-width: $table-cell-border-width;
+    padding: $table-cell-padding;
+    vertical-align: top;
+
+    // Colors
+    @each $name, $pair in $colors {
+      $color: nth($pair, 1);
+      $color-invert: nth($pair, 2);
+
+      &.is-#{$name} {
+        background-color: $color;
+        border-color: $color;
+        color: $color-invert;
+      }
+    }
+
+    // Modifiers
+    &.is-narrow {
+      white-space: nowrap;
+      width: 1%;
+    }
+
+    &.is-selected {
+      background-color: $table-row-active-background-color;
+      color: $table-row-active-color;
+
+      a,
+      strong {
+        color: currentColor;
+      }
+    }
+
+    .desc {
+      display: block;
+    }
+  }
+
+  th {
+    color: $table-cell-heading-color;
+    text-align: left;
+  }
+
+  tr {
+    &.is-selected {
+      background-color: $table-row-active-background-color;
+      color: $table-row-active-color;
+
+      a,
+      strong {
+        color: currentColor;
+      }
+
+      td,
+      th {
+        border-color: $table-row-active-color;
+        color: currentColor;
+      }
+    }
+  }
+
+  thead {
+    background-color: $table-head-background-color;
+
+    td,
+    th {
+      border-width: $table-head-cell-border-width;
+      color: $table-head-cell-color;
+    }
+  }
+
+  tfoot {
+    background-color: $table-foot-background-color;
+
+    td,
+    th {
+      border-width: $table-foot-cell-border-width;
+      color: $table-foot-cell-color;
+    }
+  }
+
+  tbody {
+    background-color: $table-body-background-color;
+
+    tr {
+      &:last-child {
+        td,
+        th {
+          border-bottom-width: 0;
+        }
+      }
+    }
+  }
+
+  // Modifiers
+  &.is-bordered {
+    td,
+    th {
+      border-width: 1px;
+    }
+
+    tr {
+      &:last-child {
+        td,
+        th {
+          border-bottom-width: 1px;
+        }
+      }
+    }
+  }
+
+  &.is-fullwidth {
+    width: 100%;
+  }
+
+  &.is-hoverable {
+    tbody {
+      tr:not(.is-selected) {
+        &:hover {
+          background-color: $table-row-hover-background-color;
+        }
+      }
+    }
+
+    &.is-striped {
+      tbody {
+        tr:not(.is-selected) {
+          &:hover {
+            background-color: $table-row-hover-background-color;
+
+            &:nth-child(even) {
+              background-color: $table-striped-row-even-hover-background-color;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &.is-narrow {
+    td,
+    th {
+      padding: 0.25em 0.5em;
+    }
+  }
+
+  &.is-striped {
+    tbody {
+      tr:not(.is-selected) {
+        &:nth-child(even) {
+          background-color: $table-striped-row-even-background-color;
+        }
+      }
+    }
+  }
+
+  &.is-data {
+    width: 100%;
+
+    tbody {
+      tr:not(.is-selected) {
+        &:hover {
+          background-color: $table-row-hover-background-color;
+          cursor: pointer;
+        }
+      }
+    }
+
+    thead th {
+      cursor: pointer;
+
+      i {
+        color: $primary;
+      }
+
+      &:hover {
+        color: $primary;
+      }
+    }
+
+    th, td {
+      padding: 0.5em 0.7em;
+      vertical-align: middle;
+    }
+  }
+
+  &.is-padded {
+    width: 100%;
+
+    th, td {
+      padding: 0.5em 0.05em;
+    }
+  }
+
+  &.is-hoverable {
+    tbody {
+      tr:not(.is-selected) {
+        &:hover {
+          background-color: $table-row-hover-background-color;
+        }
+      }
+    }
+
+    &.is-striped {
+      tbody {
+        tr:not(.is-selected) {
+          &:hover {
+            background-color: $table-striped-row-even-hover-background-color;
+          }
+        }
+      }
+    }
+  }
+
+  &.is-narrow {
+    td,
+    th {
+      padding: 0.25em 0.5em;
+    }
+  }
+
+  &.is-striped {
+    tbody {
+      tr:not(.is-selected) {
+        &:nth-child(even) {
+          background-color: $table-striped-row-even-background-color;
+        }
+      }
+    }
+  }
+}
+
+.table-container {
+  @extend %block;
+
+  @include overflow-touch;
+
+  overflow: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+}
+
+
+
+
+/////////////////////////////////////
+// Div Table
+/////////////////////////////////////
+
+.tbl {
+  display: table;
+  width: 100%;
+
+  //body
+  .tbl-body {
+    display: table-row-group;
+  }
+
+  //row
+  .tbl-row {
+    display: table-row;
+  }
+
+  //defaults
+  .tbl-cell, .tbl-head {
+    text-align: left;
+    border: 0 solid transparent;
+    display: table-cell;
+    padding: 0 10px;
+    vertical-align: middle;
+  }
+
+  //cell
+  .tbl-cell {
+    line-height: 24px;
+    &.is-label {
+      font-weight: 500;
+      color: #444;
+    }
+  }
+
+  //heading
+  .tbl-heading {
+    background-color: #eee;
+    display: table-header-group;
+    font-weight: bold;
+  }
+
+  //footer
+  .tbl-footer {
+    background-color: #EEE;
+    display: table-footer-group;
+    font-weight: bold;
+  }
+
+  // Options
+  &.title-right {
+    .tbl-cell.is-label {
+      text-align: right;
+      padding: 0;
+    }
+  }
+
+  // Specs for Product Block
+  &.specs {
+    width: auto;
+    .tbl-cell {
+      font-size: 13px;
+      font-weight: 500;
+      color: #64676B;
+      line-height: 20px
+    }
+    .tbl-cell.is-label {
+      font-size: 11px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #B3B6BA;
+      text-align: right;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    &.is-large {
+      .tbl-cell {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 32px
+      }
+      .tbl-cell.is-label {
+        font-size: 13px;
+        font-weight: 500;
+        text-align: right;
+        padding-left: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,664 @@
+
+// Sidebar (cart)
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: 54px;
+  width: 300px;
+  transition-property: -webkit-transform,opacity;
+  transition-property: transform,opacity;
+  transition-duration: .2s;
+  transition-timing-function: cubic-bezier(.66,-.41,1,1);
+  -webkit-transform: translateX(-100px);
+  transform: translateX(-100px);
+  pointer-events: none;
+  opacity: 0;
+  height: 660px;
+  max-height: calc(100vh - 120px);
+
+  &.is-visible {
+    pointer-events: auto;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+    transition-duration: .35s;
+    transition-timing-function: cubic-bezier(0,0,0,1.2);
+  }
+}
+
+.sidebar-bottom {
+  position: absolute;
+  bottom: 54px;
+  right: 8px;
+  width: 480px;
+  transition-property: -webkit-transform,opacity;
+  transition-property: transform,opacity;
+  transition-duration: .2s;
+  transition-timing-function: cubic-bezier(.66,-.41,1,1);
+  -webkit-transform: translateY(100px);
+  transform: translateY(100px);
+  pointer-events: none;
+  opacity: 0;
+  height: 660px;
+  max-height: calc(100vh - 120px);
+
+  &.is-visible {
+    pointer-events: auto;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    transition-duration: .35s;
+    transition-timing-function: cubic-bezier(0,0,0,1.2);
+  }
+}
+
+
+///////////////////////////
+// Cart
+///////////////////////////
+
+.sidebar-cart {
+  padding: 40px 40px 50px 40px;
+
+  .count {
+    padding: 2px 0;
+    margin-top: -1px;
+    background-color: transparent;
+    border: 1px solid #dde0e4;
+    color: #3c4349;
+    font-size: .9rem;
+    font-weight: 400;
+    min-width: 29px;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  //globals
+  hr {
+    background-color: #E4EAEE;
+    &.bold {
+      height: 2px;
+    }
+    &.small {
+      margin: .7rem 0;
+    }
+  }
+
+  .actions {
+    font-size: 1.2rem;
+    .divider {
+      margin: 0 10px;
+      color: rgba(0,0,0,0.3);
+    }
+  }
+
+  .price {
+    color: #43484c;
+    &.discount {
+      color: #d43f3f;
+    }
+  }
+  .price-small {
+    color: #43484c;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  .price-dark {
+    color: #1B2125;
+    font-weight: 600;
+  }
+  .label-light {
+    color: #788995;
+  }
+  .label-dark {
+    color: #1B2125;
+  }
+}
+
+// Cart Items
+.cart-items {
+  font-size: .9rem;
+  margin-bottom: 30px;
+
+  //each item
+  .item {
+    margin-bottom: 12px;
+    height: 60px; //requires height to animate
+  }
+  //details
+  .thumb {
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    max-width: 85px;
+    max-height: 60px;
+    padding: 0;
+  }
+  .type {
+    color: #4E5B65;
+    font-weight: 500;
+    line-height: 1;
+  }
+  .summary {
+    color: #96A4AE;
+    //font-size: .8rem;
+  }
+
+  .columns {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .column {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+// Promo Code
+.cart-promo {
+  font-size: .9rem;
+  margin-bottom: 35px;
+  a.promo-toggle {
+    //width: 100%;
+    //justify-content: left;
+    //background-color: transparent;
+    //border-color: transparent;
+    //color: #1B2125;
+    //padding-left: 0;
+    //padding-right: 0;
+    //&:hover {
+    //  color: $link;
+    //}
+  }
+  a.promo-remove {
+    width: 100%;
+    justify-content: left;
+    background-color: #dde0e4;
+    border-color: transparent;
+    color: #1B2125;
+    strong {
+      margin-right: 10px;
+    }
+    .description {
+      opacity: 0.7;
+    }
+    &:hover {
+      background-color: #e2475b;
+      color: #fff;
+    }
+  }
+  form {
+    margin: 7px 0 20px 0;
+  }
+}
+
+// Totals
+.cart-subtotals {
+  font-size: .9rem;
+  .column {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+}
+.cart-totals {
+  &.total {
+    font-size: 1.1rem;
+    color: #1B2125;
+  }
+}
+
+
+///////////////////////////
+// Tabs
+///////////////////////////
+
+.tabs.is-checkout {
+  margin-bottom: 2rem;
+
+  a {
+    align-items: center;
+    border: none !important;
+    color: #babfc3;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -1px;
+    padding: 1.1em 1em;
+    vertical-align: top;
+
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+
+    &:hover {
+      background-color: #ccc;
+      color: darken(#babfc3, 25%);
+    }
+  }
+
+  ul {
+    border: none !important;
+  }
+
+  li {
+    display: block;
+
+    $circle-size: 36px;
+    $circle-color: #ccc;
+    $circle-active-color: #5fd180;
+
+    .circle {
+      display: inline-block;
+      width: $circle-size;
+      height: $circle-size;
+      border-radius: 50%;
+      line-height: 1.65em;
+      background-color: transparent;
+      border: 2px solid $circle-color;
+      margin-right: 13px;
+      position: relative;
+      font-size: 18px;
+      text-align: center;
+      i.fa {
+        font-size: 20px;
+        display: none;
+        color: $circle-active-color;
+      }
+      .stepno {
+        //font-size: 20px;
+      }
+    }
+
+    //active - colored circle with step#
+    &.is-active {
+      a {
+        border-bottom-color: #1B2125;
+        color: #1B2125;
+      }
+      .circle {
+        background-color: $circle-active-color;
+        border-color: $circle-active-color;
+        color: #fff;
+      }
+    }
+
+    //pending - grey circle (default) with step#
+    &.is-pending {
+      a {
+        pointer-events: none;
+      }
+      .circle {
+
+      }
+    }
+
+    //complete - circle with checkmark
+    &.is-complete {
+      a {
+
+      }
+      .circle {
+        background-color: transparent;
+        border-color: $circle-active-color;
+        color: #fff;
+      }
+      i.fa {
+        display: inline-block;
+      }
+      .stepno {
+        display: none;
+      }
+    }
+
+    &.is-disabled {
+      a {
+        pointer-events: none;
+        border-bottom-color: #D4D9DD;
+        color: #babfc3;
+        &:hover {
+          border-bottom-color: #D4D9DD;
+          color: #babfc3;
+        }
+      }
+    }
+  }
+}
+
+
+.payment-toggle {
+  margin: -61px -51px 40px -51px;
+
+  a {
+    border: 1px solid transparent;
+    border-bottom: 1px solid #DDE3E8;
+    border-radius: 3px;
+    background-color: #F6F7F8;
+    color: #1B2125;
+    display: flex;
+    position: relative;
+    margin-bottom: -1px;
+    padding: 1.4em 1.1em;
+    vertical-align: top;
+    text-transform: none;
+    font-size: 1rem;
+    font-weight: 400;
+    &:hover {
+      background-color: darken(#F6F7F8, 2%);
+      .circle {
+        box-shadow: 0 0 0 1px #FE640A;
+      }
+    }
+    &.is-active {
+      background-color: #fff;
+      color: #1B2125;
+      border-color: #DDE3E8;
+      border-bottom-color: transparent !important;
+      &:hover {
+        background-color: #fff;
+      }
+      .circle {
+        box-shadow: 0 0 0 3px #FE640A;
+      }
+    }
+    span {
+      display: block;
+      width: 100%;
+    }
+    &.left {
+      border-radius: 3px 0 0 0;
+    }
+    &.right {
+      border-radius: 0 3px 0 0;
+    }
+
+    .name {
+      display: block;
+      color: #3B4348;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+    .description {
+      color: #8a99a5;
+      font-size: 0.8rem;
+    }
+    .payment-type {
+      max-height: 18px;
+      position: relative;
+      top: 3px;
+      margin-left: 24px;
+    }
+  }
+
+  ul {
+    li {
+      width: 50%;
+      display: inline-block;
+    }
+  }
+
+  .circle {
+    position: absolute;
+    top: 30px;
+    left: 24px;
+    background: #ffffff;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    height: 17px;
+    width: 17px;
+    box-shadow: 0 0 0 1px #BCC0C3;
+  }
+  .is-active {
+    .circle {
+      top: 31px;
+      left: 26px;
+      background: #FE640A;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      height: 14px;
+      width: 14px;
+      box-shadow: 0 0 0 3px #FE640A;
+    }
+  }
+  .contents {
+    padding-left: 40px;
+    line-height: 1.8;
+  }
+}
+
+///////////////////////////
+// Pane (main area)
+///////////////////////////
+.relative {
+  position: relative;
+}
+.pane {
+  border: 1px solid #DDE3E8;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 20px 30px;
+  position: relative;
+  @include desktop {
+    padding: 30px 50px;
+  }
+}
+
+.el-disabled {
+  pointer-events: none;
+  .el-overlay {
+    position: absolute;
+    left: 0;
+    background: rgba(255, 255, 255, 0.7);
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+  }
+}
+
+///////////////////////////
+// Payment
+///////////////////////////
+.payment-pane {
+  padding-top: 60px;
+}
+
+
+.control.has-icons-left .icon.is-input-icon, .control.has-icons-right .icon.is-input-icon {
+  color: #adb0b5;
+  height: auto;
+  pointer-events: none;
+  position: absolute;
+  top: 7px;
+  width: auto;
+  z-index: 4;
+  font-size: 1.4rem;
+  right: 10px;
+}
+.control.has-icons-right .input:focus ~ .icon.is-input-icon {
+  color: darken(#adb0b5, 15%);
+}
+
+.cc-type {
+  color: #adb0b5;
+  height: auto;
+  pointer-events: none;
+  position: absolute;
+  top: 9px;
+  width: auto;
+  z-index: 4;
+  font-size: 0.8rem;
+  right: 50px;
+  text-transform: capitalize;
+}
+
+///////////////////////////
+// Validation
+///////////////////////////
+
+/* AngularJS Form validation styling */
+form {
+  .validation.help-block {
+    color: #E07676;
+    font-style: italic;
+  }
+
+  /* invalid & (dirty or touched) => red -- CSS3 only */
+  .ng-invalid.ng-dirty:not(:focus),
+  .ng-invalid.ng-touched:not(:focus) {
+    //border-color: #e74c3c;
+  }
+
+  /* valid & dirty => green */
+  .ng-valid.ng-dirty.ng-touched {
+    //border-color: #74bf94;
+  }
+  .ng-valid, .select select.ng-valid {
+    &:not(.is-no-validate) {
+      //border-color: #74bf94;
+    }
+  }
+
+  /* error display font italic, text-danger is red in BS */
+  .validation.text-danger {
+    font-style: italic;
+  }
+}
+
+
+
+///////////////////////////
+// Support Ticket
+///////////////////////////
+
+.ticket {
+
+}
+
+.reply-original {
+  background-color: #f5f5f7;
+  padding: 15px;
+  margin-bottom: 2.5em;
+}
+
+.replies {
+  margin-bottom: 40px;
+
+  .reply {
+    //background-color: #eff0f3;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid #eff0f3;
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+    }
+
+    .name {
+      font-weight: $weight-semibold;
+    }
+    &.is-admin {
+      //background-color: #fff5ef;
+      .name {
+        color: $primary;
+      }
+    }
+  }
+  .msg {
+
+  }
+}
+
+.content .reply p:not(:last-child), .html-content p:not(:last-child) {
+  margin-bottom: 0;
+}
+
+
+
+///////////////////////////
+// Animated Checkmark Success Icon
+// source: https://codepen.io/anon/pen/qovObY
+///////////////////////////
+
+$animCheck-duration: 1.3s;
+$animCheck-delay-cirlce: .5s;
+$animCheck-delay: .9s;
+
+.success-icon {
+  margin: 0 auto;
+  width: 100px;
+  svg {
+    width: 100px;
+    display: block;
+    margin: 0;
+  }
+  .path-original {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+    &.circle {
+      -webkit-animation: dash 5s 2.9s ease-in-out;
+      animation: dash 5s 2.9s ease-in-out;
+    }
+    &.line {
+      stroke-dashoffset: 1000;
+      -webkit-animation: dash .9s .35s ease-in-out forwards;
+      animation: dash .9s .35s ease-in-out forwards;
+    }
+    &.check {
+      stroke-dashoffset: -100;
+      -webkit-animation: dash-check .9s .35s ease-in-out forwards;
+      animation: dash-check .9s .35s ease-in-out forwards;
+    }
+  }
+
+  .path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+    &.circle {
+      animation: dash $animCheck-duration ease-in-out $animCheck-delay-cirlce 1 both;
+    }
+    &.line {
+      stroke-dashoffset: 1000;
+      animation: dash $animCheck-duration ease-in-out $animCheck-delay 1 forwards;
+    }
+    &.check {
+      stroke-dashoffset: -100;
+      animation: dash-check $animCheck-duration ease-in-out $animCheck-delay 1 forwards;
+    }
+  }
+}
+
+
+@-webkit-keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes dash-check {
+  0% {
+    stroke-dashoffset: -100;
+  }
+  100% {
+    stroke-dashoffset: 900;
+  }
+}
+
+@keyframes dash-check {
+  0% {
+    stroke-dashoffset: -100;
+  }
+  100% {
+    stroke-dashoffset: 900;
+  }
+}

@@ -1,0 +1,6 @@
+# mac filess
+.DS_Store
+
+# npm & bower packages
+/client/libs/*
+/node_modules/*

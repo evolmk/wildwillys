@@ -1,0 +1,92 @@
+// Colors
+
+$black: hsl(0, 0%, 4%) !default;
+$black-bis: hsl(0, 0%, 7%) !default;
+$black-ter: hsl(0, 0%, 14%) !default;
+
+$grey-darker: #3c4349 !default;
+$grey-dark: #62696f !default;
+$grey: #93999e !default;
+$neutral: #B4B8BA !default;
+$grey-light: #b2b5bb !default;
+$grey-lighter: #e6eaef !default; //eceff3
+
+$white-ter: hsl(0, 0%, 96%) !default;
+$white-bis: hsl(0, 0%, 98%) !default;
+$white: hsl(0, 0%, 100%) !default;
+
+$orange: #f7620d !default;
+$yellow: hsl(48, 100%, 67%) !default;
+$green: #4A9B6A !default;
+$turquoise: hsl(171, 100%, 41%) !default;
+$cyan: #2d88c4 !default;
+$blue: hsl(217, 71%, 53%) !default;
+$purple: hsl(271, 100%, 71%) !default;
+$red: #d85565 !default; //light=e26171, darker=e2475b
+
+$bg-grey: #F6F7F8;
+
+// Typography
+
+$family-sans-serif: Roboto, Ubuntu, Helvetica, Arial, sans-serif !default;
+$family-monospace: monospace !default;
+$render-mode: optimizeLegibility !default;
+
+$size-1: 2.5rem !default;
+$size-2: 2rem !default;
+$size-3: 1.4rem !default;
+$size-4: 1.2rem !default;
+$size-5: 1.1rem !default;
+$size-6: 1rem !default;
+$size-7: 0.9rem !default;
+$size-8: 0.75rem !default;
+
+$weight-light: 300 !default;
+$weight-normal: 400 !default;
+$weight-medium: 500 !default;
+$weight-semibold: 600 !default;
+$weight-bold: 700 !default;
+// Responsiveness
+
+// The container horizontal gap, which acts as the offset for breakpoints
+$gap: 32px !default;
+
+// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+$mobile: 480px !default;
+
+// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+$tablet: 769px !default;
+
+// 960px container + 4rem
+$desktop: 960px + 2 * $gap !default;
+
+// 1152px container + 4rem
+$widescreen: 1152px + 2 * $gap !default;
+$widescreen-enabled: true !default;
+
+// 1344px container + 4rem
+$fullhd: 1344px + 2 * $gap !default;
+$fullhd-enabled: true !default;
+
+$mobile-max: ($tablet - 1);
+$tablet-max: ($desktop - 1);
+$widescreen-max: ($fullhd - 1);
+
+// Miscellaneous
+
+$easing: ease-out !default;
+$radius-xsmall: 2px !default;
+$radius-small: 2px !default;
+$radius: 3px !default;
+$radius-large: 5px !default;
+$radius-rounded: 290486px !default;
+$speed: 86ms !default;
+
+// Flags
+
+$variable-columns: true !default;
+
+// Icons
+$icon: #76787d;
+$icon-twitter: #55acee;
+$icon-instagram: #cf2991;

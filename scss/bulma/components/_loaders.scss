@@ -1,0 +1,79 @@
+
+// Variables
+
+$primary-color: #fff !default;
+$ball-size: 15px !default;
+$margin: 2px !default;
+$line-height: 35px !default;
+$line-width: 4px !default;
+
+
+// Mixins
+
+@mixin global-bg() {
+  background-color: $primary;
+}
+
+@mixin global-animation() {
+  animation-fill-mode: both;
+}
+
+@mixin balls() {
+  @include global-bg();
+
+  width: $ball-size;
+  height: $ball-size;
+  border-radius: 100%;
+  margin: $margin;
+}
+
+@mixin lines() {
+  @include global-bg();
+
+  width: $line-width;
+  height: $line-height;
+  border-radius: 2px;
+  margin: $margin;
+}
+
+// Functions
+
+@function delay($interval, $count, $index) {
+  @return ($index * $interval) - ($interval * $count);
+}
+
+
+// Animations
+
+// 1. line scale
+
+@keyframes line-scale {
+  0% {
+    transform: scaley(1.0);
+  }
+  50% {
+    transform: scaley(0.4);
+  }
+  100% {
+    transform: scaley(1.0);
+  }
+}
+
+@mixin line-scale($n:5) {
+  @for $i from 1 through $n {
+    > div:nth-child(#{$i}) {
+      animation: line-scale 1s delay(0.1s, $n, $i) infinite cubic-bezier(.2,.68,.18,1.08);
+    }
+  }
+}
+
+.line-scale {
+  @include line-scale();
+
+  > div {
+    @include lines();
+    @include global-animation();
+
+    display: inline-block;
+  }
+}
