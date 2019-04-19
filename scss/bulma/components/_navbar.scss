@@ -233,6 +233,7 @@ html.has-navbar-fixed-bottom {
   line-height: 1.5;
   padding: 0.7rem 1rem;
   position: relative;
+  font-size: 17px;
 }
 
 a.navbar-item:not(.navbar-logo),
@@ -573,6 +574,7 @@ a.navbar-link {
   .navbar-start {
     justify-content: flex-start;
     margin-right: auto;
+    margin-left: 3em;
   }
 
   .navbar-end {
