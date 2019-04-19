@@ -1,5 +1,8 @@
 // Main container
 
+.hero-video video { position: relative; left: auto; top: auto; transform: none; object-fit: cover; }
+
+
 .hero {
   align-items: stretch;
   display: flex;
@@ -244,4 +247,45 @@
   flex-grow: 1;
   flex-shrink: 0;
   padding: 3rem 1.5rem;
+
+
+  .hero-title {
+    font-size: 40px;
+    font-weight:700;
+    color: #fff;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 39px;
+    text-shadow: 0 0 20px rgba(0,0,0,0.80);
+    margin-bottom: 30px;
+  }
+  .hero-subtitle {
+    font-size: 24px;
+    font-weight:400;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 26px;
+    text-shadow: 0 0 20px rgba(0,0,0,0.80);
+    margin-bottom: 80px;
+  }
+  .block-check {
+    opacity: 1;
+    background: #0009;
+    border-radius: 25px;
+    padding: 15px 12px 15px 37px;
+    font-size: 14px;
+    color: #85ffa1;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 270px;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 1;
+    .icon-check {
+      position: absolute;
+      top: 10px;
+      left: 13px;
+    }
+  }
 }

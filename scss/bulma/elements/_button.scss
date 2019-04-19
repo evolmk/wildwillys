@@ -1,11 +1,11 @@
-$button-color: $grey-darker !default;
+$button-color: #fff !default;
 $button-background-color: $white !default;
 
 $button-border-color: $grey-lighter !default;
 $button-border-width: $control-border-width !default;
 
-$button-padding-vertical: calc(0.375em - #{$button-border-width}) !default;
-$button-padding-horizontal: 0.75em !default;
+$button-padding-vertical: calc(.9em - #{$button-border-width}) !default;
+$button-padding-horizontal: 1.8em !default;
 
 $button-hover-color: $link-hover !default;
 $button-hover-border-color: $link-hover-border !default;
@@ -72,6 +72,12 @@ $button-static-border-color: $grey-lighter !default;
   padding: $button-padding-vertical $button-padding-horizontal;
   text-align: center;
   white-space: nowrap;
+
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  line-height: 14px;
+  text-transform: uppercase;
 
   strong {
     color: inherit;

@@ -257,13 +257,18 @@ table {
 
 // Component Styles
 
-
+.phone-ask {
+  text-align: center;
+  margin: 0 50px 0 0;
+  div {
+    margin: 0 auto;
+  }
+}
 .phone {
   font-size: 25px;
   font-weight: 600;
   color: #C8CFD8;
   text-align: center;
-  margin: 0 auto;
 }
 .ask {
   font-size: 14px;
@@ -271,5 +276,23 @@ table {
   text-align: center;
   line-height: 16px;
   max-width: 150px;
-  margin: 0 auto;
+}
+
+.social {
+  text-align: center;
+
+  .social-heading {
+
+  }
+  .social-heading-small {
+    font-size: 14px;
+    color: #AFB1B5;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+  }
+  .social-icons {
+    a {
+      margin: 0 5px;
+    }
+  }
 }
