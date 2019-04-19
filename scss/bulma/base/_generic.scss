@@ -257,7 +257,19 @@ table {
 
 // Component Styles
 
-span.phone {
+
+.phone {
+  font-size: 25px;
   font-weight: 600;
-  color: inherit;
+  color: #C8CFD8;
+  text-align: center;
+  margin: 0 auto;
+}
+.ask {
+  font-size: 14px;
+  color: #FFAC66;
+  text-align: center;
+  line-height: 16px;
+  max-width: 150px;
+  margin: 0 auto;
 }
