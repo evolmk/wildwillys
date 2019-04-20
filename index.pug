@@ -6,6 +6,7 @@ html
     meta(name='viewport', content='width=device-width')
     link(rel='stylesheet', href='/dist/app.min.css', type='text/css', media='all')
     script(src='/dist/app.min.js')
+    script(src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js')
   body.client
     header
       section.hero.is-fullheight.video
@@ -47,7 +48,7 @@ html
             |  Fully Licensed and Insured
       // end: header
     main
-      section.section.summary
+      section.section.summary#whatwedo
         .container
           .columns
             .column.is-4
@@ -79,8 +80,8 @@ html
               p.large-bullet
                 img.bullet(src='/img/icon-bullet.png')
                 | Choose From Over 15 Table Games
-          .has-text-centered.mt-30
-            .social.mt-30
+          .has-text-centered.mt-10
+            .social
               .social-heading Get in touch & stay up to date
               .social-icons
                 a(href='#', target='_blank')
@@ -89,7 +90,7 @@ html
                   img(src='/img/icon-instagram.png')
                 a(href='#', target='_blank')
                   img(src='/img/icon-facebook.png')
-      section.section.is-feature
+      section.section.is-feature#poker-tournaments
         .container
           .columns
             .column.is-6
@@ -117,7 +118,7 @@ html
                     p.small Need a short description here describing this heading
                     h4 We do it all for you!
                     p.small Need a short description here describing this heading
-      section.section.is-feature.is-alt
+      section.section.is-feature.is-alt#fundraiasers
         .container
           .columns
             .column.is-6
@@ -159,7 +160,7 @@ html
             .column.is-6.has-text-left-desktop-only.is-hidden-mobile
               .ask-cta.mb-5 CALL NOW - Ask About Our House Party Packages
               .phone-cta (732) 690-8324
-      section.section.is-feature
+      section.section.is-feature#corporate-parties
         .container
           .columns
             .column.is-6
@@ -182,7 +183,7 @@ html
                     p.small Need a short description here describing this heading
                     h4 Vendor Appreciation
                     p.small Need a short description here describing this heading
-      section.section.is-feature.is-alt
+      section.section.is-feature.is-alt#private-parties
         .container
           .columns
             .column.is-6
@@ -213,7 +214,7 @@ html
                     p.small Choose the venue and we'll do everything for you!
             .column.is-6
               img(src='/img/section-private.png')
-      section.section.is-contact
+      section.section.is-contact#contact
         .container
           .columns
             .column.is-6
@@ -259,7 +260,7 @@ html
               li
                 a(href='#fundraiasers') Fundraisers
               li
-                a(href='#corporate-events') Corporate Events
+                a(href='#corporate-parties') Corporate Parties
               li
                 a(href='#private-parties') Private Parties
           .column.is-2
@@ -292,3 +293,4 @@ html
                 a(href='#', target='_blank')
                   img(src='/img/icon-facebook.png')
         .copyright.has-text-centered-mobile Copyright 2019 Wild Willy's Casino Parties - All Rights Reserved
+    script(src='/site.js')

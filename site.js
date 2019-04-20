@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-// Scroll - shrink navbar
+// Scroll
 
 $(function () {
   var scrollShowBackToTop = 400;
@@ -51,7 +51,19 @@ $(function () {
 });
 
 
-console.log('site.js loaded');
+// Scroll to section
+
+$('a[href*="#"]').on('click', function(e) {
+  e.preventDefault()
+
+  $('html, body').animate(
+    {
+      scrollTop: $($(this).attr('href')).offset().top,
+    },
+    500,
+    'easeOutQuad'
+  )
+});
 
 // Bulma Accordion
 
@@ -80,86 +92,3 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-// HTML
-
-function strip_tags(str){
-  return str
-  .replace(/(<(br[^>]*)>)/ig, '\n')
-  .replace(/(<([^>]+)>)/ig,'');
-}
-
-
-// Currency
-
-function formatCurrency (val) {
-  //if (typeof val !== number) val = 0;
-  return numeral(val).format('0.00');
-}
-
-// Dates
-
-function parseDate(v, s) {
-// turns string into date object
-  var date = {
-    month: '',
-    year: '',
-    yearInt: '',
-    numLength: ''
-  };
-  date.month = v.substring(0, 2);
-  if (s === 'dir') {
-    date.year = v.substring(3, 5);
-  } else {
-    date.year = v.substring(2, 4);
-  }
-  date.yearInt = parseInt(date.year, 10);
-
-  return date;
-}
-
-function getMonths() {
-  var monthArray = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
-  return monthArray;
-}
-
-// Credit Card Utils
-
-function getCreditCardType(creditCardNumber) {
-  // start without knowing the credit card type
-  var result = "unknown";
-
-  // first check for MasterCard
-  if (/^5[1-5]/.test(creditCardNumber)) {
-    result = "mastercard";
-  }
-  // then check for Visa
-  else if (/^4/.test(creditCardNumber)) {
-    result = "visa";
-  }
-  // then check for AmEx
-  else if (/^3[47]/.test(creditCardNumber)) {
-    result = "amex";
-  }
-  // then check for Diners
-  else if (/3(?:0[0-5]|[68][0-9])[0-9]{11}/.test(creditCardNumber)) {
-    result = "diners"
-  }
-  // then check for Discover
-  else if (/6(?:011|5[0-9]{2})[0-9]{12}/.test(creditCardNumber)) {
-    result = "discover";
-  }
-
-  return result;
-}
-
-function getMaskType(cardType){
-  var masks = {
-    'mastercard': '9999 9999 9999 9999',
-    'visa': '9999 9999 9999 9999',
-    'amex': '9999 999999 99999',
-    'diners': '9999 9999 9999 99',
-    'discover': '9999 9999 9999 9999',
-    'unknown': '9999 9999 9999 9999'
-  };
-  return masks[cardType];
-}

@@ -421,7 +421,8 @@ p.small {
   color: #FFAC66;
   text-align: center;
   line-height: 16px;
-  max-width: 150px;
+  max-width: 230px;
+  margin: 0 auto;
 }
 
 // Social
@@ -445,7 +446,7 @@ p.small {
   }
   .social-icons {
     a {
-      margin: 0 5px;
+      margin: 0 10px;
     }
   }
 }
