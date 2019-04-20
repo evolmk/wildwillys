@@ -10397,9 +10397,9 @@ $(function () {
     var scroll = $(window).scrollTop();
     //back to top - show/hide
     if (scroll >= scrollShowBackToTop) {
-      $('#backToTop').addClass('visible');
+      $('#backtotop').addClass('visible');
     } else {
-      $('#backToTop').removeClass('visible');
+      $('#backtotop').removeClass('visible');
     }
   });
 
@@ -10415,6 +10415,8 @@ $(function () {
 
 });
 
+
+console.log('site.js loaded');
 
 // Bulma Accordion
 

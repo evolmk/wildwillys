@@ -75,7 +75,7 @@ function pugApp() {
 
 function watch(cb) {
   //js
-  gulp.watch('libs/*.js', jsVendor);
+  gulp.watch('js/*.js', jsVendor);
   //scss
   gulp.watch('scss/**/*.scss', cssApp);
   //pug

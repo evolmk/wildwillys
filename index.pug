@@ -36,8 +36,7 @@ html
         .hero-video
           .video-overlay
           video#bgvid(poster='/img/video-poster.jpg', playsinline='', autoplay='', muted='', loop='')
-            source(src='vid/BGvid.webm', type='video/webm')
-            source(src='vid/BGvid.mp4', type='video/mp4')
+            source(src='https://www.gordonmac.com/wp-content/uploads/storm-1.mp4', type='video/mp4')
         .hero-body
           .container
             h1.hero-title LAS VEGAS STYLE CASINO PARTIES
@@ -155,9 +154,9 @@ html
           .columns
             .column.is-5.has-text-right-desktop-only
               a.button.is-primary(href='#contact') Get Started
-            .column.is-1
+            .column.is-1.is-hidden-mobile
               .or OR
-            .column.is-6.has-text-left-desktop-only
+            .column.is-6.has-text-left-desktop-only.is-hidden-mobile
               .ask-cta.mb-5 CALL NOW - Ask About Our House Party Packages
               .phone-cta (732) 690-8324
       section.section.is-feature
@@ -292,4 +291,4 @@ html
                   img(src='/img/icon-instagram.png')
                 a(href='#', target='_blank')
                   img(src='/img/icon-facebook.png')
-        .copyright Copyright 2019 Wild Willy's Casino Parties - All Rights Reserved
+        .copyright.has-text-centered-mobile Copyright 2019 Wild Willy's Casino Parties - All Rights Reserved
