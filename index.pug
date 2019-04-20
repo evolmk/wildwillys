@@ -2,19 +2,18 @@ doctype html
 html
   head
     title Wild Willy's Casino Events | Fundraiser Parties in NJ NY CT
-    base(href='/')
     meta(name='viewport', content='width=device-width')
-    link(rel='stylesheet', href='/dist/app.min.css', type='text/css', media='all')
-    script(src='/dist/app.min.js?v=1')
+    link(rel='stylesheet', href='dist/app.min.css', type='text/css', media='all')
+    script(src='dist/app.min.js?v=1')
   body.client
-    header
+    header#top
       section.hero.is-fullheight.video
         .hero-head
           nav.navbar
             .container
               .navbar-brand
-                a.navbar-item.navbar-logo(href='/')
-                  img(src='/img/wildwillys-logo.png', alt="Wild Willy's Casino Events", width='290')
+                a.navbar-item.navbar-logo(href='#top')
+                  img(src='img/wildwillys-logo.png', alt="Wild Willy's Casino Events", width='290')
                 #burgerMain.navbar-burger.burger(data-target='navMain')
                   span
                   span
@@ -35,15 +34,15 @@ html
                     a.button.is-primary(href='#contact') Get Started
         .hero-video
           .video-overlay
-          video#bgvid(poster='/img/video-poster.jpg', playsinline='', autoplay='', muted='', loop='')
-            source(src='/video/chips-loop.mp4', type='video/mp4')
+          video#bgvid(poster='img/video-poster.jpg', playsinline='', autoplay='', muted='', loop='')
+            source(src='video/chips-loop.mp4', type='video/mp4')
         .hero-body
           .container
             h1.hero-title LAS VEGAS STYLE CASINO PARTIES
             .hero-subtitle #1 Provider in Casino Party Entertainment in the Tri-State Area
         .hero-foot
           .block-check
-            img.icon-check(src='/img/icon-checkmark.png', alt='Fully Licensed and Insured')
+            img.icon-check(src='img/icon-checkmark.png', alt='Fully Licensed and Insured')
             |  Fully Licensed and Insured
       // end: header
     main
@@ -52,48 +51,48 @@ html
           .columns
             .column.is-4
               .summary-block
-                img(src='/img/icon-poker.png')
+                img(src='img/icon-poker.png')
                 h3 Poker Tournaments
                 p Professional Tables with Dealers to accomodate up to 200 players 
               .summary-block
-                img(src='/img/icon-corporate.png')
+                img(src='img/icon-corporate.png')
                 h3 Corporate Parties
                 p Give your workers a unique casino experience they deserve
             .column.is-4
               .summary-block
-                img(src='/img/icon-fundraisers.png')
+                img(src='img/icon-fundraisers.png')
                 h3 Fundraisers
                 p Our fundraising specialists will make your fundraiser a success
               .summary-block
-                img(src='/img/icon-private.png')
+                img(src='img/icon-private.png')
                 h3 Private Parties
                 p Our friendly dealers will teach your guests how to play
             .column.is-4
               h2.mb-25 We Do It All For You
               p.large-bullet.mb-20
-                img.bullet(src='/img/icon-bullet.png')
+                img.bullet(src='img/icon-bullet.png')
                 | We Bring The Casino To You
               p.large-bullet.mb-20
-                img.bullet(src='/img/icon-bullet.png')
+                img.bullet(src='img/icon-bullet.png')
                 | Learn How To Play
               p.large-bullet
-                img.bullet(src='/img/icon-bullet.png')
+                img.bullet(src='img/icon-bullet.png')
                 | Choose From Over 15 Table Games
           .has-text-centered.mt-10
             .social
               .social-heading Get in touch & stay up to date
               .social-icons
                 a(href='#', target='_blank')
-                  img(src='/img/icon-twitter.png')
+                  img(src='img/icon-twitter.png')
                 a(href='#', target='_blank')
-                  img(src='/img/icon-instagram.png')
+                  img(src='img/icon-instagram.png')
                 a(href='#', target='_blank')
-                  img(src='/img/icon-facebook.png')
+                  img(src='img/icon-facebook.png')
       section.section.is-feature#poker-tournaments
         .container
           .columns
             .column.is-6
-              img(src='/img/section-poker.png')
+              img(src='img/section-poker.png')
             .column.is-6
               .is-feature-right
                 h2 Texas Hold'em Poker Tournaments
@@ -147,7 +146,7 @@ html
                     h4 We Bring The Casino To You
                     p.small Choose the venue and we'll do everything for you!
             .column.is-6
-              img(src='/img/section-fundraisers.png')
+              img(src='img/section-fundraisers.png')
       section.cta.has-text-centered
         h2 Ready For An Exciting Casino Experience?
         .cta-block
@@ -163,7 +162,7 @@ html
         .container
           .columns
             .column.is-6
-              img(src='/img/section-corporate.png')
+              img(src='img/section-corporate.png')
             .column.is-6
               .is-feature-right
                 h2 Corporate Parties
@@ -212,7 +211,7 @@ html
                     h4 Personalized Money
                     p.small Choose the venue and we'll do everything for you!
             .column.is-6
-              img(src='/img/section-private.png')
+              img(src='img/section-private.png')
       section.section.is-contact#contact
         .container
           .columns
@@ -221,7 +220,7 @@ html
             .column.is-3
               h2 Phone
               .contact
-                img(src='/img/icon-phone.png')
+                img(src='img/icon-phone.png')
                 span (732) 690-8324
               p.highlight Ask about our House Party Packages
               p
@@ -233,7 +232,7 @@ html
             .column.is-3
               h2 Email
               .contact
-                img(src='/img/icon-mail.png')
+                img(src='img/icon-mail.png')
                 span wildwillyscasino@gmail.com
               p.has-text-black.mb-5 Please include in your email:
               .content
@@ -284,10 +283,10 @@ html
               .social-heading-small Follow Us
               .social-icons
                 a(href='#', target='_blank')
-                  img(src='/img/icon-twitter.png')
+                  img(src='img/icon-twitter.png')
                 a(href='#', target='_blank')
-                  img(src='/img/icon-instagram.png')
+                  img(src='img/icon-instagram.png')
                 a(href='#', target='_blank')
-                  img(src='/img/icon-facebook.png')
+                  img(src='img/icon-facebook.png')
         .copyright.has-text-centered-mobile Copyright 2019 Wild Willy's Casino Parties - All Rights Reserved
-    script(src='/site.js')
+    script(src='site.js')
