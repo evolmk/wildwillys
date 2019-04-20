@@ -57,6 +57,14 @@ $navbar-divider-background-color: $border !default;
   }
 }
 
+@include mobile {
+  .navbar-logo {
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+}
+
 .navbar {
   min-height: $navbar-height;
   position: relative;
