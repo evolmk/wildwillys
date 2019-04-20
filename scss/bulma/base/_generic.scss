@@ -255,80 +255,23 @@ table {
   }
 }
 
-// Component Styles
 
-.phone-ask {
-  text-align: center;
-  margin: 0 50px 0 0;
-  div {
-    margin: 0 auto;
-  }
-}
-.phone {
-  font-size: 25px;
-  font-weight: 600;
-  color: #C8CFD8;
-  text-align: center;
-}
-.phone-cta {
-  font-size: 25px;
-  font-weight: 600;
-  color: #fff;
-  text-align: center;
-}
-.ask {
-  font-size: 14px;
-  color: #FFAC66;
-  text-align: center;
-  line-height: 16px;
-  max-width: 150px;
-}
-.ask-cta {
-  font-size: 14px;
-  color: #FFAC66;
-  text-align: center;
-  line-height: 16px;
-  max-width: 150px;
-}
+// Section Containers
 
-.social {
-  text-align: center;
-
-  .social-heading {
-    font-size: 24px;
-    color: #4B4F56;
-    font-weight: 300;
-    letter-spacing: 0.14px;
-    text-align: center;
-    margin-bottom: 10px;
+.section {
+  &.summary {
+    background-image: linear-gradient(-180deg, #FFFFFF 41%, #F4F5F7 100%);
   }
-  .social-heading-small {
-    font-size: 14px;
-    color: #AFB1B5;
-    letter-spacing: 0;
-    margin-bottom: 5px;
+  &.is-feature {
+    padding: 3rem 1.5rem;
   }
-  .social-icons {
-    a {
-      margin: 0 5px;
-    }
+  &.is-alt {
+    background-color: #F4F5F7;
   }
 }
 
 
-.summary-block {
-  padding-left: 85px;
-  padding-right: 60px;
-  position: relative;
-  img {
-    position: absolute;
-    top: 5px;
-    left: 0;
-  }
-  &+.summary-block {
-    margin-top: 40px;
-  }
-}
+// Typography
 
 h1 {
 
@@ -408,6 +351,25 @@ p.small {
   line-height: 16px;
 }
 
+// Section - Summary
+
+.summary-block {
+  padding-left: 85px;
+  padding-right: 60px;
+  position: relative;
+  img {
+    position: absolute;
+    top: 5px;
+    left: 0;
+  }
+  &+.summary-block {
+    margin-top: 40px;
+  }
+}
+
+
+// Section - Contact
+
 .contact {
   font-size: 20px;
   font-weight: 700;
@@ -423,7 +385,71 @@ p.small {
 }
 
 
-section.cta {
+// Contact Info
+
+.phone-ask {
+  text-align: center;
+  margin: 0 50px 0 0;
+  div {
+    margin: 0 auto;
+  }
+}
+.phone {
+  font-size: 25px;
+  font-weight: 600;
+  color: #C8CFD8;
+  text-align: center;
+}
+.phone-cta {
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+.ask {
+  font-size: 14px;
+  color: #FFAC66;
+  text-align: center;
+  line-height: 16px;
+  max-width: 150px;
+}
+.ask-cta {
+  font-size: 14px;
+  color: #FFAC66;
+  text-align: center;
+  line-height: 16px;
+  max-width: 150px;
+}
+
+// Social
+
+.social {
+  text-align: center;
+
+  .social-heading {
+    font-size: 24px;
+    color: #4B4F56;
+    font-weight: 300;
+    letter-spacing: 0.14px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .social-heading-small {
+    font-size: 14px;
+    color: #AFB1B5;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+  }
+  .social-icons {
+    a {
+      margin: 0 5px;
+    }
+  }
+}
+
+// Section - CTA
+
+.section.cta {
   background: url('/img/bg-cta.png') #000 no-repeat center 0;
   padding: 40px 0;
   min-height: 100px;

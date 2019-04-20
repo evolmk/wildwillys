@@ -11,17 +11,6 @@ $section-padding-xl: 18rem 1.5rem !default;
     padding: $section-padding;
   }
 
-  &.summary {
-    background-image: linear-gradient(-180deg, #FFFFFF 41%, #F4F5F7 100%);
-  }
-
-  &.is-feature {
-    padding: 3rem 1.5rem;
-  }
-  &.is-alt {
-    background-color: #F4F5F7;
-  }
-
   @each $name, $pair in $colors-sections {
     $color: nth($pair, 1);
     $color-invert: nth($pair, 2);

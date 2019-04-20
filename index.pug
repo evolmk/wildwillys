@@ -21,7 +21,6 @@ html
                   span
               #navMain.navbar-menu
                 .navbar-start
-                  a.navbar-item(href='#home') Home
                   a.navbar-item(href='#whatwedo') What We Do
                   a.navbar-item(href='#gallery') Gallery
                   a.navbar-item(href='#contact') Contact
@@ -35,17 +34,18 @@ html
                   .navbar-item
                     a.button.is-primary(href='#contact') Get Started
         .hero-video
-          video#bgvid(poster='/img/hero-bg.jpg', playsinline='', autoplay='', muted='', loop='')
+          .video-overlay
+          video#bgvid(poster='/img/video-poster.jpg', playsinline='', autoplay='', muted='', loop='')
             source(src='vid/BGvid.webm', type='video/webm')
             source(src='vid/BGvid.mp4', type='video/mp4')
         .hero-body
           .container
             h1.hero-title LAS VEGAS STYLE CASINO PARTIES
             .hero-subtitle #1 Provider in Casino Party Entertainment in the Tri-State Area
-            .hero-footer
-              .block-check
-                img.icon-check(src='/img/icon-checkmark.png', alt='Fully Licensed and Insured')
-                |  Fully Licensed and Insured
+        .hero-foot
+          .block-check
+            img.icon-check(src='/img/icon-checkmark.png', alt='Fully Licensed and Insured')
+            |  Fully Licensed and Insured
       // end: header
     main
       section.section.summary
