@@ -282,7 +282,12 @@ table {
   text-align: center;
 
   .social-heading {
-
+    font-size: 24px;
+    color: #4B4F56;
+    font-weight: 300;
+    letter-spacing: 0.14px;
+    text-align: center;
+    margin-bottom: 10px;
   }
   .social-heading-small {
     font-size: 14px;
@@ -294,5 +299,89 @@ table {
     a {
       margin: 0 5px;
     }
+  }
+}
+
+
+.summary-block {
+  padding-left: 85px;
+  padding-right: 60px;
+  position: relative;
+  img {
+    position: absolute;
+    top: 5px;
+    left: 0;
+  }
+  &+.summary-block {
+    margin-top: 40px;
+  }
+}
+
+h1 {
+
+}
+h2 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #29333D;
+  letter-spacing: 0.16px;
+  margin-bottom: 15px;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #29333D;
+  letter-spacing: 0.15px;
+}
+h4 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #29333D;
+  letter-spacing: 0.14px;
+  margin-bottom: 5px;
+}
+p {
+  margin-bottom: 25px;
+}
+p.large-bullet {
+  font-size: 18px;
+  color: #4B4F56;
+  letter-spacing: 0.15px;
+}
+p.large {
+  font-size: 18px;
+  color: #7A7F88;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+p.small {
+  font-size: 13px;
+  color: #7A7F88;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.bullet {
+  position: relative;
+  top: 2px;
+  margin-right: 15px;
+}
+
+@include desktop {
+  .is-feature-left, .is-feature-right {
+    h2 {
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+  }
+  .is-feature-left {
+    padding-left: 20px;
+    padding-right: 60px;
+  }
+  .is-feature-right {
+    padding-left: 60px;
+    padding-right: 20px;
+  }
+  p.large {
+    margin-bottom: 40px;
   }
 }
