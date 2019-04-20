@@ -32,7 +32,8 @@ var handleError = function (task) {
 // ----------------------------
 
 var jsVendorFiles = [
-  'js/jquery.js'
+  'js/jquery.js',
+  'js/jquery-ui.js'
 ];
 function jsVendor() {
   return gulp.src(jsVendorFiles)
