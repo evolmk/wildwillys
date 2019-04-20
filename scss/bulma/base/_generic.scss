@@ -367,7 +367,7 @@ p.small {
 }
 
 @include desktop {
-  .is-feature-left, .is-feature-right {
+  .is-feature-left, .is-feature-right, .is-contact {
     h2 {
       margin-top: 30px;
       margin-bottom: 20px;
@@ -383,5 +383,28 @@ p.small {
   }
   p.large {
     margin-bottom: 40px;
+  }
+  .section.is-contact {
+    padding-bottom: 50px;
+  }
+}
+
+.highlight {
+  font-size: 14px;
+  color: #EC9348;
+  line-height: 16px;
+}
+
+.contact {
+  font-size: 20px;
+  font-weight: 700;
+  color: #525457;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-bottom: 20px;
+  img {
+    position: relative;
+    top: 4px;
+    margin-right: 7px;
   }
 }
