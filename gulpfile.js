@@ -64,7 +64,7 @@ function cssApp() {
   .pipe(gulp.dest('dist'));
 }
 
-function pug() {
+function pugApp() {
   return gulp.src('*.pug')
   .pipe(pug({
     doctype: 'html',
@@ -79,17 +79,17 @@ function watch(cb) {
   //scss
   gulp.watch('scss/**/*.scss', cssApp);
   //pug
-  gulp.watch('*.pug', pug);
+  gulp.watch('*.pug', pugApp);
   cb();
 }
 
 exports.jsVendor = jsVendor;
 exports.cssApp = cssApp;
-exports.pug = pug;
+exports.pugApp = pugApp;
 exports.clean = clean;
 exports.watch = watch;
 
-var build = gulp.series(clean, gulp.parallel(cssApp, jsVendor, pug));
+var build = gulp.series(clean, gulp.parallel(cssApp, jsVendor, pugApp));
 gulp.task('build', build, function (cb) {
   cb();
 });
