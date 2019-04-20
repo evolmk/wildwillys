@@ -6,6 +6,7 @@ var uglify = require('gulp-uglify');
 var notify = require('gulp-notify');
 var concat = require('gulp-concat');
 var rename = require('gulp-rename');
+var pug = require('gulp-pug');
 var sourcemaps = require('gulp-sourcemaps');
 var del = require('del');
 
@@ -49,6 +50,7 @@ function clean() {
     del('dist/**/*')
   ]);
 }
+
 function cssApp() {
   return gulp.src('scss/**/*.scss')
   //.pipe(sourcemaps.init())
@@ -62,20 +64,32 @@ function cssApp() {
   .pipe(gulp.dest('dist'));
 }
 
+function pug() {
+  return gulp.src('*.pug')
+  .pipe(pug({
+    doctype: 'html',
+    pretty: true
+  }))
+  .pipe(gulp.dest('./'));
+}
+
 function watch(cb) {
   //js
   gulp.watch('libs/*.js', jsVendor);
   //scss
   gulp.watch('scss/**/*.scss', cssApp);
+  //pug
+  gulp.watch('*.pug', pug);
   cb();
 }
 
 exports.jsVendor = jsVendor;
 exports.cssApp = cssApp;
+exports.pug = pug;
 exports.clean = clean;
 exports.watch = watch;
 
-var build = gulp.series(clean, gulp.parallel(cssApp, jsVendor));
+var build = gulp.series(clean, gulp.parallel(cssApp, jsVendor, pug));
 gulp.task('build', build, function (cb) {
   cb();
 });

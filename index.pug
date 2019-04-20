@@ -1,0 +1,295 @@
+doctype html
+html
+  head
+    title Wild Willy's Casino Events | Parties NJ NY CT
+    base(href='/')
+    meta(name='viewport', content='width=device-width')
+    link(rel='stylesheet', href='/dist/app.min.css', type='text/css', media='all')
+    script(src='/dist/app.min.js')
+  body.client
+    header
+      section.hero.is-fullheight.video
+        .hero-head
+          nav.navbar
+            .container
+              .navbar-brand
+                a.navbar-item.navbar-logo(href='/')
+                  img(src='/img/wildwillys-logo.png', alt="Wild Willy's Casino Events", width='290')
+                #burgerMain.navbar-burger.burger(data-target='navMain')
+                  span
+                  span
+                  span
+              #navMain.navbar-menu
+                .navbar-start
+                  a.navbar-item(href='#home') Home
+                  a.navbar-item(href='#whatwedo') What We Do
+                  a.navbar-item(href='#gallery') Gallery
+                  a.navbar-item(href='#contact') Contact
+                .navbar-end
+                  .navbar-item
+                    .phone-ask
+                      .phone.mb-2
+                        | (732) 690-8324
+                      .ask
+                        | Ask About Our House Party Packages
+                  .navbar-item
+                    a.button.is-primary(href='#contact') Get Started
+        .hero-video
+          video#bgvid(poster='/img/hero-bg.jpg', playsinline='', autoplay='', muted='', loop='')
+            source(src='vid/BGvid.webm', type='video/webm')
+            source(src='vid/BGvid.mp4', type='video/mp4')
+        .hero-body
+          .container
+            h1.hero-title LAS VEGAS STYLE CASINO PARTIES
+            .hero-subtitle #1 Provider in Casino Party Entertainment in the Tri-State Area
+            .hero-footer
+              .block-check
+                img.icon-check(src='/img/icon-checkmark.png', alt='Fully Licensed and Insured')
+                |  Fully Licensed and Insured
+      // end: header
+    main
+      section.section.summary
+        .container
+          .columns
+            .column.is-4
+              .summary-block
+                img(src='/img/icon-poker.png')
+                h3 Poker Tournaments
+                p Professional Tables with Dealers to accomodate up to 200 players 
+              .summary-block
+                img(src='/img/icon-corporate.png')
+                h3 Corporate Parties
+                p Give your workers a unique casino experience they deserve
+            .column.is-4
+              .summary-block
+                img(src='/img/icon-fundraisers.png')
+                h3 Fundraisers
+                p Our fundraising specialists will make your fundraiser a success
+              .summary-block
+                img(src='/img/icon-private.png')
+                h3 Private Parties
+                p Our friendly dealers will teach your guests how to play
+            .column.is-4
+              h2.mb-25 We Do It All For You
+              p.large-bullet.mb-20
+                img.bullet(src='/img/icon-bullet.png')
+                | We Bring The Casino To You
+              p.large-bullet.mb-20
+                img.bullet(src='/img/icon-bullet.png')
+                | Learn How To Play
+              p.large-bullet
+                img.bullet(src='/img/icon-bullet.png')
+                | Choose From Over 15 Table Games
+          .has-text-centered.mt-30
+            .social.mt-30
+              .social-heading Get in touch & stay up to date
+              .social-icons
+                a(href='#', target='_blank')
+                  img(src='/img/icon-twitter.png')
+                a(href='#', target='_blank')
+                  img(src='/img/icon-instagram.png')
+                a(href='#', target='_blank')
+                  img(src='/img/icon-facebook.png')
+      section.section.is-feature
+        .container
+          .columns
+            .column.is-6
+              img(src='/img/section-poker.png')
+            .column.is-6
+              .is-feature-right
+                h2 Texas Hold'em Poker Tournaments
+                p.large
+                  | Large professional 8' Tables with Dealers, 14 gram chips with Standard Casino Colors and Denominations, all accessories and a Tournament Coordinator
+                .columns
+                  .column.is-5
+                    h3 Tournaments For:
+                    .content
+                      ul
+                        li Private
+                        li Fundraisers
+                        li Corporate
+                        li Bars
+                        li Leagues
+                        li & More ...
+                  .column.is-7
+                    h4 Professional Dealers
+                    p.small Need a short description here describing this heading
+                    h4 High quality tables, chips and cards
+                    p.small Need a short description here describing this heading
+                    h4 We do it all for you!
+                    p.small Need a short description here describing this heading
+      section.section.is-feature.is-alt
+        .container
+          .columns
+            .column.is-6
+              .is-feature-left
+                h2 Fundraisers
+                p.large
+                  | We are the fastest growing company in the state with high quality equipment, reasonable prices, the best fundraising ideas to help raise additional money
+                .columns
+                  .column.is-5
+                    h3 Raise Money For:
+                    .content
+                      ul
+                        li PTA
+                        li School
+                        li Church
+                        li Football
+                        li Cheerleader
+                        li Soccer
+                        li Cancer Benefit
+                        li Autism Benefit
+                        li & More ...
+                  .column.is-7
+                    h4 Raising Money Is Our Game
+                    p.small Our fundraising specialists will make your fundraiser a success
+                    h4 Learn How To Play
+                    p.small Our professional & friendly dealers will teach your guests how to play
+                    h4 We Bring The Casino To You
+                    p.small Choose the venue and we'll do everything for you!
+            .column.is-6
+              img(src='/img/section-fundraisers.png')
+      section.cta.has-text-centered
+        h2 Ready For An Exciting Casino Experience?
+        .cta-block
+          .columns
+            .column.is-5.has-text-right-desktop-only
+              a.button.is-primary(href='#contact') Get Started
+            .column.is-1
+              .or OR
+            .column.is-6.has-text-left-desktop-only
+              .ask-cta.mb-5 CALL NOW - Ask About Our House Party Packages
+              .phone-cta (732) 690-8324
+      section.section.is-feature
+        .container
+          .columns
+            .column.is-6
+              img(src='/img/section-corporate.png')
+            .column.is-6
+              .is-feature-right
+                h2 Corporate Parties
+                p.large
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac pharetra magna, at euismod dui. Integer eu vehicula arcu. Donec nisl libero, lobortis venenatis
+                .columns
+                  .column.is-6
+                    h4 Holiday Celebration
+                    p.small Need a short description here describing this heading
+                    h4 Employee Recognition
+                    p.small Need a short description here describing this heading
+                    h4 Customer Appreciation
+                    p.small Need a short description here describing this heading
+                  .column.is-6
+                    h4 Team Building
+                    p.small Need a short description here describing this heading
+                    h4 Vendor Appreciation
+                    p.small Need a short description here describing this heading
+      section.section.is-feature.is-alt
+        .container
+          .columns
+            .column.is-6
+              .is-feature-left
+                h2 Private Parties
+                p.large
+                  | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac pharetra magna, at euismod dui. Integer eu vehicula arcu. Donec nisl libero, lobortis venenatis
+                .columns
+                  .column.is-5
+                    h3 Popular For:
+                    .content
+                      ul
+                        li Birthdays
+                        li Holiday Celebrations
+                        li Bar/Bat Mitzvah's
+                        li Graduations/Proms
+                        li Sweet 16's
+                        li House/Patio/Yard
+                        li Weddings/Engagements
+                        li Bachelor/Bachelorette
+                        li & More ...
+                  .column.is-7
+                    h4 Make Your House Party a Smashing Success
+                    p.small Our fundraising specialists will make your fundraiser a success
+                    h4 We Bring The Casino To You
+                    p.small Our professional & friendly dealers will teach your guests how to play
+                    h4 Personalized Money
+                    p.small Choose the venue and we'll do everything for you!
+            .column.is-6
+              img(src='/img/section-private.png')
+      section.section.is-contact
+        .container
+          .columns
+            .column.is-6
+              h2 Ready to get started?
+              p.large
+                | Fill-out the form below, and we'll contact you to create the best casino party for your event
+            .column.is-3
+              h2 Phone
+              .contact
+                img(src='/img/icon-phone.png')
+                span (732) 690-8324
+              p.highlight Ask about our House Party Packages
+              p
+                | Sun - Thurs: 9am-9pm
+                br
+                |             Fri & Sat: 9am-4pm
+              p
+                | If we don't pickup, please leave a brief message with details of your event, we'll respond asap.
+            .column.is-3
+              h2 Email
+              .contact
+                img(src='/img/icon-mail.png')
+                span wildwillyscasino@gmail.com
+              p.has-text-black.mb-5 Please include in your email:
+              .content
+                ul
+                  li Event Date
+                  li Event Type (private, fundraiser, poker, corporate. etc)
+                  li Event Location (City, State, at a minimum)
+                  li Number of Expected Guests
+                  li Budget
+                  li Phone Number
+      #backtotop
+        a(href='javascript:')
+    footer.footer.layout-footer
+      .container
+        .columns
+          .column.is-2
+            ul.nav-footer
+              li.head What We Do
+              li
+                a(href='#poker-tournaments') Poker Tournaments
+              li
+                a(href='#fundraiasers') Fundraisers
+              li
+                a(href='#corporate-events') Corporate Events
+              li
+                a(href='#private-parties') Private Parties
+          .column.is-2
+            ul.nav-footer
+              li.head About Us
+              li
+                a(href='#gallery') Gallery
+              li
+                a(href='#contact') Contact Us
+          .column.is-2
+            ul.nav-footer
+              li.head Resources
+              li
+                a(href='#fundraiser-guidelines') Fundraiser Guidelines
+          .column.is-3
+            .phone-ask
+              .phone.mb-10
+                | (732) 690-8324
+              .ask
+                | Ask About Our House Party Packages
+          .column.is-3.has-text-centered
+            a.button.is-primary(href='#contact') Get Started
+            .social.mt-30
+              .social-heading-small Follow Us
+              .social-icons
+                a(href='#', target='_blank')
+                  img(src='/img/icon-twitter.png')
+                a(href='#', target='_blank')
+                  img(src='/img/icon-instagram.png')
+                a(href='#', target='_blank')
+                  img(src='/img/icon-facebook.png')
+        .copyright Copyright 2019 Wild Willy's Casino Parties - All Rights Reserved
