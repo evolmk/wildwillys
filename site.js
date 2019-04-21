@@ -69,22 +69,22 @@ $('a[href*="#"]').on('click', function(e) {
 
 var MOUSE_EVENTS = ['click', 'touchstart'];
 document.addEventListener('DOMContentLoaded', function () {
-  var accordions = document.querySelectorAll('.accordions');
+  var accordions = document.querySelectorAll('.accordion-container');
   [].forEach.call(accordions, function (accordion) {
     var items = accordion.querySelectorAll('.accordion');
     [].forEach.call(items, function (item) {
       MOUSE_EVENTS.forEach(function (event) {
-        item.querySelector('.toggle, [data-action="toggle"]').addEventListener(event, function (e) {
+        item.querySelector('.toggle, [data-action="toggle"], .item-stable').addEventListener(event, function (e) {
           e.preventDefault();
-          if (!item.classList.contains('is-active')) {
+          if (!item.classList.contains('active')) {
             var activeItem = accordion.querySelector('.accordion.is-active');
             if (activeItem) {
-              activeItem.classList.remove('is-active');
+              activeItem.classList.remove('active');
             }
-            item.classList.add('is-active');
+            item.classList.add('active');
           }
           else {
-            item.classList.remove('is-active');
+            item.classList.remove('active');
           }
         });
       });
