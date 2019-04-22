@@ -16,9 +16,11 @@
 //  transition: max-height .2s ease;
 //}
 
+$accordion-color: #455262;
+$accordion-hover-color: darken($accordion-color, 10%);
 
 .accordion-container {
-  padding-right: 50px;
+  //padding-right: 50px;
 }
 
 .accordion {
@@ -40,13 +42,16 @@
     transition: max-height 1s ease;
 
     .item.item-stable {
-      opacity: 1;
+      color: $accordion-hover-color;
+    }
+
+    .fa-plus:before {
+      content: "\f068";
     }
   }
 
   .item {
     background-color: transparent;
-    color: #444;
     position: relative;
     z-index: 2;
     display: block;
@@ -55,14 +60,13 @@
     &.item-stable {
       background-color: transparent;
       cursor: pointer;
-      color: #455262;
+      color: $accordion-color;
       font-size: 15px;
       font-weight: 600;
-      padding: 15px 0 15px 0;
+      padding: 15px 45px 15px 0;
       text-transform: none;
       position: relative;
-      opacity: 0.7;
-      transition: opacity 0.1s ease;
+      transition: color 0.1s ease;
 
       .fa {
         position: absolute;
@@ -73,13 +77,13 @@
         color: #65686D;
       }
       &:hover {
-        opacity: 1
+        color: $accordion-hover-color;
       }
 
     }
 
     &.item-accordion {
-      margin: 0px 0 40px 0;
+      margin: 0 0 25px 0;
       color: #7A7F88;
     }
 
