@@ -1,7 +1,13 @@
+block vars
+- var appVersion = 4
+- var appYear = 2019
+- var cssPath = locals.host + '/dist/css/email.min.css?v=' + locals.deployVersion //local url
 doctype html
 html
   head
-    title Wild Willy's Casino Events | Fundraiser Parties in NJ NY CT
+    block head
+      - var titleSuffix = titleSuffix ? titleSuffix : "Fundraiser Parties in NJ NY CT"
+    title Wild Willy's Casino Events | #{titleSuffix}
     meta(name='viewport', content='width=device-width')
     link(rel='stylesheet', href='dist/app.min.css?v=4', type='text/css', media='all')
     script(src='dist/app.min.js?v=4')
@@ -34,17 +40,13 @@ html
           .column.is-2
             ul.nav-footer
               li
-                a(href='index.html#about') About Us
-              li
                 a(href='gallery.html') Gallery
+              li
+                a(href='index.html#about') About Us
               li
                 a(href='faq.html') FAQ
               li
                 a(href='index.html#contact') Contact Us
-          .column.is-2
-            .phone-ask
-              .phone.mb-10
-                | (732) 690-8324
           .column.is-3
             .social
               .social-heading-small Follow Us
@@ -55,8 +57,12 @@ html
                   img(src='img/icon-instagram.png')
                 a(href='https://www.instagram.com/', target='_blank')
                   img(src='img/icon-facebook.png')
+          .column.is-2
+            .phone-ask
+              .phone.mb-10
+                | (732) 690-8324
           .column.is-3.has-text-centered
             a.button.is-primary(href='index#contact') Get Started
 
-        .copyright.has-text-centered-mobile Copyright 2019 Wild Willy's Casino Parties - All Rights Reserved
+        .copyright.has-text-centered-mobile &copy; #{appYear} Wild Willy's Casino Parties - All Rights Reserved
     script(src='site.js')

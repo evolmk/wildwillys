@@ -1,13 +1,16 @@
 extends includes/layout
+block head
+  - var titleSuffix = "FAQ"
 block content
   include includes/header-subpage
   main
     section.section
       .container
-        h1 FAQ
+        h1 Frequently Asked Questions
+        p.large.mb-30 Still Have Questions? <strong>Call (732) 690-8324</strong> or <a href='index.html#contact'>Contact Us Online</a>
         .columns
           .column.is-6
-            .accordion-container
+            .faq-container
               .faq
                 .question Are the Casino Table photo's the actual tables that will be used at my party?
                 .answer Yes! Unlike most websites, all photos are our actual equipment. What you see is what you will get.
