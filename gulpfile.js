@@ -1,18 +1,19 @@
 
 var gulp = require('gulp');
+
 var cleanCSS = require('gulp-clean-css');
-var gulpif = require('gulp-if');
-var uglify = require('gulp-uglify');
-var notify = require('gulp-notify');
 var concat = require('gulp-concat');
+var del = require('del');
+var errorHandler = require('gulp-error-handle');
+var gulpif = require('gulp-if');
+var notify = require('gulp-notify');
 var rename = require('gulp-rename');
 var pug = require('gulp-pug');
-var sourcemaps = require('gulp-sourcemaps');
-var del = require('del');
-
-// sass to scss - requires `gem install sass`
-var sass = require('gulp-sass');
 var replace = require('gulp-replace');
+var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
+var uglify = require('gulp-uglify');
+
 // ----------------------------
 // Error Handler
 // ----------------------------
@@ -24,6 +25,11 @@ var handleError = function (task) {
       sound: true
     })(err);
   };
+};
+
+var logError = function(err) {
+  console.log(err);
+  this.emit('end');
 };
 
 
@@ -71,6 +77,7 @@ function pugApp() {
     doctype: 'html',
     pretty: true
   }))
+  .pipe(errorHandler(logError))
   .pipe(gulp.dest('./'));
 }
 
@@ -80,7 +87,7 @@ function watch(cb) {
   //scss
   gulp.watch('scss/**/*.scss', cssApp);
   //pug
-  gulp.watch('*.pug', pugApp);
+  gulp.watch('./**/*.pug', pugApp);
   cb();
 }
 

@@ -1,0 +1,33 @@
+header#top
+  section.hero.is-fullheight.video
+    .hero-head
+      nav.navbar
+        .container
+          include navbar-brand
+          #navMain.navbar-menu
+            .navbar-start
+              a.navbar-item(href='index.html#whatwedo', data-scrollid='whatwedo') What We Do
+              a.navbar-item(href='gallery.html') Gallery
+              a.navbar-item(href='index.html#about', data-scrollid='about') About Us
+              a.navbar-item(href='faq.html') FAQ
+              a.navbar-item(href='index.html#contact', data-scrollid='contact') Contact
+            .navbar-end
+              .navbar-item
+                .phone-ask
+                  .phone
+                    | (732) 690-8324
+              .navbar-item
+                a.button.is-primary(href='index.html#contact', data-scrollid='contact') Get Started
+    .hero-video
+      .video-overlay
+      video#bgvid(poster='img/video-poster.jpg', playsinline='', autoplay='', muted='', loop='')
+        source(src='video/chips-loop.mp4', type='video/mp4')
+    .hero-body
+      .container
+        h1.hero-title(data-aos='zoom-in', data-aos-delay='200') LAS VEGAS STYLE CASINO PARTIES
+        .hero-subtitle(data-aos='fade-up', data-aos-duration='600', data-aos-delay='700') #1 Provider in Casino Party Entertainment in the Tri-State Area
+    .hero-foot
+      .block-check
+        img.icon-check(src='img/icon-checkmark.png', alt='Fully Licensed and Insured')
+        |  Fully Licensed and Insured
+  // end: header

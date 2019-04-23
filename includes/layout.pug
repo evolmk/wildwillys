@@ -1,0 +1,62 @@
+doctype html
+html
+  head
+    title Wild Willy's Casino Events | Fundraiser Parties in NJ NY CT
+    meta(name='viewport', content='width=device-width')
+    link(rel='stylesheet', href='dist/app.min.css?v=4', type='text/css', media='all')
+    script(src='dist/app.min.js?v=4')
+    link(rel='apple-touch-icon', sizes='180x180', href='apple-touch-icon.png')
+    link(rel='icon', type='image/png', sizes='32x32', href='favicon-32x32.png')
+    link(rel='icon', type='image/png', sizes='16x16', href='favicon-16x16.png')
+    link(rel='manifest', href='site.webmanifest')
+    link(rel='mask-icon', href='safari-pinned-tab.svg', color='#5bbad5')
+    meta(name='msapplication-TileColor', content='#da532c')
+    meta(name='theme-color', content='#ffffff')
+    script.
+      var useScrollTo = false;
+  body.client
+    block content
+    #backtotop
+      a(href='javascript:')
+    footer.footer.layout-footer
+      .container
+        .columns
+          .column.is-2
+            ul.nav-footer
+              li
+                a(href='index.html#poker-tournaments') Poker Tournaments
+              li
+                a(href='index.html#fundraiasers') Fundraisers
+              li
+                a(href='index.html#corporate-parties') Corporate Parties
+              li
+                a(href='index.html#private-parties') Private Parties
+          .column.is-2
+            ul.nav-footer
+              li
+                a(href='index.html#about') About Us
+              li
+                a(href='gallery.html') Gallery
+              li
+                a(href='faq.html') FAQ
+              li
+                a(href='index.html#contact') Contact Us
+          .column.is-2
+            .phone-ask
+              .phone.mb-10
+                | (732) 690-8324
+          .column.is-3
+            .social
+              .social-heading-small Follow Us
+              .social-icons
+                a(href='https://twitter.com/', target='_blank')
+                  img(src='img/icon-twitter.png')
+                a(href='https://www.facebook.com/', target='_blank')
+                  img(src='img/icon-instagram.png')
+                a(href='https://www.instagram.com/', target='_blank')
+                  img(src='img/icon-facebook.png')
+          .column.is-3.has-text-centered
+            a.button.is-primary(href='index#contact') Get Started
+
+        .copyright.has-text-centered-mobile Copyright 2019 Wild Willy's Casino Parties - All Rights Reserved
+    script(src='site.js')

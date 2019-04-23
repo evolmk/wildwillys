@@ -1,382 +1,289 @@
-doctype html
-html
-  head
-    title Wild Willy's Casino Events | Fundraiser Parties in NJ NY CT
-    meta(name='viewport', content='width=device-width')
-    link(rel='stylesheet', href='dist/app.min.css?v=4', type='text/css', media='all')
-    script(src='dist/app.min.js?v=4')
-    link(rel='apple-touch-icon', sizes='180x180', href='apple-touch-icon.png')
-    link(rel='icon', type='image/png', sizes='32x32', href='favicon-32x32.png')
-    link(rel='icon', type='image/png', sizes='16x16', href='favicon-16x16.png')
-    link(rel='manifest', href='site.webmanifest')
-    link(rel='mask-icon', href='safari-pinned-tab.svg', color='#5bbad5')
-    meta(name='msapplication-TileColor', content='#da532c')
-    meta(name='theme-color', content='#ffffff')
-  body.client
-    header#top
-      section.hero.is-fullheight.video
-        .hero-head
-          nav.navbar
-            .container
-              .navbar-brand
-                a.navbar-item.navbar-logo(href='#top')
-                  img(src='img/wildwillys-logo.png', alt="Wild Willy's Casino Events", width='290')
-                #burgerMain.navbar-burger.burger(data-target='navMain')
-                  span
-                  span
-                  span
-              #navMain.navbar-menu
-                .navbar-start
-                  a.navbar-item(href='/index.html#whatwedo', data-sourceurl='index.html', data-scrollid='whatwedo') What We Do
-                  a.navbar-item(href='/gallery.html', data-sourceurl='gallery.html') Gallery
-                  a.navbar-item(href='/index.html#about', data-sourceurl='index.html', data-scrollid='about') About Us
-                  a.navbar-item(href='/faq.html', data-sourceurl='faq.html') FAQ
-                  a.navbar-item(href='/index.html#contact', data-sourceurl='sourceurl.html', data-scrollid='contact') Contact
-                .navbar-end
-                  .navbar-item
-                    .phone-ask
-                      .phone
-                        | (732) 690-8324
-                  .navbar-item
-                    a.button.is-primary(href='#contact') Get Started
-        .hero-video
-          .video-overlay
-          video#bgvid(poster='img/video-poster.jpg', playsinline='', autoplay='', muted='', loop='')
-            source(src='video/chips-loop.mp4', type='video/mp4')
-        .hero-body
-          .container
-            h1.hero-title(data-aos='zoom-in', data-aos-delay='200') LAS VEGAS STYLE CASINO PARTIES
-            .hero-subtitle(data-aos='fade-up', data-aos-duration='600', data-aos-delay='700') #1 Provider in Casino Party Entertainment in the Tri-State Area
-        .hero-foot
-          .block-check
-            img.icon-check(src='img/icon-checkmark.png', alt='Fully Licensed and Insured')
-            |  Fully Licensed and Insured
-      // end: header
-    main
-      section.section.summary#whatwedo
-        .container
-          .columns
-            .column.is-4
-              .summaries(data-aos='fade-up', data-aos-delay='0')
-                .summary-block
-                  img(src='img/icon-poker.png')
-                  h3 Poker Tournaments
-                  p Professional Tables with Dealers to accomodate up to 200 players
-                .summary-block
-                  img(src='img/icon-corporate.png')
-                  h3 Corporate Parties
-                  p Give your workers a unique casino experience they deserve
-            .column.is-4
-              .summaries(data-aos='fade-up', data-aos-delay='200')
-                .summary-block
-                  img(src='img/icon-fundraisers.png')
-                  h3 Fundraisers
-                  p Our fundraising specialists will make your fundraiser a success
-                .summary-block
-                  img(src='img/icon-private.png')
-                  h3 Private Parties
-                  p Our friendly dealers will teach your guests how to play
-            .column.is-4
-              .summary-list(data-aos='fade-up', data-aos-delay='400')
-                h2.mb-25.has-text-centered-mobile We Do It All For You
-                p.large-bullet.mb-20
-                  img.bullet(src='img/icon-bullet.png')
-                  | We Bring The Casino To You
-                p.large-bullet.mb-20
-                  img.bullet(src='img/icon-bullet.png')
-                  | Learn How To Plays
-                p.large-bullet.mb-20
-                  img.bullet(src='img/icon-bullet.png')
-                  | We customize your event to your needs to deliver a night to remember
-                p.large-bullet
-                  img.bullet(src='img/icon-bullet.png')
-                  | We can accomodate events of all sizes - Big or Small
-
-          .has-text-centered.mt-10
-            .social(data-aos='fade', data-aos-delay='500')
-              .social-heading Get in touch & stay up to date
-              .social-icons
-                a(href='#', target='_blank')
-                  img(src='img/icon-twitter.png')
-                a(href='#', target='_blank')
-                  img(src='img/icon-instagram.png')
-                a(href='#', target='_blank')
-                  img(src='img/icon-facebook.png')
-      section.section.is-feature#poker-tournaments
-        .container
-          .columns
-            .column.is-6
-              img(src='img/section-poker.png', data-aos='fade-right', data-aos-delay='100')
-            .column.is-6
-              .is-feature-right
-                h2(data-aos='fade-up', data-aos-delay='0') Texas Hold'em Poker Tournaments
-                p.large(data-aos='fade-left', data-aos-delay='100')
-                  | Large professional 8' Tables with Dealers, 14 gram chips with Standard Casino Colors and Denominations, all accessories and a Tournament Director
-                .feature-content(data-aos='fade', data-aos-delay='200')
-                  .columns
-                    .column.is-5
-                      h3 Tournaments For:
-                      .content
-                        ul
-                          li Private
-                          li Fundraisers
-                          li Corporate
-                          li Bars
-                          li Leagues
-                          li & More ...
-                    .column.is-7
-                      h4 Professional Dealers
-                      p.small Need a short description here describing this heading
-                      h4 High quality tables, chips and cards
-                      p.small Need a short description here describing this heading
-                      h4 We do it all for you!
-                      p.small Need a short description here describing this heading
-      section.section.is-feature.is-alt#fundraiasers
-        .container
-          .columns
-            .column.is-6
-              .is-feature-left
-                h2(data-aos='fade-up', data-aos-delay='0') Fundraisers
-                p.large(data-aos='fade-right', data-aos-delay='100')
-                  | We are the fastest growing company in the state with high quality equipment, reasonable prices, the best fundraising ideas to help raise additional money
-                .feature-content(data-aos='fade', data-aos-delay='200')
-                  .columns
-                    .column.is-5
-                      h3 Raise Money For:
-                      .content
-                        ul
-                          li PTA
-                          li School
-                          li Church
-                          li Football
-                          li Cheerleader
-                          li Soccer
-                          li Benefits
-                          li & More ...
-                    .column.is-7
-                      h4 Raising Money Is Our Game
-                      p.small Our fundraising specialists will make your fundraiser a success
-                      h4 Learn How To Play
-                      p.small Our professional & friendly dealers will teach your guests how to play
-                      h4 We Bring The Casino To You
-                      p.small Choose the venue and we'll do everything for you!
-            .column.is-6
-              img(src='img/section-fundraisers.png', data-aos='fade-left', data-aos-delay='100')
-      section.cta.has-text-centered
-        h2(data-aos='fade-up', data-aos-delay='0') Ready For An Exciting Casino Experience?
-        .cta-block
-          .columns
-            .column.is-5.has-text-right-desktop-only
-              a.button.is-primary(href='#contact') Get Started
-            .column.is-1.is-hidden-mobile
-              .or OR
-            .column.is-6.has-text-left-desktop-only.is-hidden-mobile
-              .ask-cta.mb-5 CALL NOW - Ask About Our House Party Packages
-              .phone-cta (732) 690-8324
-      section.section.is-feature#corporate-parties
-        .container
-          .columns
-            .column.is-6
-              img(src='img/section-corporate.png', data-aos='fade-right', data-aos-delay='100')
-            .column.is-6
-              .is-feature-right
-                h2(data-aos='fade-up', data-aos-delay='0') Corporate Parties
-                p.large(data-aos='fade-left', data-aos-delay='100')
-                  | Show appreciation to your employees and associates with Action Packed Gaming that will make your corporate event a night to remember.
-                .feature-content(data-aos='fade', data-aos-delay='200')
-                  .columns
-                    .column.is-6.has-no-descriptions
-                      h4 Holiday Celebration
-                      h4 Employee Recognition
-                      h4 Customer Appreciation
-                    .column.is-6.has-no-descriptions
-                      h4 Team Building
-                      h4 Vendor Appreciation
-      section.section.is-feature.is-alt#private-parties
-        .container
-          .columns
-            .column.is-6
-              .is-feature-left
-                h2(data-aos='fade-up', data-aos-delay='0') Private Parties
-                p.large(data-aos='fade-right', data-aos-delay='100')
-                  | Have a casino themed party customized to accomodate your needs.
-                .feature-content(data-aos='fade', data-aos-delay='200')
-                  .columns
-                    .column.is-5
-                      h3 Popular For:
-                      .content
-                        ul
-                          li Birthdays
-                          li Holiday Celebrations
-                          li Bar/Bat Mitzvah's
-                          li Graduations/Proms
-                          li Sweet 16's
-                          li House/Patio/Yard
-                          li Weddings/Engagements
-                          li Bachelor/Bachelorette
-                          li & More ...
-                    .column.is-7
-                      h4 Make Your House Party a Smashing Success
-                      p.small Need content for this section
-                      h4 We Bring The Casino To You
-                      p.small Our professional & friendly dealers will teach your guests how to play
-                      h4 Personalized Money
-                      p.small Choose the venue and we'll do everything for you!
-                      p.highlight Ask about our House Party Packages
-            .column.is-6
-              img(src='img/section-private.png', data-aos='fade-left', data-aos-delay='100')
-
-      section.section#about
-        .container
-          .columns
-            .column.is-6
-              h2(data-aos='fade-up', data-aos-delay='0') About Wild Willy's
-              p.large
-                | Wild Willy's was formed to provide quality casino gaming for a variety of event types.  Our commitment to quality helps position ourselves as a premiere casino gaming option in the Tri-State area.
-              p.large
-                | At Wild Willy's, we Guarantee THE BEST QUALITY possible in event coordination, equipment, professionalism and committment to ensuring your guests have a great time at your event
-            .column.is-6
-              h2(data-aos='fade-up', data-aos-delay='0') What Set's Us Apart
-              .content
-                ul
-                  li Highest Quality Equipment
-                  li Superior Customer Support
-                  li Professional Trained Dealers
-                  li No Event Too Large or Small
-
-      section.section.is-alt#faq
-        .container
-          h2(data-aos='fade-up', data-aos-delay='0') FAQ
-            p.large
-              | Describe the section here
-          .columns
-            .column.is-6
-              .accordion-container
-                .faq
-                  .question Are the Casino Table photo's the actual tables that will be used at my party?
-                  .answer Yes! Unlike most websites, all photos are our actual equipment. What you see is what you will get.
-                .faq
-                  .question Do you provide full party planning?
-                  .answer Yes of course! We are a full service event company. We can help you from decorations to locations. We are here to make the planning process easy so you can enjoy your event along with your guests.
-                .faq
-                  .question Is Tipping Appropriate?
-                  .answer The dealers at your casino party are service people just like waiters, photographers, dj’s and bartenders. They provide a service for you just as they would in an actual casino and tipping is generally based on the level of that service. Unlike an actual casino, the chips have no cash value and therefore players cannot use them to tip dealers. It becomes the responsibility of the host, just as at a large dinner party at a restaurant, to tip the dealers. It is common place for guests to tip based on their level of enjoyment at the table. Our Dealers will at no time ask or solicite tips, as it is unprofessional to do so.
-                .faq
-                  .question Do you subcontract out your services to other casino event companies?
-                  .answer Absolutely not, we are not like most of the other companies out there. Our equipment was made and designed specifically for us. When you hire us that is who you get.
-                .faq
-                  .question Are Casino Parties Legal?
-                  .answer Yes! We provide Casino Party Entertainment for fun purposes only.
-                .faq
-                  .question Is there a minimum age requirement for event guests?
-                  .answer There is no minimum age requirement for guests.  All events are for entertainment purposes only. We often host “Sweet Sixteens” as well as “Bar mitzvahs”, “Graduations” and “Post Prom Parties”.
-                .faq
-                  .question Are security deposits required for your equipment rentals?
-                  .answer We only require security deposits in the event of our equipment being rented out in the absence of dealers or a pit boss.
-                .faq
-                  .question How do I book my date with Wild Willy's and when is payment required?
-                  .answer Simply call or email our office with your preferred date and gaming package. Once a contract is signed, 50% deposit is required to secure the date, equipment, and dealers. Final payments are due by the close of the event.
-            .column.is-6
-              .faq-container
-                .faq
-                  .question What areas do you serve?
-                  .answer We serve all of New Jersey, New York, and Connecticut. If your event falls outside these areas, we may still be able to accommodate you.
-                .faq
-                  .question What is your cancellation policy?
-                  .answer There is no cancellation charge as long as your party is cancelled 20 days in advance so that we may book another event. If you are holding an event outdoors and there is inclement weather, we will gladly change your date with no charge to you. Refunds can take up to 8 weeks to return. Any special ordered items will not be refunded
-                .faq
-                  .question How many tables should I book for my event?
-                  .answer For fundraising events, tables should be provided to accommodate 70% of the guests. For specialty parties we suggest that tables should be provided to accommodate a minimum of 50% of the guests.
-                .faq
-                  .question How long do you usually deal at the Events?
-                  .answer Typically an event lasts 4 hours, giving you plenty of gaming. If you want to game for longer than 4 hours, there is an extra fee.
-                .faq
-                  .question How does a typical event go?
-                  .answer We give you the “funny money” that comes in fake $ bills. You hand that out to your guests who in turn “cash in” for chips at the gaming tables with it. At the end of the night guests simply turn the chips back in to the dealer, or “bank”, for raffle tickets or for winning totals. For Fundraisers a bank is usually setup for guests to donate money for additional chips.
-                .faq
-                  .question What are my options on ending the night?
-                  .answer For fundraisers it is legal to end the night with a raffle system. The guest turn in their chips for raffle tickets and you can then raffle off prizes. This way everyone gets a chance to win no matter how good or bad they did at the tables. Specialty parties can have prizes for top “money” winners.
-                .faq
-                  .question How does the equipment set-up and breakdown work?
-                  .answer We have the set up down to a science and usually only needs to be there about an hour before the event. We ask that a contact name and number be provided so that we properly arrange delivery and setup. When the event is over, we will take their equipment and leave just as fast as we set-up. If event needs to be set earlier we need to know.
-                .faq
-                  .question What other services can you provide?
-                  .answer We are a full service Event company. We offer all gaming equipment as well as any additional gaming decorations such as personalized chips, funny money, cards. We offer a wide array of services. Click on our Services tab for a full list services.
-
-
-      section.section.is-contact#contact
-        .container
-          .columns
-            .column.is-6
-              iframe(src='https://docs.google.com/forms/d/e/1FAIpQLScc1UiD2FVJ8vnvg0Uhhm5ZLn_mIG5vZbfL4dZXtNbHiM5mOQ/viewform?embedded=true', width='640', height='1050', frameborder='0', marginheight='0', marginwidth='0' style='height:1050px;') Loading...
-            .column.is-3
-              .feature-content(data-aos='fade-up', data-aos-delay='100')
-                h2 Phone
-                .contact
-                  img(src='img/icon-phone.png')
-                  span (732) 690-8324
-                p
-                  | Sun - Thurs: 9am-9pm
-                  br
-                  | Fri & Sat: 9am-4pm
-                p
-                  | If we don't pickup, please leave a brief message with details of your event, we'll respond asap.
-            .column.is-3
-              .feature-content(data-aos='fade-up', data-aos-delay='400')
-                h2 Email
-                .contact
-                  img(src='img/icon-mail.png')
-                  span wildwillyscasino@gmail.com
-                p.has-text-black.mb-5 Please include in your email:
-                .content
-                  ul
-                    li Event Date
-                    li Event Type (private, fundraiser, poker, corporate. etc)
-                    li Event Location (City, State, at a minimum)
-                    li Number of Expected Guests
-                    li Budget
-                    li Phone Number
-      #backtotop
-        a(href='javascript:')
-    footer.footer.layout-footer
+extends includes/layout
+block content
+  include includes/header-homepage
+  main
+    section.section.summary#whatwedo
       .container
         .columns
-          .column.is-2
-            ul.nav-footer
-              li
-                a(href='#poker-tournaments') Poker Tournaments
-              li
-                a(href='#fundraiasers') Fundraisers
-              li
-                a(href='#corporate-parties') Corporate Parties
-              li
-                a(href='#private-parties') Private Parties
-          .column.is-2
-            ul.nav-footer
-              li
-                a(href='#gallery') About Us
-              li
-                a(href='#gallery') Gallery
-              li
-                a(href='#faq') FAQ
-              li
-                a(href='#contact') Contact Us
-          .column.is-2
-            .phone-ask
-              .phone.mb-10
-                | (732) 690-8324
-          .column.is-3
-            .social
-              .social-heading-small Follow Us
-              .social-icons
-                a(href='#', target='_blank')
-                  img(src='img/icon-twitter.png')
-                a(href='#', target='_blank')
-                  img(src='img/icon-instagram.png')
-                a(href='#', target='_blank')
-                  img(src='img/icon-facebook.png')
-          .column.is-3.has-text-centered
-            a.button.is-primary(href='#contact') Get Started
+          .column.is-4
+            .summaries(data-aos='fade-up', data-aos-delay='0')
+              .summary-block
+                img(src='img/icon-poker.png')
+                h3 Poker Tournaments
+                p Professional Tables with Dealers to accomodate up to 200 players
+              .summary-block
+                img(src='img/icon-corporate.png')
+                h3 Corporate Parties
+                p Give your workers a unique casino experience they deserve
+          .column.is-4
+            .summaries(data-aos='fade-up', data-aos-delay='200')
+              .summary-block
+                img(src='img/icon-fundraisers.png')
+                h3 Fundraisers
+                p Our fundraising specialists will make your fundraiser a success
+              .summary-block
+                img(src='img/icon-private.png')
+                h3 Private Parties
+                p Our friendly dealers will teach your guests how to play
+          .column.is-4
+            .summary-list(data-aos='fade-up', data-aos-delay='400')
+              h2.mb-25.has-text-centered-mobile We Do It All For You
+              p.large-bullet.mb-20
+                img.bullet(src='img/icon-bullet.png')
+                | We Bring The Casino To You
+              p.large-bullet.mb-20
+                img.bullet(src='img/icon-bullet.png')
+                | Learn How To Plays
+              p.large-bullet.mb-20
+                img.bullet(src='img/icon-bullet.png')
+                | We customize your event to your needs to deliver a night to remember
+              p.large-bullet
+                img.bullet(src='img/icon-bullet.png')
+                | We can accomodate events of all sizes - Big or Small
 
-        .copyright.has-text-centered-mobile Copyright 2019 Wild Willy's Casino Parties - All Rights Reserved
-    script(src='site.js')
+        .has-text-centered.mt-10
+          .social(data-aos='fade', data-aos-delay='500')
+            .social-heading Get in touch & stay up to date
+            .social-icons
+              a(href='https://twitter.com/', target='_blank')
+                img(src='img/icon-twitter.png')
+              a(href='https://www.facebook.com/', target='_blank')
+                img(src='img/icon-instagram.png')
+              a(href='https://www.instagram.com/', target='_blank')
+                img(src='img/icon-facebook.png')
+    section.section.is-feature#poker-tournaments
+      .container
+        .columns
+          .column.is-6
+            img(src='img/section-poker.png', data-aos='fade-right', data-aos-delay='100')
+          .column.is-6
+            .is-feature-right
+              h2(data-aos='fade-up', data-aos-delay='0') Texas Hold'em Poker Tournaments
+              p.large(data-aos='fade-left', data-aos-delay='100')
+                | Large professional 8' Tables with Dealers, 14 gram chips with Standard Casino Colors and Denominations, all accessories and a Tournament Director
+              .feature-content(data-aos='fade', data-aos-delay='200')
+                .columns
+                  .column.is-5
+                    h3 Tournaments For:
+                    .content
+                      ul
+                        li Private
+                        li Fundraisers
+                        li Corporate
+                        li Bars
+                        li Leagues
+                        li & More ...
+                  .column.is-7
+                    h4 Professional Dealers
+                    p.small Need a short description here describing this heading
+                    h4 High quality tables, chips and cards
+                    p.small Need a short description here describing this heading
+                    h4 We do it all for you!
+                    p.small Need a short description here describing this heading
+    section.section.is-feature.is-alt#fundraiasers
+      .container
+        .columns
+          .column.is-6
+            .is-feature-left
+              h2(data-aos='fade-up', data-aos-delay='0') Fundraisers
+              p.large(data-aos='fade-right', data-aos-delay='100')
+                | We are the fastest growing company in the state with high quality equipment, reasonable prices, the best fundraising ideas to help raise additional money
+              .feature-content(data-aos='fade', data-aos-delay='200')
+                .columns
+                  .column.is-5
+                    h3 Raise Money For:
+                    .content
+                      ul
+                        li PTA
+                        li School
+                        li Church
+                        li Football
+                        li Cheerleader
+                        li Soccer
+                        li Benefits
+                        li & More ...
+                  .column.is-7
+                    h4 Raising Money Is Our Game
+                    p.small Our fundraising specialists will make your fundraiser a success
+                    h4 Learn How To Play
+                    p.small Our professional & friendly dealers will teach your guests how to play
+                    h4 We Bring The Casino To You
+                    p.small Choose the venue and we'll do everything for you!
+          .column.is-6
+            img(src='img/section-fundraisers.png', data-aos='fade-left', data-aos-delay='100')
+    section.cta.has-text-centered
+      h2(data-aos='fade-up', data-aos-delay='0') Ready For An Exciting Casino Experience?
+      .cta-block
+        .columns
+          .column.is-5.has-text-right-desktop-only
+            a.button.is-primary(href='index.html#contact', data-scrollid='contact') Get Started
+          .column.is-1.is-hidden-mobile
+            .or OR
+          .column.is-6.has-text-left-desktop-only.is-hidden-mobile
+            .ask-cta.mb-5 CALL NOW - Ask About Our House Party Packages
+            .phone-cta (732) 690-8324
+    section.section.is-feature#corporate-parties
+      .container
+        .columns
+          .column.is-6
+            img(src='img/section-corporate.png', data-aos='fade-right', data-aos-delay='100')
+          .column.is-6
+            .is-feature-right
+              h2(data-aos='fade-up', data-aos-delay='0') Corporate Parties
+              p.large(data-aos='fade-left', data-aos-delay='100')
+                | Show appreciation to your employees and associates with Action Packed Gaming that will make your corporate event a night to remember.
+              .feature-content(data-aos='fade', data-aos-delay='200')
+                .columns
+                  .column.is-6.has-no-descriptions
+                    h4 Holiday Celebration
+                    h4 Employee Recognition
+                    h4 Customer Appreciation
+                  .column.is-6.has-no-descriptions
+                    h4 Team Building
+                    h4 Vendor Appreciation
+    section.section.is-feature.is-alt#private-parties
+      .container
+        .columns
+          .column.is-6
+            .is-feature-left
+              h2(data-aos='fade-up', data-aos-delay='0') Private Parties
+              p.large(data-aos='fade-right', data-aos-delay='100')
+                | Have a casino themed party customized to accomodate your needs.
+              .feature-content(data-aos='fade', data-aos-delay='200')
+                .columns
+                  .column.is-5
+                    h3 Popular For:
+                    .content
+                      ul
+                        li Birthdays
+                        li Holiday Celebrations
+                        li Bar/Bat Mitzvah's
+                        li Graduations/Proms
+                        li Sweet 16's
+                        li House/Patio/Yard
+                        li Weddings/Engagements
+                        li Bachelor/Bachelorette
+                        li & More ...
+                  .column.is-7
+                    h4 Make Your House Party a Smashing Success
+                    p.small Need content for this section
+                    h4 We Bring The Casino To You
+                    p.small Our professional & friendly dealers will teach your guests how to play
+                    h4 Personalized Money
+                    p.small Choose the venue and we'll do everything for you!
+                    p.highlight Ask about our House Party Packages
+          .column.is-6
+            img(src='img/section-private.png', data-aos='fade-left', data-aos-delay='100')
+
+    section.section#about
+      .container
+        .columns
+          .column.is-6
+            h2(data-aos='fade-up', data-aos-delay='0') About Wild Willy's
+            p.large
+              | Wild Willy's was formed to provide quality casino gaming for a variety of event types.  Our commitment to quality helps position ourselves as a premiere casino gaming option in the Tri-State area.
+            p.large
+              | At Wild Willy's, we Guarantee THE BEST QUALITY possible in event coordination, equipment, professionalism and committment to ensuring your guests have a great time at your event
+          .column.is-6
+            h2(data-aos='fade-up', data-aos-delay='0') What Set's Us Apart
+            .content
+              ul
+                li Highest Quality Equipment
+                li Superior Customer Support
+                li Professional Trained Dealers
+                li No Event Too Large or Small
+
+    section.section.is-alt#faq
+      .container
+        h2(data-aos='fade-up', data-aos-delay='0') FAQ
+          p.large
+            | Describe the section here
+        .columns
+          .column.is-6
+            .accordion-container
+              .faq
+                .question Are the Casino Table photo's the actual tables that will be used at my party?
+                .answer Yes! Unlike most websites, all photos are our actual equipment. What you see is what you will get.
+              .faq
+                .question Do you provide full party planning?
+                .answer Yes of course! We are a full service event company. We can help you from decorations to locations. We are here to make the planning process easy so you can enjoy your event along with your guests.
+              .faq
+                .question Is Tipping Appropriate?
+                .answer The dealers at your casino party are service people just like waiters, photographers, dj’s and bartenders. They provide a service for you just as they would in an actual casino and tipping is generally based on the level of that service. Unlike an actual casino, the chips have no cash value and therefore players cannot use them to tip dealers. It becomes the responsibility of the host, just as at a large dinner party at a restaurant, to tip the dealers. It is common place for guests to tip based on their level of enjoyment at the table. Our Dealers will at no time ask or solicite tips, as it is unprofessional to do so.
+              .faq
+                .question Do you subcontract out your services to other casino event companies?
+                .answer Absolutely not, we are not like most of the other companies out there. Our equipment was made and designed specifically for us. When you hire us that is who you get.
+              .faq
+                .question Are Casino Parties Legal?
+                .answer Yes! We provide Casino Party Entertainment for fun purposes only.
+              .faq
+                .question Is there a minimum age requirement for event guests?
+                .answer There is no minimum age requirement for guests.  All events are for entertainment purposes only. We often host “Sweet Sixteens” as well as “Bar mitzvahs”, “Graduations” and “Post Prom Parties”.
+              .faq
+                .question Are security deposits required for your equipment rentals?
+                .answer We only require security deposits in the event of our equipment being rented out in the absence of dealers or a pit boss.
+              .faq
+                .question How do I book my date with Wild Willy's and when is payment required?
+                .answer Simply call or email our office with your preferred date and gaming package. Once a contract is signed, 50% deposit is required to secure the date, equipment, and dealers. Final payments are due by the close of the event.
+          .column.is-6
+            .faq-container
+              .faq
+                .question What areas do you serve?
+                .answer We serve all of New Jersey, New York, and Connecticut. If your event falls outside these areas, we may still be able to accommodate you.
+              .faq
+                .question What is your cancellation policy?
+                .answer There is no cancellation charge as long as your party is cancelled 20 days in advance so that we may book another event. If you are holding an event outdoors and there is inclement weather, we will gladly change your date with no charge to you. Refunds can take up to 8 weeks to return. Any special ordered items will not be refunded
+              .faq
+                .question How many tables should I book for my event?
+                .answer For fundraising events, tables should be provided to accommodate 70% of the guests. For specialty parties we suggest that tables should be provided to accommodate a minimum of 50% of the guests.
+              .faq
+                .question How long do you usually deal at the Events?
+                .answer Typically an event lasts 4 hours, giving you plenty of gaming. If you want to game for longer than 4 hours, there is an extra fee.
+              .faq
+                .question How does a typical event go?
+                .answer We give you the “funny money” that comes in fake $ bills. You hand that out to your guests who in turn “cash in” for chips at the gaming tables with it. At the end of the night guests simply turn the chips back in to the dealer, or “bank”, for raffle tickets or for winning totals. For Fundraisers a bank is usually setup for guests to donate money for additional chips.
+              .faq
+                .question What are my options on ending the night?
+                .answer For fundraisers it is legal to end the night with a raffle system. The guest turn in their chips for raffle tickets and you can then raffle off prizes. This way everyone gets a chance to win no matter how good or bad they did at the tables. Specialty parties can have prizes for top “money” winners.
+              .faq
+                .question How does the equipment set-up and breakdown work?
+                .answer We have the set up down to a science and usually only needs to be there about an hour before the event. We ask that a contact name and number be provided so that we properly arrange delivery and setup. When the event is over, we will take their equipment and leave just as fast as we set-up. If event needs to be set earlier we need to know.
+              .faq
+                .question What other services can you provide?
+                .answer We are a full service Event company. We offer all gaming equipment as well as any additional gaming decorations such as personalized chips, funny money, cards. We offer a wide array of services. Click on our Services tab for a full list services.
+
+
+    section.section.is-contact#contact
+      .container
+        .columns
+          .column.is-6
+            iframe(src='https://docs.google.com/forms/d/e/1FAIpQLScc1UiD2FVJ8vnvg0Uhhm5ZLn_mIG5vZbfL4dZXtNbHiM5mOQ/viewform?embedded=true', width='640', height='1050', frameborder='0', marginheight='0', marginwidth='0' style='height:1050px;') Loading...
+          .column.is-3
+            .feature-content(data-aos='fade-up', data-aos-delay='100')
+              h2 Phone
+              .contact
+                img(src='img/icon-phone.png')
+                span (732) 690-8324
+              p
+                | Sun - Thurs: 9am-9pm
+                br
+                | Fri & Sat: 9am-4pm
+              p
+                | If we don't pickup, please leave a brief message with details of your event, we'll respond asap.
+          .column.is-3
+            .feature-content(data-aos='fade-up', data-aos-delay='400')
+              h2 Email
+              .contact
+                img(src='img/icon-mail.png')
+                span wildwillyscasino@gmail.com
+              p.has-text-black.mb-5 Please include in your email:
+              .content
+                ul
+                  li Event Date
+                  li Event Type (private, fundraiser, poker, corporate. etc)
+                  li Event Location (City, State, at a minimum)
+                  li Number of Expected Guests
+                  li Budget
+                  li Phone Number
+    script.
+      useScrollTo = true;

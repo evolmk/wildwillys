@@ -26,12 +26,14 @@ $(function () {
   });
 
   // Scroll to section
-  $('a[href*="#"]').on('click', function (e) {
-    var scrollToId = $(this).attr('data-scrollid');
-    console.log('scroll to data-scrollid: ', scrollToId);
-    e.preventDefault();
-    $('html, body').animate({scrollTop: $($(this).attr('href')).offset().top}, 500, 'easeOutQuad')
-  });
+  if (useScrollTo === true) {
+    $('a[href*="#"]').on('click', function (e) {
+      var scrollToId = $(this).attr('data-scrollid');
+      console.log('scroll to data-scrollid: ', scrollToId);
+      e.preventDefault();
+      $('html, body').animate({scrollTop: $('#' + scrollToId).offset().top}, 500, 'easeOutQuad')
+    });
+  }
 
 });
 
