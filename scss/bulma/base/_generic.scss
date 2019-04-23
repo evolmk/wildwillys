@@ -60,6 +60,11 @@ body {
   font-size: 1rem;
   font-weight: $body-weight;
   line-height: $body-line-height;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 main {
@@ -317,7 +322,9 @@ p {
 }
 p.large-bullet {
   font-size: 18px;
-  color: #4B4F56;
+  color: #4b4f56;
+  padding-left: 35px;
+  position: relative;
 }
 p.large {
   font-size: 18px;
@@ -332,9 +339,9 @@ p.small {
   margin-bottom: 20px;
 }
 .bullet {
-  position: relative;
-  top: 2px;
-  margin-right: 15px;
+  position: absolute;
+  top: 6px;
+  margin-left: -32px;
 }
 
 // Content Defaults
@@ -497,13 +504,28 @@ section.cta {
   margin: 0 auto;
 }
 
-body
-{
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
+
 
 // Page FAQ
+
+.faq-container {
+  margin: 0;
+}
+
+.faq {
+  margin: 0 0 30px 0;
+  @include desktop {
+    padding: 0 40px 0 0;
+  }
+  .question {
+    font-size: 1.3em;
+    color: $grey-darker;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 0 0 5px 0;
+  }
+  .answer {
+    font-size: 1.1em;
+    line-height: 1.5;
+  }
+}
