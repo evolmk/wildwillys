@@ -1,7 +1,8 @@
 block vars
-- var appVersion = 4
+- var appVersion = 6
 - var appYear = 2019
-- var cssPath = locals.host + '/dist/css/email.min.css?v=' + locals.deployVersion //local url
+- var cssFilepath = 'dist/app.min.css?v=' + appVersion
+- var jsFilepath = 'dist/app.min.js?v=' + appVersion
 doctype html
 html
   head
@@ -9,8 +10,8 @@ html
       - var titleSuffix = titleSuffix ? titleSuffix : "Fundraiser Parties in NJ NY CT"
     title Wild Willy's Casino Events | #{titleSuffix}
     meta(name='viewport', content='width=device-width')
-    link(rel='stylesheet', href='dist/app.min.css?v=4', type='text/css', media='all')
-    script(src='dist/app.min.js?v=4')
+    link(rel='stylesheet', href=cssFilepath, type='text/css', media='all')
+    script(src=jsFilepath)
     link(rel='apple-touch-icon', sizes='180x180', href='apple-touch-icon.png')
     link(rel='icon', type='image/png', sizes='32x32', href='favicon-32x32.png')
     link(rel='icon', type='image/png', sizes='16x16', href='favicon-16x16.png')
