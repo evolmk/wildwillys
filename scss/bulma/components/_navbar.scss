@@ -60,7 +60,14 @@ $navbar-divider-background-color: $border !default;
 @include mobile {
   .navbar-logo {
     position: relative;
-    top: 10px;
+    top: 4px;
+    left: 10px;
+  }
+}
+@include touch {
+  .navbar-logo {
+    position: relative;
+    top: 4px;
     left: 10px;
   }
 }
@@ -69,12 +76,17 @@ $navbar-divider-background-color: $border !default;
   min-height: $navbar-height;
   position: relative;
   border-bottom: 1px solid rgba(0,0,0,0);
-  transition: all 500ms;
+  //transition: all 500ms;
   z-index: 30;
 
   @include desktop {
     .navbar-logo {
       margin-top: 20px;
+    }
+  }
+  @include touch {
+    .navbar-logo {
+      margin-top: 10px;
     }
   }
 
@@ -180,6 +192,12 @@ $navbar-divider-background-color: $border !default;
   }
 }
 
+.is-scrolled {
+  .navbar {
+    background: url(/img/bg-cta.png) #000 no-repeat center 0;
+  }
+}
+
 html.has-navbar-fixed-top {
   padding-top: $navbar-height;
 }
@@ -216,7 +234,7 @@ html.has-navbar-fixed-bottom {
 }
 
 .navbar-burger {
-  @include hamburger(4rem);
+  @include hamburger(5rem);
 
   margin-left: auto;
 }
@@ -262,30 +280,30 @@ a.navbar-link {
 }
 
 //animation
-.navbar-menu .navbar-item.has-dropdown .navbar-item {
-  animation: fadeInMove .4s ease-out both;
-}
-.navbar-menu .navbar-item:nth-child(1) {
-  animation-delay: .075s;
-}
-.navbar-menu .navbar-item:nth-child(2) {
-  animation-delay: .15s;
-}
-.navbar-menu .navbar-item:nth-child(3) {
-  animation-delay: .225s;
-}
-.navbar-menu .navbar-item:nth-child(4) {
-  animation-delay: .3s;
-}
-.navbar-menu .navbar-item:nth-child(5) {
-  animation-delay: .375s;
-}
-.navbar-menu .navbar-item:nth-child(6) {
-  animation-delay: .45s;
-}
-.navbar-menu .navbar-item:nth-child(7) {
-  animation-delay: .525s;
-}
+//.navbar-menu .navbar-item.has-dropdown .navbar-item {
+//  animation: fadeInMove .4s ease-out both;
+//}
+//.navbar-menu .navbar-item:nth-child(1) {
+//  animation-delay: .075s;
+//}
+//.navbar-menu .navbar-item:nth-child(2) {
+//  animation-delay: .15s;
+//}
+//.navbar-menu .navbar-item:nth-child(3) {
+//  animation-delay: .225s;
+//}
+//.navbar-menu .navbar-item:nth-child(4) {
+//  animation-delay: .3s;
+//}
+//.navbar-menu .navbar-item:nth-child(5) {
+//  animation-delay: .375s;
+//}
+//.navbar-menu .navbar-item:nth-child(6) {
+//  animation-delay: .45s;
+//}
+//.navbar-menu .navbar-item:nth-child(7) {
+//  animation-delay: .525s;
+//}
 
 //dropdown with items
 .navbar-dropdown {

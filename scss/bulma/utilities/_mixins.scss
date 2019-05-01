@@ -39,19 +39,19 @@
   width: $dimensions;
 
   span {
-    background-color: #fff; //or #fff
+    background-color: #ffc36b;
     display: block;
-    height: 1px;
-    left: calc(50% - 8px);
+    height: 2px;
+    left: calc(50% - 14px);
     position: absolute;
     transform-origin: center;
     transition-duration: $speed;
     transition-property: background-color, opacity, transform;
     transition-timing-function: $easing;
-    width: 16px;
+    width: 28px;
 
     &:nth-child(1) {
-      top: calc(50% - 6px);
+      top: calc(50% - 10px);
     }
 
     &:nth-child(2) {
@@ -59,7 +59,7 @@
     }
 
     &:nth-child(3) {
-      top: calc(50% + 4px);
+      top: calc(50% + 8px);
     }
   }
 
@@ -70,8 +70,9 @@
   // Modifers
   &.is-active {
     span {
+      background-color: #fff;
       &:nth-child(1) {
-        transform: translateY(5px) rotate(45deg);
+        transform: translateY(9px) rotate(45deg);
       }
 
       &:nth-child(2) {
@@ -79,7 +80,7 @@
       }
 
       &:nth-child(3) {
-        transform: translateY(-5px) rotate(-45deg);
+        transform: translateY(-9px) rotate(-45deg);
       }
     }
   }

@@ -1,7 +1,7 @@
 header#top
   section.hero.is-fullheight.video
     .hero-head
-      nav.navbar
+      nav.navbar.is-fixed-top
         .container
           include navbar-brand
           #navMain.navbar-menu
@@ -11,13 +11,7 @@ header#top
               a.navbar-item(href='index.html#about', data-scrollid='about') About Us
               a.navbar-item(href='faq.html') FAQ
               a.navbar-item(href='index.html#contact', data-scrollid='contact') Contact
-            .navbar-end
-              .navbar-item
-                .phone-ask
-                  .phone
-                    | (732) 690-8324
-              .navbar-item
-                a.button.is-primary(href='index.html#contact', data-scrollid='contact') Get Started
+            include navbar-end
     .hero-video
       .video-overlay
       video#bgvid(poster='img/video-poster.jpg', playsinline='', autoplay='', muted='', loop='')

@@ -5,15 +5,37 @@
 
 $(function () {
 
+  var body = $("body");
+
+  console.log('scroll pos: ', $(window).scrollTop());
+
+
+
   // Back to Top Button
   var scrollShowBackToTop = 400;
+  var scrollTriggerNavbar = 80;
+
+  // Onload, check scroll position
+  if($(window).scrollTop() > scrollTriggerNavbar) {
+    body.addClass('is-scrolled');
+  }
+
+  // OnScroll, show returnToTop, show navbar class with white background
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
+
     //back to top - show/hide
     if (scroll >= scrollShowBackToTop) {
       $('#backtotop').addClass('visible');
     } else {
       $('#backtotop').removeClass('visible');
+    }
+
+    //when scrolling, give navbar css class for white background
+    if (scroll >= scrollTriggerNavbar ) {
+      body.addClass('is-scrolled');
+    } else {
+      body.removeClass('is-scrolled');
     }
   });
   //back to top - click
