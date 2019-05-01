@@ -202,6 +202,35 @@ html.has-navbar-fixed-top {
   padding-top: $navbar-height;
 }
 
+#navMain .get-started, #navMain .navbar-end {
+  display: none;
+}
+
+@media screen and (min-width: 1230px) {
+  #navMain .navbar-end {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1384px) {
+  #navMain .get-started {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1022px) {
+  #navMain .navbar-end {
+    display: block;
+  }
+}
+@media screen and (max-width: 1022px) {
+  #navMain .get-started {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
 html.has-navbar-fixed-bottom {
   padding-bottom: $navbar-height;
 }
