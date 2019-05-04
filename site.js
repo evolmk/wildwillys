@@ -20,7 +20,7 @@ $(function () {
 
   // Onload - check if should scroll to section
   if(window.location.hash) {
-    console.log('has hash:', window.location.hash);//get header
+    //console.log('has hash:', window.location.hash);//get header
     var $navbarHeader = $('.navbar-header');
     $('html, body').animate({ scrollTop: $(window.location.hash).offset().top - ($navbarHeader.height() + scrollOffset) + 'px' }, 400, 'easeOutQuad');
   }
@@ -62,7 +62,7 @@ $(function () {
       $('.navbar-menu').removeClass('is-active');
       //get header
       var $navbarHeader = $('.navbar-header');
-      console.log($navbarHeader.height());
+      //console.log($navbarHeader.height());
       //scroll to section + offset header height
       $('html, body').animate({ scrollTop: $('#' + scrollToId).offset().top - ($navbarHeader.height() + scrollOffset) + 'px' }, 400, 'easeOutQuad');
     });
