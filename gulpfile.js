@@ -41,6 +41,7 @@ var jsVendorFiles = [
   'js/jquery.js',
   'js/jquery-ui.js',
   'js/aos.js',
+  'js/instafeed.js',
 ];
 function jsVendor() {
   return gulp.src(jsVendorFiles)
