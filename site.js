@@ -6,10 +6,7 @@
 $(function () {
 
   var body = $("body");
-
-  console.log('scroll pos: ', $(window).scrollTop());
-
-
+  //console.log('scroll pos: ', $(window).scrollTop());
 
   // Back to Top Button
   var scrollShowBackToTop = 400;
@@ -48,12 +45,19 @@ $(function () {
   });
 
   // Scroll to section
+  var scrollOffset = 0;
   if (useScrollTo === true) {
     $('a[href*="#"]').on('click', function (e) {
-      var scrollToId = $(this).attr('data-scrollid');
-      console.log('scroll to data-scrollid: ', scrollToId);
       e.preventDefault();
-      $('html, body').animate({scrollTop: $('#' + scrollToId).offset().top}, 500, 'easeOutQuad')
+      //get section id
+      var scrollToId = $(this).attr('data-scrollid');
+      //close nav
+      $('.navbar-menu').removeClass('is-active');
+      //get header
+      var $navbarHeader = $('.navbar-header');
+      console.log($navbarHeader.height());
+      //scroll to section + offset header height
+      $('html, body').animate({ scrollTop: $('#' + scrollToId).offset().top - ($navbarHeader.height() + scrollOffset) + 'px' }, 400, 'easeOutQuad');
     });
   }
 

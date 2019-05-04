@@ -427,7 +427,7 @@ p.small {
   img {
     position: relative;
     top: 4px;
-    margin-right: 7px;
+    margin-right: 10px;
   }
 }
 
@@ -464,12 +464,18 @@ p.small {
   max-width: 150px;
 }
 .ask-cta {
-  font-size: 14px;
-  color: #FFAC66;
+  font-size: 20px;
+  font-weight: 600;
+  color: #f99c4e;
   text-align: center;
   line-height: 16px;
   max-width: 230px;
   margin: 0 auto;
+}
+.or {
+  font-size: 20px;
+  color: #fff;
+  opacity: 0.7;
 }
 
 // Social
@@ -499,12 +505,13 @@ p.small {
 // Section - CTA
 
 section.cta {
-  background: url('/img/bg-cta.png') #000 no-repeat center 0;
+  background: url('/wildwillys/img/bg-cta.png') #000 no-repeat center 0;
   padding: 40px 0;
   min-height: 100px;
   color: #fff;
   h2 {
     color: #fff;
+    margin-bottom: 25px;
   }
 }
 

@@ -154,8 +154,8 @@ $breadcrumb-item-separator-color: #b5b9bd !default;
     border: 2px solid #5b6775;
     color: #5b6775;
     display: block;
-    width: 46px;
-    height: 46px;
+    width: 44px;
+    height: 44px;
     background-color: #0000;
     opacity: 1;
     transition: all 0.3s;
@@ -164,21 +164,22 @@ $breadcrumb-item-separator-color: #b5b9bd !default;
     font-size: 26px;
 
     &:hover {
-      outline: none;
-      opacity: 0.9;
-      background: $primary;
+      outline: 0;
+      background-color: $primary;
+      border-color: $primary;
       color: #fff;
     }
 
     &:after {
-      outline: none;
+      outline: 0;
       content: "\f106";
-      font-family: "FontAwesome";
+      font-family: FontAwesome;
       position: relative;
       display: block;
       top: 50%;
-      -webkit-transform: translateY(-55%);
-      transform: translateY(-55%);
+      margin-top: -1px;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
     }
   }
 }
