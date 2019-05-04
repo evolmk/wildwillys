@@ -397,6 +397,7 @@ p.small {
 // Section - Summary
 
 .summary-block {
+  display: block;
   padding-left: 85px;
   padding-right: 60px;
   position: relative;
@@ -412,6 +413,21 @@ p.small {
   }
   &+.summary-block {
     margin-top: 40px;
+  }
+
+}
+a.summary-block {
+  display: block !important;
+  color: $body-color;
+  h3 {
+    transition: color .1s ease-out; //animation
+  }
+
+  &:hover {
+    color: $body-color;
+    h3 {
+      color: $link;
+    }
   }
 }
 
