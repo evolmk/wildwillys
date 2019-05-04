@@ -11,7 +11,7 @@ $(function () {
 
   // Back to Top Button
   var scrollShowBackToTop = 400;
-  var scrollTriggerNavbar = 80;
+  var scrollTriggerNavbar = 3;
 
   // Onload, check scroll position
   if($(window).scrollTop() > scrollTriggerNavbar) {

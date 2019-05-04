@@ -526,6 +526,14 @@ section.cta {
 
 .faq-container {
   margin: 0;
+  @include desktop {
+    &.faq-left {
+      padding-right: 20px;
+    }
+    &.faq-right {
+      padding-left: 20px;
+    }
+  }
 }
 
 .faq {
