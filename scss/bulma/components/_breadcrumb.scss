@@ -182,4 +182,8 @@ $breadcrumb-item-separator-color: #b5b9bd !default;
       transform: translateY(-50%);
     }
   }
+  @include mobile {
+    bottom: 45px;
+    margin: 0 15px 0 0;
+  }
 }
