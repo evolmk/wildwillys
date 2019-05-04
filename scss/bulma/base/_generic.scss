@@ -309,6 +309,13 @@ h4 {
     color: #29333d;
     margin-bottom: 30px;
   }
+  &.single {
+    line-height: 1.4em;
+    margin-bottom: 30px;
+  }
+}
+h4+p.small {
+  margin-bottom: 30px;
 }
 
 .has-no-descriptions {
@@ -333,15 +340,17 @@ p.large {
   margin-bottom: 30px;
 }
 p.small {
-  font-size: 13px;
+  font-size: 14px;
   color: #7A7F88;
   line-height: 20px;
   margin-bottom: 20px;
 }
 .bullet {
   position: absolute;
-  top: 6px;
+  top: 7px;
   margin-left: -32px;
+  width: 14px;
+  height: 14px;
 }
 
 // Content Defaults
@@ -350,7 +359,7 @@ p.small {
     list-style: disc outside;
     margin-left: 1.4em;
     margin-top: 1em;
-    line-height: 2.2em;
+    line-height: 1.8em;
     font-size: 1.1em;
   }
 }
