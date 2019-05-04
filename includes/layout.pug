@@ -31,23 +31,25 @@ html
           .column.is-2
             ul.nav-footer
               li
-                a(href='index.html#poker-tournaments') Poker Tournaments
+                a(href='index.html#top', data-scrollid='top') Home
               li
-                a(href='index.html#fundraiasers') Fundraisers
+                a(href='index.html#poker-tournaments', data-scrollid='poker-tournaments') Poker Tournaments
               li
-                a(href='index.html#corporate-parties') Corporate Parties
+                a(href='index.html#fundraisers', data-scrollid='fundraisers') Fundraisers
               li
-                a(href='index.html#private-parties') Private Parties
+                a(href='index.html#corporate-parties', data-scrollid='corporate-parties') Corporate Parties
+              li
+                a(href='index.html#private-parties', data-scrollid='private-parties') Private Parties
           .column.is-2
             ul.nav-footer
               li
                 a(href='gallery.html') Gallery
               li
-                a(href='index.html#about') About Us
+                a(href='index.html#about', data-scrollid='about') About Us
               li
                 a(href='faq.html') FAQ
               li
-                a(href='index.html#contact') Contact Us
+                a(href='index.html#contact', data-scrollid='contact') Contact Us
           .column.is-3
             .social
               .social-heading-small Follow Us
@@ -63,7 +65,7 @@ html
               .phone.mb-10
                 | (732) 690-8324
           .column.is-3.has-text-centered
-            a.button.is-primary(href='index#contact') Get Started
+            a.button.is-primary(href='index#contact', data-scrollid='contact') Get Started
 
         .copyright.has-text-centered-mobile &copy; #{appYear} Wild Willy's Casino Parties - All Rights Reserved
     script(src='site.js')

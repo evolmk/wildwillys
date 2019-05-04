@@ -6,6 +6,7 @@
 $(function () {
 
   var body = $("body");
+  var scrollOffset = 0;
   //console.log('scroll pos: ', $(window).scrollTop());
 
   // Back to Top Button
@@ -15,6 +16,13 @@ $(function () {
   // Onload, check scroll position
   if($(window).scrollTop() > scrollTriggerNavbar) {
     body.addClass('is-scrolled');
+  }
+
+  // Onload - check if should scroll to section
+  if(window.location.hash) {
+    console.log('has hash:', window.location.hash);//get header
+    var $navbarHeader = $('.navbar-header');
+    $('html, body').animate({ scrollTop: $(window.location.hash).offset().top - ($navbarHeader.height() + scrollOffset) + 'px' }, 400, 'easeOutQuad');
   }
 
   // OnScroll, show returnToTop, show navbar class with white background
@@ -45,7 +53,6 @@ $(function () {
   });
 
   // Scroll to section
-  var scrollOffset = 0;
   if (useScrollTo === true) {
     $('a[href*="#"]').on('click', function (e) {
       e.preventDefault();

@@ -3,7 +3,13 @@ header#top
     .hero-head
       nav.navbar.navbar-header.is-fixed-top
         .container
-          include navbar-brand
+          .navbar-brand
+            a.navbar-item.navbar-logo(href='index.html#top', data-scrollid='top')
+              img(src='img/wildwillys-logo.png', alt="Wild Willy's Casino Events", width='290')
+            #burgerMain.navbar-burger.burger(data-target='navMain')
+              span
+              span
+              span
           #navMain.navbar-menu
             .navbar-start
               a.navbar-item(href='index.html#whatwedo', data-scrollid='whatwedo') What We Do
