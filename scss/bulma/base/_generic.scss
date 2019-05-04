@@ -323,12 +323,18 @@ h4+p.small {
     margin-bottom: 40px;
   }
 }
+h5 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #29333D;
+  margin-bottom: 10px;
+}
 
 p {
   margin-bottom: 25px;
 }
 p.large-bullet {
-  font-size: 18px;
+  font-size: 17px;
   color: #4b4f56;
   padding-left: 35px;
   position: relative;
@@ -431,6 +437,16 @@ a.summary-block {
   }
 }
 
+.games-list {
+  padding-top: 15px;
+  h5 {
+    margin-bottom: 8px;
+  }
+}
+.icon-games {
+  max-width:150px;
+  margin: 0 auto;
+}
 
 // Section - Contact
 
