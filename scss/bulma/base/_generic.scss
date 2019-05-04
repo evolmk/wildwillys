@@ -469,9 +469,12 @@ a.summary-block {
   text-align: center;
   z-index: 50;
   font-weight: 500;
-
-  @include mobile {
-    display: block;
+}
+.is-scrolled {
+  .mobile-cta {
+    @include mobile {
+      display: block;
+    }
   }
 }
 
