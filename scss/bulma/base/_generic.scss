@@ -266,6 +266,7 @@ table {
 .section {
   &.summary {
     background-image: linear-gradient(-180deg, #FFFFFF 41%, #F4F5F7 100%);
+
   }
   &.is-feature {
     padding: 5rem 1.5rem;
@@ -446,6 +447,13 @@ a.summary-block {
 .icon-games {
   max-width:150px;
   margin: 0 auto;
+}
+.games-condensed {
+  @include mobile {
+    .column {
+      padding-bottom: 0;
+    }
+  }
 }
 
 // Section - Contact
