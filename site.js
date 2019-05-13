@@ -104,8 +104,8 @@ AOS.init({
 if (useGallery === true) {
   var feed = new Instafeed({
     get: 'user',
-    userId: 13275197322, // Ex: 1374300081
-    accessToken: '13275197322.a252806.ff748493d7f5411f801d23da8ed80f41',
+    userId: 13347351254, // Ex: 13347351254
+    accessToken: '13347351254.f75a925.0c083669d29e44db94db895a67dc9a5c',
     resolution: 'standard_resolution',
     target: 'instafeed',
     template: '<a class="gallery-img" href="{{link}}" target="_blank" data-tooltip="View In instagram"><img src="{{image}}" /></a>',
