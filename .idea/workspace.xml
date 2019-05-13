@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bulma/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/components/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bulma/layout/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/layout/_hero.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,20 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/layout.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+            <state relative-caret-position="56">
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+            <state relative-caret-position="338">
+              <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -48,8 +51,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>scrolltop3</find>
-      <find>block-check</find>
       <find>.block</find>
       <find>scrolltop</find>
       <find>$navbarBurgers</find>
@@ -78,6 +79,8 @@
       <find>fixed</find>
       <find>instagrm</find>
       <find>instagram</find>
+      <find>more..</find>
+      <find>bg-cta.png</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -133,14 +136,14 @@
         <option value="$PROJECT_DIR$/js/instafeed.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/faq.pug" />
-        <option value="$PROJECT_DIR$/scss/bulma/layout/_hero.scss" />
-        <option value="$PROJECT_DIR$/scss/bulma/components/_navbar.scss" />
         <option value="$PROJECT_DIR$/gallery.pug" />
         <option value="$PROJECT_DIR$/scss/bulma/components/_breadcrumb.scss" />
         <option value="$PROJECT_DIR$/scss/bulma/base/_generic.scss" />
         <option value="$PROJECT_DIR$/site.js" />
-        <option value="$PROJECT_DIR$/includes/layout.pug" />
         <option value="$PROJECT_DIR$/index.pug" />
+        <option value="$PROJECT_DIR$/scss/bulma/components/_navbar.scss" />
+        <option value="$PROJECT_DIR$/scss/bulma/layout/_hero.scss" />
+        <option value="$PROJECT_DIR$/includes/layout.pug" />
       </list>
     </option>
   </component>
@@ -162,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -192,6 +194,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
       <pane id="ColorIdeProjectViewPane">
         <subPane>
           <expand>
@@ -307,9 +310,9 @@
     <MESSAGE value="footer cta on mobile" />
     <MESSAGE value="show mobile cta only after scrolled" />
     <MESSAGE value="bump version, use real instagram account" />
-    <MESSAGE value="push latest" />
     <MESSAGE value="push latest social updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="push latest social updates" />
+    <MESSAGE value="push latest" />
+    <option name="LAST_COMMIT_MESSAGE" value="push latest" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -597,17 +600,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/layout.pug">
+    <entry file="file://$PROJECT_DIR$/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+        <state relative-caret-position="338">
+          <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.pug">
+    <entry file="file://$PROJECT_DIR$/includes/layout.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        <state relative-caret-position="56">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
         </state>
       </provider>
     </entry>
