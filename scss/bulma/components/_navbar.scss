@@ -193,9 +193,22 @@ $navbar-divider-background-color: $border !default;
 }
 
 .is-scrolled {
+  .hero:not(.is-subpage) {
+    .navbar {
+      background-color: #000;
+    }
+  }
+
+  .hero.is-subpage {
+    .navbar {
+      //background: url('/wildwillys/img/bg-cta.png') #000 no-repeat center 0 !important;
+    }
+  }
+}
+
+.hero.is-subpage {
   .navbar {
-    //background: url('/wildwillys/img/bg-cta.png') #000 no-repeat center 0;
-    background-color: #000;
+    background: url('/wildwillys/img/bg-cta.png') #000 no-repeat center 0;
   }
 }
 
