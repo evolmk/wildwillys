@@ -4,11 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="push latest">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bulma/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/components/_navbar.scss" afterDir="false" />
+    <list default="true" id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/layout.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="95" column="24" lean-forward="true" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+            <state relative-caret-position="204">
+              <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/layout.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -59,8 +65,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ready</find>
-      <find>fundraiasers</find>
       <find>useScrollTo</find>
       <find>poker-tourname</find>
       <find>console</find>
@@ -89,6 +93,8 @@
       <find>cta</find>
       <find>bg-cta</find>
       <find>c</find>
+      <find>/wildwillys/</find>
+      <find>build</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -148,10 +154,10 @@
         <option value="$PROJECT_DIR$/scss/bulma/components/_breadcrumb.scss" />
         <option value="$PROJECT_DIR$/site.js" />
         <option value="$PROJECT_DIR$/index.pug" />
-        <option value="$PROJECT_DIR$/includes/layout.pug" />
         <option value="$PROJECT_DIR$/scss/bulma/layout/_hero.scss" />
         <option value="$PROJECT_DIR$/scss/bulma/base/_generic.scss" />
         <option value="$PROJECT_DIR$/scss/bulma/components/_navbar.scss" />
+        <option value="$PROJECT_DIR$/includes/layout.pug" />
       </list>
     </option>
   </component>
@@ -184,6 +190,11 @@
               <item name="wildwillys" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="~/Projects/wildwillys" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="dist" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="wildwillys" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Projects/wildwillys" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="includes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="wildwillys" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -287,7 +298,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="push" />
     <MESSAGE value="fix elements" />
     <MESSAGE value="add FAQ" />
     <MESSAGE value="bump version" />
@@ -312,7 +322,8 @@
     <MESSAGE value="bump version, use real instagram account" />
     <MESSAGE value="push latest social updates" />
     <MESSAGE value="push latest" />
-    <option name="LAST_COMMIT_MESSAGE" value="push latest" />
+    <MESSAGE value="build latest" />
+    <option name="LAST_COMMIT_MESSAGE" value="build latest" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -586,13 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/layout.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -609,8 +613,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="95" column="24" lean-forward="true" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
+        <state relative-caret-position="204">
+          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/layout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
