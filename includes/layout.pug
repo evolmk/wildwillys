@@ -9,9 +9,17 @@ html
     block head
       - var titleSuffix = titleSuffix ? titleSuffix : "Fundraiser Parties in NJ NY CT"
     title Wild Willy's Casino Events | #{titleSuffix}
+
+    meta(name="description", content="Las Vegas style casino parties in the NJ NY CT area with professional dealers & tables for all occasions: Poker Tournaments, Fundraisers, Corporate Events")
     meta(name='viewport', content='width=device-width')
+
+    //- css
     link(rel='stylesheet', href=cssFilepath, type='text/css', media='all')
+
+    //- js
     script(src=jsFilepath)
+
+    //- favicons
     link(rel='apple-touch-icon', sizes='180x180', href='apple-touch-icon.png')
     link(rel='icon', type='image/png', sizes='32x32', href='favicon-32x32.png')
     link(rel='icon', type='image/png', sizes='16x16', href='favicon-16x16.png')
@@ -19,6 +27,8 @@ html
     link(rel='mask-icon', href='safari-pinned-tab.svg', color='#5bbad5')
     meta(name='msapplication-TileColor', content='#da532c')
     meta(name='theme-color', content='#ffffff')
+
+    //- inline js
     script.
       var useScrollTo = false;
       var useGallery = false;
