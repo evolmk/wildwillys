@@ -13,6 +13,16 @@ html
     meta(name="description", content="Las Vegas style casino parties in the NJ NY CT area with professional dealers & tables for all occasions: Poker Tournaments, Fundraisers, Corporate Events")
     meta(name='viewport', content='width=device-width')
 
+    //- google analytics
+    script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-140137798-1')
+    script.
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-140137798-1');
+
     //- css
     link(rel='stylesheet', href=cssFilepath, type='text/css', media='all')
 
