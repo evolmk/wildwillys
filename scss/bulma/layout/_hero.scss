@@ -266,8 +266,9 @@
   flex-shrink: 0;
 }
 .hero-foot {
-  height: 120px;
-  max-height: 120px;
+  height: 10%;
+  max-height: 150px;
+  padding: 0 0 100px 0;
 }
 
 .hero-body {
@@ -311,7 +312,7 @@
   font-size: 14px;
   color: #dcba7a;
   text-align: center;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   max-width: 270px;
   text-transform: uppercase;
   position: relative;

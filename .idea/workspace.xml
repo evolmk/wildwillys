@@ -4,19 +4,16 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="add web.config, defaults from account setup">
+    <list default="true" id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/casino_party_fundraising_-_expo.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/casino_party_fundraising_-_expo.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fundraiserguide.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/fundraiserguide.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/layout.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bulma/components/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/components/_breadcrumb.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/bulma/layout/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/layout/_hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,38 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/layout.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="78" column="16" lean-forward="true" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web.config">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="162">
+              <caret line="47" column="15" lean-forward="true" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -68,17 +38,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/bulma/base/_generic.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="890">
-              <caret line="567" column="1" selection-start-line="567" selection-start-column="1" selection-end-line="567" selection-end-column="17" />
+            <state relative-caret-position="544">
+              <caret line="475" column="19" selection-start-line="475" selection-start-column="19" selection-end-line="475" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/bulma/elements/_box.scss">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scss/bulma/components/_breadcrumb.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            <state relative-caret-position="120">
+              <caret line="136" column="21" lean-forward="true" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -86,17 +56,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/bulma/layout/_hero.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="282" lean-forward="true" selection-start-line="282" selection-end-line="282" />
+            <state relative-caret-position="402">
+              <caret line="271" selection-start-line="271" selection-end-line="271" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/bulma/base/_helpers.scss">
+        <entry file="file://$PROJECT_DIR$/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4550">
-              <caret line="325" column="3" selection-start-line="325" selection-start-column="3" selection-end-line="325" selection-end-column="3" />
+            <state relative-caret-position="436">
+              <caret line="159" column="13" lean-forward="true" selection-start-line="159" selection-start-column="13" selection-end-line="159" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/header-homepage.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -112,18 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>navbar-fixed</find>
-      <find>usescrollto</find>
-      <find>#backtotop</find>
-      <find>fixed</find>
-      <find>instagrm</find>
-      <find>instagram</find>
-      <find>more..</find>
-      <find>is-scrolled</find>
-      <find>not</find>
-      <find>bg-cta.png</find>
-      <find>cta</find>
-      <find>bg-cta</find>
       <find>c</find>
       <find>/wildwillys/</find>
       <find>build</find>
@@ -142,6 +109,18 @@
       <find>.padded</find>
       <find>.hero-foot</find>
       <find>block-check</find>
+      <find>hero-foot</find>
+      <find>block</find>
+      <find>.block-check</find>
+      <find>.phone-ask</find>
+      <find>732</find>
+      <find>.mobile-cta</find>
+      <find>.call-now</find>
+      <find>.ask-cta</find>
+      <find>call now</find>
+      <find>.phone-cta</find>
+      <find>check</find>
+      <find>#backtotop</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -195,7 +174,6 @@
         <option value="$PROJECT_DIR$/includes/header-homepage.pug" />
         <option value="$PROJECT_DIR$/includes/navbar-end.pug" />
         <option value="$PROJECT_DIR$/js/instafeed.js" />
-        <option value="$PROJECT_DIR$/scss/bulma/components/_breadcrumb.scss" />
         <option value="$PROJECT_DIR$/site.js" />
         <option value="$PROJECT_DIR$/scss/bulma/components/_navbar.scss" />
         <option value="$PROJECT_DIR$/gallery.pug" />
@@ -206,10 +184,11 @@
         <option value="$PROJECT_DIR$/sitemap.xml" />
         <option value="$PROJECT_DIR$/robots.txt" />
         <option value="$PROJECT_DIR$/web.config" />
-        <option value="$PROJECT_DIR$/scss/bulma/base/_generic.scss" />
-        <option value="$PROJECT_DIR$/scss/bulma/layout/_hero.scss" />
         <option value="$PROJECT_DIR$/index.pug" />
+        <option value="$PROJECT_DIR$/scss/bulma/layout/_hero.scss" />
         <option value="$PROJECT_DIR$/includes/layout.pug" />
+        <option value="$PROJECT_DIR$/scss/bulma/base/_generic.scss" />
+        <option value="$PROJECT_DIR$/scss/bulma/components/_breadcrumb.scss" />
       </list>
     </option>
   </component>
@@ -387,11 +366,11 @@
     <MESSAGE value="add sitemap" />
     <MESSAGE value="add description" />
     <MESSAGE value="add Google Analytics" />
-    <MESSAGE value="push latest" />
     <MESSAGE value="push latest html" />
     <MESSAGE value="add sitemap, robots.txtn, pdf files index on google" />
     <MESSAGE value="add web.config, defaults from account setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="add web.config, defaults from account setup" />
+    <MESSAGE value="push latest" />
+    <option name="LAST_COMMIT_MESSAGE" value="push latest" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.editorconfig">
@@ -545,31 +524,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/navbar-end.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/header-homepage.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/header-subpage.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/bulma/components/_breadcrumb.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2226">
-          <caret line="159" column="15" selection-start-line="159" selection-start-column="15" selection-end-line="159" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -598,13 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -668,24 +619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/bulma/base/_generic.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="567" column="1" selection-start-line="567" selection-start-column="1" selection-end-line="567" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/bulma/elements/_box.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
           <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/bulma/layout/_hero.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="282" lean-forward="true" selection-start-line="282" selection-end-line="282" />
         </state>
       </provider>
     </entry>
@@ -703,16 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gallery.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
@@ -720,10 +647,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/layout.pug">
+    <entry file="file://$PROJECT_DIR$/gallery.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="77" lean-forward="true" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/bulma/layout/_hero.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="271" selection-start-line="271" selection-end-line="271" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/header-homepage.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/navbar-end.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="159" column="13" lean-forward="true" selection-start-line="159" selection-start-column="13" selection-end-line="159" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/layout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="47" column="15" lean-forward="true" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/bulma/base/_generic.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="475" column="19" selection-start-line="475" selection-start-column="19" selection-end-line="475" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/bulma/components/_breadcrumb.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="136" column="21" lean-forward="true" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
         </state>
       </provider>
     </entry>

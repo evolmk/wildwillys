@@ -458,17 +458,31 @@ a.summary-block {
 
 .mobile-cta {
   display: none;
-  height: 40px;
-  line-height: 40px;
+  height: 60px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  line-height: 1.5em;
   background-color: #000;
   color: #fff;
   text-align: center;
   z-index: 50;
   font-weight: 500;
+  padding: 5px 0;
+  .call-now {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffc36b;
+    text-align: center;
+    margin-bottom: 3px;
+  }
+  .call-now-phone {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+  }
 }
 .is-scrolled {
   .mobile-cta {
