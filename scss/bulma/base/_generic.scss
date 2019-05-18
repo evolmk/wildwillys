@@ -565,6 +565,12 @@ a.summary-block {
   }
 }
 
+.no-margin-mobile {
+  @include mobile {
+    margin-bottom: 0 !important;
+  }
+}
+
 // Section - CTA
 
 section.cta {
