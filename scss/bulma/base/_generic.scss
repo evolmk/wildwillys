@@ -276,7 +276,9 @@ table {
 .section {
   &.summary {
     background-image: linear-gradient(-180deg, #FFFFFF 41%, #F4F5F7 100%);
-
+    @include mobile {
+      padding-top: 1rem;
+    }
   }
   &.is-feature {
     padding: 5rem 1.5rem;

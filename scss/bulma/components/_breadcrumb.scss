@@ -169,7 +169,7 @@ $breadcrumb-item-separator-color: #b5b9bd !default;
       border-color: $primary;
       color: #fff;
     }
-    &:active {
+    &:active, &:focus {
       outline: 0;
       background-color: #0000;;
       border-color: #5b6775;
