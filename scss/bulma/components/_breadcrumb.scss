@@ -169,6 +169,12 @@ $breadcrumb-item-separator-color: #b5b9bd !default;
       border-color: $primary;
       color: #fff;
     }
+    &:active {
+      outline: 0;
+      background-color: #0000;;
+      border-color: #5b6775;
+      color: #5b6775;
+    }
 
     &:after {
       outline: 0;
@@ -183,6 +189,7 @@ $breadcrumb-item-separator-color: #b5b9bd !default;
     }
   }
   @include mobile {
+    bottom: 60px;
     margin: 0 15px 0 0;
   }
 }

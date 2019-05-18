@@ -112,6 +112,16 @@ a {
   &.break {
     overflow-wrap: break-word;
   }
+
+  &.is-white {
+    color: #fff;
+    &:hover {
+      color: #fff;
+    }
+    &:active {
+      color: #fff;
+    }
+  }
 }
 
 a.action {
@@ -458,24 +468,25 @@ a.summary-block {
 
 .mobile-cta {
   display: none;
-  height: 60px;
+  height: 54px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  line-height: 1.5em;
+  line-height: 1.4em;
   background-color: #000;
   color: #fff;
   text-align: center;
   z-index: 50;
   font-weight: 500;
-  padding: 5px 0;
+  padding: 5px 0 0 0;
+
   .call-now {
     font-size: 18px;
     font-weight: 600;
-    color: #ffc36b;
+    color: #bf8e3e;
     text-align: center;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
   }
   .call-now-phone {
     font-size: 22px;
