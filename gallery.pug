@@ -7,7 +7,16 @@ block content
   main
     section.section
       .container
-        h1 Gallery
+        .gallery-pad-heading
+          .columns
+            .column
+              h1 Gallery
+            .column.has-text-right.has-text-left-mobile
+
+              a.instagram-lnk(href='https://www.instagram.com/wildwillysparty/', target='_blank')
+                img(src='img/icon-instagram.png')
+                span.follow Follow Us
+                span.username @wildwillysparty
         #instafeed.instafeed-gallery
           .instafeed-loading.loading-dots
             | Loading Instagram Photos

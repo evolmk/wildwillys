@@ -651,13 +651,50 @@ section.cta {
 }
 
 
+a.instagram-lnk {
+  color: #444;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  span.follow {
+    font-weight: normal;
+    margin-right: 3px;
+  }
+  span.username {
+    font-weight: 600;
+
+  }
+  @include desktop {
+    justify-content: flex-end;
+  }
+  img {
+    margin-right: 10px;
+    width: 24px;
+  }
+}
+
+.gallery-pad-heading {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  h1 {
+    margin-bottom: 0;
+  }
+}
+
+
 .instafeed-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
 
   a {
-    padding: 5px;
+    padding: 10px;
+    &:hover {
+      img {
+        filter: brightness(75%);
+      }
+    }
     img {
       width: 100%;
       height: auto;
@@ -667,29 +704,29 @@ section.cta {
 
   @media screen and (min-width: 1024px) {
     a {
-      width: calc(100%/5);
-      height: calc(100%/5);
-    }
-  }
-
-  @media screen and (min-width: 769px) and (max-width: 1024px) {
-    a {
       width: calc(100%/4);
       height: calc(100%/4);
     }
   }
 
-  @media screen and (min-width: 481px) and (max-width: 768px) {
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
     a {
       width: calc(100%/3);
       height: calc(100%/3);
     }
   }
 
-  @media screen and (min-width: 321px) and (max-width: 480px) {
+  @media screen and (min-width: 481px) and (max-width: 768px) {
     a {
       width: calc(100%/2);
       height: calc(100%/2);
+    }
+  }
+
+  @media screen and (min-width: 321px) and (max-width: 480px) {
+    a {
+      width: 100%;
+      height: 100%;
     }
   }
 
