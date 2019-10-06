@@ -4,6 +4,7 @@ $tag-radius: $radius !default;
 $tag-delete-margin: 1px !default;
 
 .tags {
+  height: 100px;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -126,6 +127,18 @@ $tag-delete-margin: 1px !default;
   }
 
   // Sizes
+  &.is-new {
+    background-color: #c99d45;
+    color: #fff;
+    font-size: .6rem;
+    font-weight: 600;
+    margin-left: 6px;
+    justify-content: normal;
+    line-height: 1;
+    padding: .3em .6em;
+    position: relative;
+    top: -6px;
+  }
   &.is-normal {
     font-size: $size-small;
   }

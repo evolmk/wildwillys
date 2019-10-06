@@ -1,4 +1,4 @@
-$primary: #FF7807 !default;
+$primary: #cca048 !default;
 $secondary: #e7eaec !default;
 $info: $cyan !default;
 $success: $green !default;
@@ -70,8 +70,9 @@ $pre-background: $background !default;
 
 // Link colors
 
-$link: $primary !default;
+$link: #af8023 !default;
 $link-light: rgba($link, $light-alpha);
+$link-dark: darken($link, 10%);
 $link-invert: $green-invert !default;
 $link-visited: $green !default;
 

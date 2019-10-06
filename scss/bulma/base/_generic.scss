@@ -113,6 +113,10 @@ a {
     overflow-wrap: break-word;
   }
 
+  &.is-underline {
+    text-decoration: underline;
+  }
+
   &.is-white {
     color: #fff;
     &:hover {
@@ -439,13 +443,14 @@ a.summary-block {
   display: block !important;
   color: $body-color;
   h3 {
+    color: $link;
     transition: color .1s ease-out; //animation
   }
 
   &:hover {
     color: $body-color;
     h3 {
-      color: $link;
+      color: $body-color;
     }
   }
 }
@@ -548,7 +553,7 @@ a.summary-block {
 }
 .ask {
   font-size: 14px;
-  color: #FFAC66;
+  color: #cca048;
   text-align: center;
   line-height: 16px;
   max-width: 150px;
@@ -556,7 +561,7 @@ a.summary-block {
 .ask-cta {
   font-size: 20px;
   font-weight: 600;
-  color: #f99c4e;
+  color: #cca048;
   text-align: center;
   line-height: 16px;
   max-width: 230px;
