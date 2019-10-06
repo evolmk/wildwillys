@@ -5,20 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo-booth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photo-booth.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon-mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icon-mail.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon-mail@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icon-mail@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon-phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icon-phone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icon-phone@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/icon-phone@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header-homepage.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header-homepage.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header-subpage.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header-subpage.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/layout.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-booth.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-booth.pug" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bulma/elements/_tag.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/elements/_tag.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/bulma/utilities/_derived-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/utilities/_derived-variables.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,7 +112,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="responsive fixes" />
     <MESSAGE value="content updates v1" />
     <MESSAGE value="push latest v2" />
     <MESSAGE value="bump app version" />
@@ -140,6 +136,7 @@
     <MESSAGE value="add sitemap, robots.txtn, pdf files index on google" />
     <MESSAGE value="add web.config, defaults from account setup" />
     <MESSAGE value="push latest" />
-    <option name="LAST_COMMIT_MESSAGE" value="push latest" />
+    <MESSAGE value="photo booth &amp; color upgrade" />
+    <option name="LAST_COMMIT_MESSAGE" value="photo booth &amp; color upgrade" />
   </component>
 </project>

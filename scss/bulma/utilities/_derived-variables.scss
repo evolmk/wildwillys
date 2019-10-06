@@ -76,7 +76,7 @@ $link-dark: darken($link, 10%);
 $link-invert: $green-invert !default;
 $link-visited: $green !default;
 
-$link-hover: $grey-darker !default;
+$link-hover: $link-dark !default;
 $link-hover-border: $grey-light !default;
 
 $link-focus: $grey-darker !default;

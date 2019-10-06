@@ -10,7 +10,7 @@ block content
             .columns
               .column.is-6
                 .summaries(data-aos='fade-up', data-aos-delay='0')
-                  a.summary-block(href='index.html#poker-tournaments', data-scrollid='poker-tournaments')
+                  a.summary-block.summary-first(href='index.html#poker-tournaments', data-scrollid='poker-tournaments')
                     img(src='img/icon-poker.png')
                     h3 Poker Tournaments
                     p.mb-20 Professional Tables with Dealers to accommodate up to 200 players
@@ -70,7 +70,7 @@ block content
                 | Free customized play money personalized for your event
               p.large-bullet.mb-20
                 img.bullet(src='img/icon-bullet.png')
-                | Make lasting memories with a <a href="photo-booth.html" class="has-text-weight-semibold">Photo Booth</a>
+                | Create lasting memories with a <a href="photo-booth.html" class="has-text-weight-semibold">Photo Booth</a>
                 span.tag.is-new NEW
 
     section.section.is-feature#poker-tournaments(style='padding-top:3rem')
@@ -239,9 +239,9 @@ block content
     section.section.is-alt.is-contact#contact
       .container
         .columns
-          .column.is-6
+          .column.is-6.is-form
             iframe(src='https://docs.google.com/forms/d/e/1FAIpQLScc1UiD2FVJ8vnvg0Uhhm5ZLn_mIG5vZbfL4dZXtNbHiM5mOQ/viewform?embedded=true', width='640', height='1090', frameborder='0', marginheight='0', marginwidth='0' style='height:1090px;') Loading Contact Form...
-          .column.is-3
+          .column.is-3.is-content
             .feature-content(data-aos='fade-up', data-aos-delay='100')
               h2 Phone
               .contact
@@ -262,7 +262,7 @@ block content
               p
                 a(href='https://goo.gl/maps/vSLHY7yZ5xsaiJju8' target='_blank') View on Google Maps
 
-          .column.is-3
+          .column.is-3.is-content
             .feature-content(data-aos='fade-up', data-aos-delay='400')
               h2 Email
               .contact

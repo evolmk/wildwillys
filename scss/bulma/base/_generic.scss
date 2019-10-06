@@ -91,6 +91,7 @@ a {
 
   &:hover {
     color: $link-hover;
+    text-decoration: underline;
   }
 
   // Colors
@@ -418,6 +419,19 @@ p.small {
 }
 
 // Section - Summary
+@include mobile {
+  .summary-block.summary-first {
+    margin-top: 30px;
+  }
+
+  .section.is-contact {
+    padding-left: 0;
+    padding-right: 0;
+    .is-content {
+      padding: 0 1.5rem;
+    }
+  }
+}
 
 .summary-block {
   display: block;
@@ -425,7 +439,7 @@ p.small {
   padding-right: 60px;
   position: relative;
   @include mobile {
-    max-width: 90%;
+    //max-width: 90%;
     padding-right: 0;
     margin: 0 auto;
   }
@@ -449,8 +463,10 @@ a.summary-block {
 
   &:hover {
     color: $body-color;
+    text-decoration: none;
     h3 {
-      color: $body-color;
+      color: $link-dark;
+      text-decoration: underline;
     }
   }
 }
