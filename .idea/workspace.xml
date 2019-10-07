@@ -6,20 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.pug" beforeDir="false" afterPath="$PROJECT_DIR$/faq.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.pug" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/layout.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photo-booth.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo-booth.pug" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bulma/elements/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/elements/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bulma/elements/_tag.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/elements/_tag.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bulma/layout/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/layout/_section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bulma/utilities/_derived-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/utilities/_derived-variables.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,15 +77,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index-bak.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8090/wildwillys/index-bak.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wildwillys/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index-bak.html" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="" />
+      <created>1570449921155</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570449921155</updated>
+      <workItem from="1570449922318" duration="3747000" />
+    </task>
+    <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
