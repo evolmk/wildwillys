@@ -280,7 +280,8 @@ table {
 
 .section {
   &.summary {
-    background-image: linear-gradient(-180deg, #FFFFFF 41%, #F4F5F7 100%);
+    //background-image: linear-gradient(-180deg, #FFFFFF 41%, #F4F5F7 100%);
+    background: #f7f7f7;
     @include mobile {
       padding-top: 1rem;
     }
@@ -306,13 +307,13 @@ h1 {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 27px;
   font-weight: 500;
   color: #29333D;
   margin-bottom: 15px;
 }
 h3 {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 500;
   color: #29333D;
 }
@@ -352,7 +353,7 @@ p {
   margin-bottom: 25px;
 }
 p.large-bullet {
-  font-size: 17px;
+  font-size: 16px;
   color: #4b4f56;
   padding-left: 35px;
   position: relative;
@@ -421,7 +422,7 @@ p.small {
 // Section - Summary
 @include mobile {
   .summary-block.summary-first {
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
   .section.is-contact {
@@ -433,43 +434,47 @@ p.small {
   }
 }
 
-.summary-block {
-  display: block;
-  padding-left: 85px;
-  padding-right: 60px;
+.summary-list {
+  @include desktop() {
+    padding-left: 30px;
+  }
+}
+
+
+.summary-block, a.summary-block {
+  display: block!important;
   position: relative;
+  color: #62696f;
+  background: #fff;
+  padding: 20px 10px 20px 90px;
+  border: 2px solid #0000;
   @include mobile {
     //max-width: 90%;
     padding-right: 0;
     margin: 0 auto;
   }
-  img {
-    position: absolute;
-    top: 5px;
-    left: 0;
-  }
-  &+.summary-block {
-    margin-top: 40px;
-  }
-
-}
-a.summary-block {
-  display: block !important;
-  color: $body-color;
-  h3 {
-    color: $link;
-    transition: color .1s ease-out; //animation
-  }
-
   &:hover {
     color: $body-color;
     text-decoration: none;
     h3 {
       color: $link-dark;
-      text-decoration: underline;
     }
+    border-color: #af8023;
+  }
+  h3 {
+    color: $link;
+    transition: color .1s ease-out; //animation
+  }
+  img {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+  }
+  &+.summary-block {
+    margin-top: 20px;
   }
 }
+
 
 .games-list {
   padding-top: 15px;
@@ -478,7 +483,7 @@ a.summary-block {
   }
 }
 .icon-games {
-  max-width:150px;
+  max-width: 200px;
   margin: 0 auto;
 }
 .games-condensed {
@@ -654,16 +659,16 @@ section.cta {
 }
 
 .faq {
-  margin: 0 0 30px 0;
+  margin: 0 0 40px 0;
   @include desktop {
-    padding: 0 40px 0 0;
+    max-width: 550px;
   }
   .question {
     font-size: 1.3em;
     color: $grey-darker;
     font-weight: 500;
-    line-height: 1.2;
-    margin: 0 0 5px 0;
+    line-height: 1.3;
+    margin: 0 0 10px 0;
   }
   .answer {
     font-size: 1.1em;
@@ -694,7 +699,7 @@ a.instagram-lnk {
   }
 }
 
-.gallery-pad-heading {
+.subpage-heading {
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 20px;

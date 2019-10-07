@@ -1,15 +1,20 @@
-$section-padding: 2.5rem 1.5rem !default;
-$section-padding-desktop: 4rem 1.5rem !default;
+$section-padding: 2.5rem 1.0rem !default;
+$section-padding-desktop: 4rem 1.0rem !default;
 $section-padding-small: 1.5rem .75rem !default;
-$section-padding-medium: 5rem 1.5rem !default;
+$section-padding-medium: 3rem 1.5rem !default;
 $section-padding-large: 10rem 1.5rem !default;
 $section-padding-xl: 18rem 1.5rem !default;
+
 
 .section {
   padding: $section-padding;
 
   @include desktop {
     padding: $section-padding-desktop;
+  }
+
+  &.subpage {
+    padding: $section-padding;
   }
 
   @each $name, $pair in $colors-sections {
@@ -37,7 +42,6 @@ $section-padding-xl: 18rem 1.5rem !default;
       }
     }
   }
-
 
 
   //@each $name, $pair in $shades {

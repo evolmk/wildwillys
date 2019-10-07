@@ -1,4 +1,4 @@
-$primary: #cca048 !default;
+$primary: #cea34b !default;
 $secondary: #e7eaec !default;
 $info: $cyan !default;
 $success: $green !default;
@@ -20,7 +20,7 @@ $blue-invert: findColorInvert($blue) !default;
 $purple-invert: findColorInvert($purple) !default;
 $red-invert: findColorInvert($red) !default;
 
-$primary-invert: $orange-invert !default;
+$primary-invert: darken($primary, 30%) !default;
 $secondary-invert: $grey-dark !default;
 $info-invert: $cyan-invert !default;
 $success-invert: $green-invert !default;
@@ -73,7 +73,7 @@ $pre-background: $background !default;
 $link: #af8023 !default;
 $link-light: rgba($link, $light-alpha);
 $link-dark: darken($link, 10%);
-$link-invert: $green-invert !default;
+$link-invert: darken($link, 20%) !default;
 $link-visited: $green !default;
 
 $link-hover: $link-dark !default;

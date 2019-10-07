@@ -74,7 +74,7 @@ $button-static-border-color: $grey-lighter !default;
   white-space: nowrap;
 
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.2px;
   line-height: 14px;
   text-transform: uppercase;
@@ -429,4 +429,13 @@ $button-static-border-color: $grey-lighter !default;
   &.is-right {
     justify-content: flex-end;
   }
+}
+
+
+// Color Overrides
+.button.is-primary.is-hovered, .button.is-primary:hover {
+  background-color: #eac76a;
+  border-color: #0000;
+  color: #4a3710;
+  text-decoration: none;
 }

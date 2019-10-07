@@ -128,16 +128,20 @@ $tag-delete-margin: 1px !default;
 
   // Sizes
   &.is-new {
-    background-color: #c99d45;
+    background-color: #1fad49;
     color: #fff;
     font-size: .6rem;
     font-weight: 600;
-    margin-left: 6px;
+    margin-left: 8px;
     justify-content: normal;
     line-height: 1;
-    padding: .3em .6em;
+    height: 16px;
+    padding: .1em .7em;
     position: relative;
-    top: -6px;
+    top: -9px;
+    &.is-primary {
+      background-color: #c99d45;
+    }
   }
   &.is-normal {
     font-size: $size-small;

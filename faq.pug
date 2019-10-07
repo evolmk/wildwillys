@@ -5,10 +5,14 @@ block head
 block content
   include includes/header-subpage
   main
-    section.section
+    section.section.subpage
       .container
-        h1 Frequently Asked Questions
-        p.large.mb-40 Still Have Questions? Call <strong>(732) 690-8324</strong> or <a href='index.html#contact'>Contact Us Online</a>
+        .columns
+          .column
+            h1.mb-0 FAQ
+          .column.has-text-right.has-text-left-mobile
+            p.large.mb-10 Still Have Questions? <a href='index.html#contact' class="has-text-weight-semibold">Contact Us</a>
+        hr.mb-30.mt-10
         .columns
           .column.is-6
             .faq-container.faq-left

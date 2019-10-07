@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.pug" beforeDir="false" afterPath="$PROJECT_DIR$/faq.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.pug" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-booth.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-booth.pug" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bulma/elements/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/elements/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bulma/elements/_tag.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/elements/_tag.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bulma/layout/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/layout/_section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bulma/utilities/_derived-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/utilities/_derived-variables.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +115,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="push latest v2" />
     <MESSAGE value="bump app version" />
     <MESSAGE value="add gallery" />
     <MESSAGE value="fix faq padding" />
@@ -126,6 +139,7 @@
     <MESSAGE value="push latest" />
     <MESSAGE value="photo booth &amp; color upgrade" />
     <MESSAGE value="add photo booth" />
-    <option name="LAST_COMMIT_MESSAGE" value="add photo booth" />
+    <MESSAGE value="increase app version" />
+    <option name="LAST_COMMIT_MESSAGE" value="increase app version" />
   </component>
 </project>
