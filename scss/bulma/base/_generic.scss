@@ -281,7 +281,6 @@ table {
 .section {
   &.summary {
     //background-image: linear-gradient(-180deg, #FFFFFF 41%, #F4F5F7 100%);
-    background: #f7f7f7;
     @include mobile {
       padding-top: 1rem;
     }
@@ -442,7 +441,7 @@ p.small {
 
 
 .summary-block, a.summary-block {
-  display: block!important;
+  display: block;
   position: relative;
   color: #62696f;
   background: #fff;
@@ -467,8 +466,8 @@ p.small {
   }
   img {
     position: absolute;
-    top: 20px;
-    left: 10px;
+    top: 25px;
+    left: 14px;
   }
   &+.summary-block {
     margin-top: 20px;
