@@ -6,20 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.pug" beforeDir="false" afterPath="$PROJECT_DIR$/faq.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.pug" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/layout.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo-booth.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo-booth.pug" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bulma/elements/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/elements/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bulma/elements/_tag.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/elements/_tag.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bulma/layout/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/layout/_section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bulma/utilities/_derived-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/utilities/_derived-variables.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master-temp" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsBowerSettings">
@@ -89,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index-bak.html" />
         <item itemvalue="JavaScript Debug.index-bak.html" />
       </list>
     </recent_temporary>
