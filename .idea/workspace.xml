@@ -7,10 +7,17 @@
     <list default="true" id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/layout.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-booth.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-booth.pug" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bulma/elements/_box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/elements/_box.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bulma/layout/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/layout/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/site.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,10 +140,10 @@
     <MESSAGE value="push latest html" />
     <MESSAGE value="add sitemap, robots.txtn, pdf files index on google" />
     <MESSAGE value="add web.config, defaults from account setup" />
-    <MESSAGE value="push latest" />
     <MESSAGE value="photo booth &amp; color upgrade" />
     <MESSAGE value="add photo booth" />
     <MESSAGE value="increase app version" />
-    <option name="LAST_COMMIT_MESSAGE" value="increase app version" />
+    <MESSAGE value="push latest" />
+    <option name="LAST_COMMIT_MESSAGE" value="push latest" />
   </component>
 </project>

@@ -60,6 +60,7 @@ $(function () {
       var scrollToId = $(this).attr('data-scrollid');
       //close nav
       $('.navbar-menu').removeClass('is-active');
+      $('.navbar-burger').removeClass('is-active');
       //get header
       var $navbarHeader = $('.navbar-header');
       //console.log($navbarHeader.height());
