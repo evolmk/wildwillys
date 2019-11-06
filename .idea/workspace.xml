@@ -6,7 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-booth.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-booth.pug" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bulma/elements/_box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/elements/_box.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bulma/layout/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/layout/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/site.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master-temp" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsBowerSettings">
@@ -70,57 +86,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager">
     <configuration name="index-bak.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8090/wildwillys/index-bak.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wildwillys/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index-bak.html" />
         <item itemvalue="JavaScript Debug.index-bak.html" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="" />
-      <created>1570449921155</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1570449921155</updated>
-      <workItem from="1570449922318" duration="4013000" />
-      <workItem from="1570477569943" duration="19000" />
-      <workItem from="1573044764446" duration="1450000" />
-    </task>
-    <task id="LOCAL-00001" summary="add photo booths">
-      <created>1570453767966</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1570453767966</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add photo booths">
-      <created>1570453901745</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1570453901745</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add photo booths">
-      <created>1570453947383</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1570453947383</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
-    <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -144,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="bump app version" />
     <MESSAGE value="add gallery" />
     <MESSAGE value="fix faq padding" />
     <MESSAGE value="fix quotes" />
@@ -164,11 +140,10 @@
     <MESSAGE value="push latest html" />
     <MESSAGE value="add sitemap, robots.txtn, pdf files index on google" />
     <MESSAGE value="add web.config, defaults from account setup" />
-    <MESSAGE value="push latest" />
     <MESSAGE value="photo booth &amp; color upgrade" />
     <MESSAGE value="add photo booth" />
     <MESSAGE value="increase app version" />
-    <MESSAGE value="add photo booths" />
-    <option name="LAST_COMMIT_MESSAGE" value="add photo booths" />
+    <MESSAGE value="push latest" />
+    <option name="LAST_COMMIT_MESSAGE" value="push latest" />
   </component>
 </project>

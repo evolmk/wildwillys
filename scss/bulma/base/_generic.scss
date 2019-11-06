@@ -371,7 +371,7 @@ p.small {
 }
 .bullet {
   position: absolute;
-  top: 7px;
+  top: 6px;
   margin-left: -32px;
   width: 14px;
   height: 14px;
@@ -386,6 +386,12 @@ p.small {
     line-height: 1.8em;
     font-size: 1.1em;
   }
+}
+
+.has-shadow {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.31);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.31);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.31);
 }
 
 
@@ -434,9 +440,15 @@ p.small {
 }
 
 .summary-list {
-  @include desktop() {
-    padding-left: 30px;
-  }
+  background-color: #fff;
+  padding: 25px 30px;
+  //@include desktop() {
+  //  padding-left: 30px;
+  //}
+}
+.block {
+  background-color: #fff;
+  padding: 25px 30px;
 }
 
 
@@ -447,6 +459,7 @@ p.small {
   background: #fff;
   padding: 20px 10px 20px 90px;
   border: 2px solid #0000;
+  box-shadow: 0 0 10px rgba(10,10,10,.07);
   @include mobile {
     //max-width: 90%;
     padding-right: 0;

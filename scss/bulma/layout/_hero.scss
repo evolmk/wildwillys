@@ -128,7 +128,7 @@
       //   .nav-menu
       //     .nav-item
       //       border-top-color: rgba($color-invert, 0.2)
-   
+
     }
   }
 
@@ -178,6 +178,10 @@
 
   &.is-fullheight {
     min-height: 100vh;
+    background-color: #f4f5f7;
+    @include mobile {
+      margin-bottom: -100px;
+    }
   }
 
   &.is-subpage {
@@ -257,24 +261,22 @@
 // Containers
 
 .hero-head {
+  flex-grow: 0;
   z-index: 100;
 }
 
 .hero-head,
 .hero-foot {
-  flex-grow: 0;
   flex-shrink: 0;
 }
 .hero-foot {
-  height: 10%;
-  max-height: 150px;
-  padding: 0 0 100px 0;
+  flex-grow: 1;
 }
 
 .hero-body {
   flex-grow: 1;
   flex-shrink: 0;
-  padding: 3rem 1.5rem 0 1.5rem;
+  padding: 3rem 1.5rem 3rem 1.5rem;
   z-index: 50;
 
   @include desktop {
@@ -323,4 +325,5 @@
     top: 10px;
     left: 13px;
   }
+  //margin-bottom: 100px;
 }
