@@ -1,15 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.wildwillyscasino.com</loc>
+    <loc>https://www.wildwillyscasino.com</loc>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>http://www.wildwillyscasino.com/gallery.html</loc>
+    <loc>https://www.wildwillyscasino.com/index.html#poker-tournaments</loc>
+    <lastmod>2019-10-09T03:09:09+00:00</lastmod>
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>http://www.wildwillyscasino.com/faq.html</loc>
+    <loc>https://www.wildwillyscasino.com/index.html#fundraisers</loc>
+    <lastmod>2019-10-09T03:09:09+00:00</lastmod>
     <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.wildwillyscasino.com/index.html#corporate-parties</loc>
+    <lastmod>2019-10-09T03:09:09+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.wildwillyscasino.com/index.html#private-parties</loc>
+    <lastmod>2019-10-09T03:09:09+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.wildwillyscasino.com/index.html#contact</loc>
+    <lastmod>2019-10-09T03:09:09+00:00</lastmod>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.wildwillyscasino.com/photo-booth.html</loc>
+    <lastmod>2019-10-09T03:09:09+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.wildwillyscasino.com/gallery.html</loc>
+    <lastmod>2019-10-09T03:09:10+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.wildwillyscasino.com/faq.html</loc>
+    <lastmod>2019-10-09T03:09:10+00:00</lastmod>
+    <priority>0.80</priority>
   </url>
 </urlset>
