@@ -1,6 +1,6 @@
 # mac filess
 .DS_Store
-/.idea
+/.idea/*
 
 # npm & bower packages
 /client/libs/*
