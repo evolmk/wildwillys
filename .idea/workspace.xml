@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/layout.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photo-booth.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.html" afterDir="false" />
@@ -149,8 +148,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="bump app version" />
-    <MESSAGE value="add gallery" />
     <MESSAGE value="fix faq padding" />
     <MESSAGE value="fix quotes" />
     <MESSAGE value="fix content fade direction" />
@@ -174,6 +171,8 @@
     <MESSAGE value="add photo booth" />
     <MESSAGE value="increase app version" />
     <MESSAGE value="push latest" />
-    <option name="LAST_COMMIT_MESSAGE" value="push latest" />
+    <MESSAGE value="add img" />
+    <MESSAGE value="add social" />
+    <option name="LAST_COMMIT_MESSAGE" value="add social" />
   </component>
 </project>
