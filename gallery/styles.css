@@ -1,0 +1,4 @@
+.photo-gallery .columns .column {
+  display: flex;
+  align-items: center;
+}

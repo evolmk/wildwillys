@@ -1,5 +1,5 @@
 block vars
-- var appVersion = 24
+- var appVersion = 37
 - var appYear = 2019
 - var cssFilepath = 'dist/app.min.css?v=' + appVersion
 - var jsFilepath = 'dist/app.min.js?v=' + appVersion
@@ -68,7 +68,7 @@ html
               li
                 a(href='photo-booth.html') Photo Booth
               li
-                a(href='gallery.html') Gallery
+                a(href='/gallery') Gallery
               li
                 a(href='index.html#about', data-scrollid='about') About Us
               li
@@ -93,4 +93,5 @@ html
             a.button.is-primary(href='index.html#contact', data-scrollid='contact') Get Started
 
         .copyright.has-text-centered-mobile &copy; #{appYear} Wild Willy's Casino Parties - All Rights Reserved
+    script(src='/js/fslightbox.js')
     script(src='site.js')

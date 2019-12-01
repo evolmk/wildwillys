@@ -5,14 +5,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gallery/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/gallery-grid.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gallery/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/fslightbox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/More Scripts and Components.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/admin_categories.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/admin_category_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/admin_edit_photos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/admin_regenerate_images.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/files/not_empty.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/gallery/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/_notes/dwsync.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/blue_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/button_110.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/button_190.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/cancel_button_24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/cancel_button_30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/cover_16x16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/delete_16x16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/folder.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/folder_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/lens_128x128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/lens_48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/liquid_button.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/liquid_button_red.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/loading_20x20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/pixel.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/layout/transparent_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/logout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/query_photo_edit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/settings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/system.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/system_functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/system_header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header-homepage.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header-homepage.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header-subpage.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header-subpage.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/layout.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photo-booth.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap-dl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap-dl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap-google.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap-google.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +96,11 @@
   </component>
   <component name="ProjectId" id="1RobMyqZGH17z5WAssFoKjzcGbf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -67,18 +126,6 @@
       <recent name="$PROJECT_DIR$/scss" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="index-bak.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8090/wildwillys/index-bak.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -89,6 +136,18 @@
         <item itemvalue="JavaScript Debug.index-bak.html" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -130,6 +189,7 @@
     <option name="version" value="1" />
   </component>
   <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".htaccess" />
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.config" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,7 +208,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fix faq padding" />
     <MESSAGE value="fix quotes" />
     <MESSAGE value="fix content fade direction" />
     <MESSAGE value="fix padding" />
@@ -170,9 +229,28 @@
     <MESSAGE value="photo booth &amp; color upgrade" />
     <MESSAGE value="add photo booth" />
     <MESSAGE value="increase app version" />
-    <MESSAGE value="push latest" />
     <MESSAGE value="add img" />
     <MESSAGE value="add social" />
-    <option name="LAST_COMMIT_MESSAGE" value="add social" />
+    <MESSAGE value="push latest" />
+    <MESSAGE value="add gallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gallery" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="468" y="141" key="CommitChangelistDialog2" timestamp="1575223927714">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="468" y="141" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1575223927714" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1575223933421">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1575223933421" />
+    <state x="550" y="309" width="815" height="567" key="find.popup" timestamp="1575229822456">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="550" y="309" width="815" height="567" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1575229822456" />
+    <state x="577" y="335" key="git4idea.merge.GitPullDialog" timestamp="1575223889730">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="577" y="335" key="git4idea.merge.GitPullDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575223889730" />
   </component>
 </project>
