@@ -1,0 +1,55 @@
+extends includes/layout
+block head
+  - var titleSuffix = "Corporate Parties | Wild Willy's Casino Events"
+
+block content
+  include includes/header-subpage
+  main
+    section.section.subpage
+      .container
+        .columns
+          .column.is-6
+            .is-page-left
+              h1 Corporate Parties
+              p.large(data-aos='fade-right', data-aos-delay='100')
+                | We are the fastest growing company in the state with high quality equipment, reasonable prices, the best fundraising ideas to help raise additional money
+              .feature-content(data-aos='fade', data-aos-delay='200')
+                .columns
+                  .column.is-5
+                    h3 Raise Money For:
+                    .content
+                      ul
+                        li Charity Events
+                        li Non-Profit Organizations
+                        li PTA
+                        li School
+                        li Church
+                        li Sports Teams
+                        li Benefits
+                        li & More ...
+                  .column.is-7
+                    h4 Raising Money Is Our Game
+                    p.small Our fundraising specialists will make your fundraiser a success
+                    h4 Learn How To Play
+                    p.small Our professional & friendly dealers will teach your guests how to play
+                    h4 We Bring The Casino To You
+                    p.small Choose the venue and we'll bring the fun!
+                    h4 DJ, Entertainment Host
+                    p.small We can provide a DJ or Host to help increase your guest's donations
+          .column.is-5.is-offset-1
+            .mb-20
+              img(src='img/section-fundraisers.png', data-aos='fade-left', data-aos-delay='100')
+
+        h2 Event Photos
+        .columns
+          .column.is-3
+            img(src='https://via.placeholder.com/400x300')
+          .column.is-3
+            img(src='https://via.placeholder.com/400x300')
+          .column.is-3
+            img(src='https://via.placeholder.com/400x300')
+          .column.is-3
+            img(src='https://via.placeholder.com/400x300')
+
+    section.section.is-alt.is-contact
+      include includes/contact-form.pug

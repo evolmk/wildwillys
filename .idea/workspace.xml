@@ -5,23 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contact.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poker-tournaments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/poker-tournaments.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thank-you.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thank-you.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corporate-parties.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dj.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fundraisers.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/contact-form.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/private-parties.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.pug" beforeDir="false" afterPath="$PROJECT_DIR$/contact.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.pug" beforeDir="false" afterPath="$PROJECT_DIR$/faq.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/header-homepage.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header-homepage.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/header-subpage.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header-subpage.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/layout.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photo-booth.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo-booth.pug" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poker-tournaments.html" beforeDir="false" afterPath="$PROJECT_DIR$/poker-tournaments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poker-tournaments.pug" beforeDir="false" afterPath="$PROJECT_DIR$/poker-tournaments.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/base/_generic.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bulma/utilities/_derived-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/utilities/_derived-variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thank-you.html" beforeDir="false" afterPath="$PROJECT_DIR$/thank-you.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +175,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fix quotes" />
     <MESSAGE value="fix content fade direction" />
     <MESSAGE value="fix padding" />
     <MESSAGE value="better hero footer height" />
@@ -193,21 +199,22 @@
     <MESSAGE value="add social" />
     <MESSAGE value="add gallery" />
     <MESSAGE value="push latest" />
-    <option name="LAST_COMMIT_MESSAGE" value="push latest" />
+    <MESSAGE value="thank you page, add subpages" />
+    <option name="LAST_COMMIT_MESSAGE" value="thank you page, add subpages" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="468" y="141" key="CommitChangelistDialog2" timestamp="1575241277219">
+    <state x="468" y="141" key="CommitChangelistDialog2" timestamp="1577058144282">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="468" y="141" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1575241277219" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1575241279096">
+    <state x="468" y="141" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1577058144282" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1577055101437">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1575241279096" />
-    <state x="550" y="309" width="815" height="567" key="find.popup" timestamp="1577052292196">
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1577055101437" />
+    <state x="550" y="309" width="815" height="567" key="find.popup" timestamp="1577057458576">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="550" y="309" width="815" height="567" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1577052292196" />
+    <state x="550" y="309" width="815" height="567" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1577057458576" />
     <state x="577" y="335" key="git4idea.merge.GitPullDialog" timestamp="1577050282892">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

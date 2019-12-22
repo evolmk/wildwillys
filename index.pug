@@ -253,46 +253,8 @@ block content
                   | Fully Licensed and Insured
 
     section.section.is-alt.is-contact#contact
-      .container
-        .columns
-          .column.is-6.is-form
-            iframe(src='https://docs.google.com/forms/d/e/1FAIpQLScc1UiD2FVJ8vnvg0Uhhm5ZLn_mIG5vZbfL4dZXtNbHiM5mOQ/viewform?embedded=true', width='640', height='1250', frameborder='0', marginheight='0', marginwidth='0' style='height:1250px;') Loading Contact Form...
-          .column.is-3.is-content
-            .feature-content(data-aos='fade-up', data-aos-delay='100')
-              h2 Phone
-              .contact
-                img(src='img/icon-phone.png')
-                span (732) 690-8324
-              p
-                | Sun - Thurs: 9am-9pm
-                br
-                | Fri & Sat: 9am-4pm
-              p
-                | If leaving a message, please provide details of your event and we'll respond asap.
+      include includes/contact-form.pug
 
-              h2 Address
-              p.mb-10
-                | 4B Old Colonial Rd
-                br
-                | Middletown, NJ 07748
-              p
-                a(href='https://goo.gl/maps/vSLHY7yZ5xsaiJju8' target='_blank') View on Google Maps
-
-          .column.is-3.is-content
-            .feature-content(data-aos='fade-up', data-aos-delay='400')
-              h2 Email
-              .contact
-                img(src='img/icon-mail.png')
-                span wildwillyscasino@gmail.com
-              p.has-text-black.mb-5 Please include in your email:
-              .content
-                ul
-                  li Event Date
-                  li Event Type (private, fundraiser, poker, corporate. etc)
-                  li Event Location (City, State, at a minimum)
-                  li Number of Expected Guests
-                  li Budget
-                  li Phone Number
     script.
       useScrollTo = true;
 
