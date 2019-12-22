@@ -1,0 +1,38 @@
+extends includes/layout
+block head
+  - var titleSuffix = "Contact | Wild Willy's Casino Events"
+
+block scripts
+  script.
+    gtag('event', 'conversion', {'send_to': 'AW-699022220/ZGgsCI3rk7gBEIz3qM0C'});
+
+block content
+  include includes/header-subpage
+  main
+    section.section.is-thankyou
+      script(type='text/javascript').
+        var count = 20; // Timer
+        var redirect = "/"; // Target URL
+        function countDown() {
+          var timer = document.getElementById("timer"); // Timer ID
+          if (count > 0) {
+            count--;
+            timer.innerHTML = "You be redirected back to previous page in <strong>" + count + "</strong> seconds."; // Timer Message
+            setTimeout("countDown()", 1000);
+          } else {
+            //window.location.href = redirect;
+            window.history.back();
+          }
+        }
+      .container.has-text-centered
+        h1.title Thank You!
+        .content.text-large
+          p We have received your information and will reply soon as possible.
+          p#timer.text-medium
+          script(type='text/javascript').
+            countDown();
+          p
+            | Or &nbsp;
+            a(onclick='window.history.back();') Go Back
+            | &nbsp;Now.
+

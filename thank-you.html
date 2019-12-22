@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Wild Willy's Casino Events | Rent Photo Booth - NJ NY CT</title>
+    <title>Wild Willy's Casino Events | Contact | Wild Willy's Casino Events</title>
     <meta name="description" content="Las Vegas style casino parties in the NJ NY CT area with professional dealers &amp; tables for all occasions: Poker Tournaments, Fundraisers, Corporate Events">
     <meta name="viewport" content="width=device-width">
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-140137798-1"></script>
@@ -12,6 +12,10 @@
       }
       gtag('js', new Date());
       gtag('config', 'UA-140137798-1');
+      
+    </script>
+    <script>
+      gtag('event', 'conversion', {'send_to': 'AW-699022220/ZGgsCI3rk7gBEIz3qM0C'});
       
     </script>
     <link rel="stylesheet" href="dist/app.min.css?v=40" type="text/css" media="all">
@@ -60,29 +64,29 @@
       <!-- end: header-->
     </header>
     <main>
-      <section class="section subpage">
-        <div class="container mb-50">
-          <div class="columns">
-            <div class="column is-6">
-              <h1 class="mb-10">Custom Photo Booth Experiences For Your Events & Parties</h1>
-            </div>
-            <div class="column has-text-right has-text-left-mobile"></div>
-          </div>
-          <div class="columns">
-            <div class="column is-6">
-              <p class="large" data-aos="fade-up" data-aos-delay="100">A photo booth is the attraction you need to liven up your next celebration. Your photo booth includes: unlimited photos, onsite printing, fun & exciting props, and a digital copy of all photos after the event - view all the fun your guests had!!</p>
-              <p class="large" data-aos="fade-up" data-aos-delay="300">We also offer Custom Photo Layouts & Branding with unlimited customization options so your photo booth rental is guaranteed to be one of a kind.</p>
-            </div>
-            <div class="column is-1"></div>
-            <div class="column is-5">
-              <div class="summary-list" data-aos="fade-up" data-aos-delay="400">
-                <h2 class="mb-25 has-text-centered-mobile">Our Photo Booths Include:</h2>
-                <p class="large-bullet mb-20"><img class="bullet" src="img/icon-bullet.png">Custom Designed Photo Templates to match your Event or Company's Branding</p>
-                <p class="large-bullet mb-20"><img class="bullet" src="img/icon-bullet.png">On-site Personnel to assist your guests with their experience</p>
-                <p class="large-bullet mb-20"><img class="bullet" src="img/icon-bullet.png">Exciting Props to let your guests express themselves in a fun environment</p>
-                <p class="large-bullet mb-20"><img class="bullet" src="img/icon-bullet.png">DSLR Cameras and HD Printers to provide the highest quality customized photos, printed instantly for your guests</p>
-              </div>
-            </div>
+      <section class="section is-thankyou">
+        <script type="text/javascript">
+          var count = 20; // Timer
+          var redirect = "/"; // Target URL
+          function countDown() {
+            var timer = document.getElementById("timer"); // Timer ID
+            if (count > 0) {
+              count--;
+              timer.innerHTML = "You be redirected back to previous page in <strong>" + count + "</strong> seconds."; // Timer Message
+              setTimeout("countDown()", 1000);
+            } else {
+              //window.location.href = redirect;
+              window.history.back();
+            }
+          }
+        </script>
+        <div class="container has-text-centered">
+          <h1 class="title">Thank You!</h1>
+          <div class="content text-large">
+            <p>We have received your information and will reply soon as possible.</p>
+            <p class="text-medium" id="timer"></p>
+            <script type="text/javascript">countDown();</script>
+            <p>Or &nbsp;<a onclick="window.history.back();">Go Back</a>&nbsp;Now.</p>
           </div>
         </div>
       </section>
