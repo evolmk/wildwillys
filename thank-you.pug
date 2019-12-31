@@ -28,10 +28,11 @@ block content
         h1.title Thank You!
         .content.text-large
           p We have received your information and will reply soon as possible.
-          p#timer.text-medium
+          hr
+          p#timer(style='max-width: 300px;margin:0 auto;')
           script(type='text/javascript').
             countDown();
-          p.mt-20
-            | or &nbsp;
-            a.has-text-weight-bold(onclick='window.history.back();') Return Now
+          p.mt-20.mb-20 or
+          p
+            a.has-text-weight-bold(onclick='window.history.back();') Return to Page
 

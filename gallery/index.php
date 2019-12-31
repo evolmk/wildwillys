@@ -35,14 +35,14 @@
     <div class="hero-head">
       <nav class="navbar navbar-header is-fixed-top">
         <div class="container">
-          <div class="navbar-brand"><a class="navbar-item navbar-logo" href="index.html"><img src="img/wildwillys-logo.png" alt="Wild Willy's Casino Events" width="290"></a>
+          <div class="navbar-brand"><a class="navbar-item navbar-logo" href="/index.html"><img src="/img/wildwillys-logo.png" alt="Wild Willy's Casino Events" width="290"></a>
             <div class="navbar-burger burger" id="burgerMain" data-target="navMain"><span></span><span></span><span></span></div>
           </div>
           <div class="navbar-menu" id="navMain">
             <div class="navbar-start">
               <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link">Services</a>
-                <div class="navbar-dropdown"><a class="navbar-item" href="poker-tournaments.html">Poker Tournaments</a><a class="navbar-item" href="fundraisers.html">Fundraisers</a><a class="navbar-item" href="corporate-parties.html">Corporate Parties</a><a class="navbar-item" href="private-parties.html">Private Parties</a><a class="navbar-item" href="photo-booth.html">Photo Booth</a><a class="navbar-item" href="dj.html">DJ Services</a></div>
-              </div><a class="navbar-item" href="/gallery">Gallery</a><a class="navbar-item" href="about.html">About Us</a><a class="navbar-item" href="faq.html">FAQ</a><a class="navbar-item" href="contact.html">Contact</a>
+                <div class="navbar-dropdown"><a class="navbar-item" href="/poker-tournaments.html">Poker Tournaments</a><a class="navbar-item" href="/fundraisers.html">Fundraisers</a><a class="navbar-item" href="/corporate-parties.html">Corporate Parties</a><a class="navbar-item" href="/private-parties.html">Private Parties</a><a class="navbar-item" href="/photo-booth.html">Photo Booth</a><a class="navbar-item" href="/dj.html">DJ Services</a></div>
+              </div><a class="navbar-item" href="/gallery">Gallery</a><a class="navbar-item" href="/about.html">About Us</a><a class="navbar-item" href="/faq.html">FAQ</a><a class="navbar-item" href="/contact.html">Contact</a>
             </div>
             <div class="navbar-end">
               <div class="navbar-item">
@@ -50,7 +50,7 @@
                   <div class="phone"><a class="is-white" href="tel:1-732-690-8324">(732) 690-8324</a></div>
                 </div>
               </div>
-              <div class="navbar-item"><a class="button is-primary get-started" href="index.html#contact" data-scrollid="contact">Get Started</a></div>
+              <div class="navbar-item"><a class="button is-primary get-started" href="/contact.html" data-scrollid="contact">Get Started</a></div>
             </div>
           </div>
         </div>
@@ -86,21 +86,20 @@
     <div class="columns">
       <div class="column is-2">
         <ul class="nav-footer">
-          <li><a href="poker-tournaments.html">Poker Tournaments</a></li>
-          <li><a href="fundraisers.html">Fundraisers</a></li>
-          <li><a href="corporate-parties.html">Corporate Parties</a></li>
-          <li><a href="private-parties.html">Private Parties</a></li>
-          <li><a href="photo-booth.html">Photo Booth</a></li>
-          <li><a href="dj.html">DJ Services</a></li>
+          <li><a href="/poker-tournaments.html">Poker Tournaments</a></li>
+          <li><a href="/fundraisers.html">Fundraisers</a></li>
+          <li><a href="/corporate-parties.html">Corporate Parties</a></li>
+          <li><a href="/private-parties.html">Private Parties</a></li>
+          <li><a href="/photo-booth.html">Photo Booth</a></li>
         </ul>
       </div>
       <div class="column is-2">
         <ul class="nav-footer">
-          <li><a href="index.html#top" data-scrollid="top">Home</a></li>
-          <li><a href="/gallery">Gallery</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="/index.html#top" data-scrollid="top">Home</a></li>
+          <li><a href="//gallery">Gallery</a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="/faq.html">FAQ</a></li>
+          <li><a href="/contact.html">Contact Us</a></li>
         </ul>
       </div>
       <div class="column is-3">
@@ -114,7 +113,7 @@
           <div class="phone mb-10"><a class="is-white" href="tel:1-732-690-8324">(732) 690-8324</a></div>
         </div>
       </div>
-      <div class="column is-3 has-text-centered"><a class="button is-primary" href="/index.html#contact" data-scrollid="contact">Get Started</a></div>
+      <div class="column is-3 has-text-centered"><a class="button is-primary" href="/contact.html" data-scrollid="contact">Get Started</a></div>
     </div>
     <div class="copyright has-text-centered-mobile">&copy; 2019 Wild Willy's Casino Parties - All Rights Reserved</div>
   </div>
