@@ -292,11 +292,14 @@ html.has-navbar-fixed-bottom {
 
   &.is-active {
     background-color: #000;
-    .navbar-item {
+    .navbar-item, .navbar-link {
       text-align: center;
     }
     .phone-ask {
       margin-right: 0;
+    }
+    .has-dropdown .navbar-link  {
+      display: none;
     }
   }
 }
