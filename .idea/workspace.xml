@@ -8,21 +8,33 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.pug" beforeDir="false" afterPath="$PROJECT_DIR$/about.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.pug" beforeDir="false" afterPath="$PROJECT_DIR$/contact.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/corporate-parties.html" beforeDir="false" afterPath="$PROJECT_DIR$/corporate-parties.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/corporate-parties.pug" beforeDir="false" afterPath="$PROJECT_DIR$/corporate-parties.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dj.html" beforeDir="false" afterPath="$PROJECT_DIR$/dj.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dj.pug" beforeDir="false" afterPath="$PROJECT_DIR$/dj.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.pug" beforeDir="false" afterPath="$PROJECT_DIR$/faq.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fundraisers.html" beforeDir="false" afterPath="$PROJECT_DIR$/fundraisers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fundraisers.pug" beforeDir="false" afterPath="$PROJECT_DIR$/fundraisers.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery.pug" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/gallery/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/navbar-end.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/navbar-end.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photo-booth.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo-booth.pug" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poker-tournaments.html" beforeDir="false" afterPath="$PROJECT_DIR$/poker-tournaments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poker-tournaments.pug" beforeDir="false" afterPath="$PROJECT_DIR$/poker-tournaments.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private-parties.html" beforeDir="false" afterPath="$PROJECT_DIR$/private-parties.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/private-parties.pug" beforeDir="false" afterPath="$PROJECT_DIR$/private-parties.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/bulma/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/components/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bulma/elements/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/elements/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/bulma/layout/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/bulma/layout/_section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thank-you.html" beforeDir="false" afterPath="$PROJECT_DIR$/thank-you.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thank-you.pug" beforeDir="false" afterPath="$PROJECT_DIR$/thank-you.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +181,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fix content fade direction" />
     <MESSAGE value="fix padding" />
     <MESSAGE value="better hero footer height" />
     <MESSAGE value="add games section" />
@@ -194,21 +205,22 @@
     <MESSAGE value="add gallery" />
     <MESSAGE value="push latest" />
     <MESSAGE value="thank you page, add subpages" />
-    <option name="LAST_COMMIT_MESSAGE" value="thank you page, add subpages" />
+    <MESSAGE value="add subpages" />
+    <option name="LAST_COMMIT_MESSAGE" value="add subpages" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="468" y="141" key="CommitChangelistDialog2" timestamp="1577058144282">
+    <state x="468" y="141" key="CommitChangelistDialog2" timestamp="1577808682163">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="468" y="141" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1577058144282" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1577062730940">
+    <state x="468" y="141" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1577808682163" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1577808686389">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1577062730940" />
-    <state x="451" y="308" width="815" height="567" key="find.popup" timestamp="1577808059372">
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1577808686389" />
+    <state x="451" y="308" width="815" height="567" key="find.popup" timestamp="1577811327257">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="451" y="308" width="815" height="567" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1577808059372" />
+    <state x="451" y="308" width="815" height="567" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1577811327257" />
     <state x="577" y="335" key="git4idea.merge.GitPullDialog" timestamp="1577050282892">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

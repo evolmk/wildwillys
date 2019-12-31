@@ -439,3 +439,29 @@ $button-static-border-color: $grey-lighter !default;
   color: #4a3710;
   text-decoration: none;
 }
+
+.button.is-grey {
+  border: none;
+  background-color: rgba(0,0,0,0.1);
+  color: #888;
+  padding: 12px 22px;
+  &:hover {
+    background-color: rgba(0,0,0,0.2);
+    color: #333;
+    text-decoration: none !important;
+  }
+}
+
+.button.is-alt {
+  border: none;
+  background-color: transparent!important;
+  padding: 0;
+  display: inline;
+  color: #cea34a;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 500;
+  span, > svg, i {
+    margin-left: 6px;
+  }
+}

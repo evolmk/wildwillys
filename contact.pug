@@ -1,41 +1,16 @@
 extends includes/layout
 block head
-  - var titleSuffix = "Contact | Wild Willy's Casino Events"
+  - var titleSuffix = "Contact"
 
 block content
   include includes/header-subpage
   main
     section.section.subpage
-      .container
+      .container.m
         .columns
           .column.is-6
             h1.mb-10 Contact
           .column.has-text-right.has-text-left-mobile
 
-    section.section.is-feature
-      .container
-        .columns
-          .column.is-6
-            img(src='img/section-poker2.png', data-aos='fade-right', data-aos-delay='100')
-          .column.is-6
-            .is-feature-right
-              h2(data-aos='fade-up', data-aos-delay='0') Texas Hold'em Poker Tournaments
-              p.large(data-aos='fade-left', data-aos-delay='100')
-                | Large professional 8' Tables with Dealers, 14 gram chips with Standard Casino Colors and Denominations, all accessories and a Tournament Director
-              .feature-content(data-aos='fade', data-aos-delay='200')
-                .columns
-                  .column.is-5
-                    h3 Tournaments For:
-                    .content
-                      ul
-                        li Private
-                        li Fundraisers
-                        li Corporate
-                        li Bars
-                        li Leagues
-                        li & More ...
-                  .column.is-7
-                    h4.single Accommodate any size event
-                    h4.single Professional Dealers
-                    h4.single High quality tables, chips and cards
-                    h4.single We do it all for you!
+        .mt-20
+          include includes/contact-form.pug
