@@ -6,15 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.pug" beforeDir="false" afterPath="$PROJECT_DIR$/contact.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/gallery/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo-booth.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo-booth.pug" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poker-tournaments.html" beforeDir="false" afterPath="$PROJECT_DIR$/poker-tournaments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poker-tournaments.pug" beforeDir="false" afterPath="$PROJECT_DIR$/poker-tournaments.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap-dl.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap-google.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thank-you.html" beforeDir="false" afterPath="$PROJECT_DIR$/thank-you.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thank-you.pug" beforeDir="false" afterPath="$PROJECT_DIR$/thank-you.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/web.config" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,14 +186,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="latest" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="468" y="141" key="CommitChangelistDialog2" timestamp="1577814602643">
+    <state x="468" y="141" key="CommitChangelistDialog2" timestamp="1577816754868">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="468" y="141" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1577814602643" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1577814604700">
+    <state x="468" y="141" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1577816754868" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1577816756876">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1577814604700" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1577816756876" />
     <state x="451" y="308" width="815" height="567" key="find.popup" timestamp="1577815708779">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
