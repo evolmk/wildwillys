@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5308a89-30e6-4424-9294-68cd2d016474" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.pug" beforeDir="false" afterPath="$PROJECT_DIR$/about.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.pug" beforeDir="false" afterPath="$PROJECT_DIR$/contact.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/corporate-parties.html" beforeDir="false" afterPath="$PROJECT_DIR$/corporate-parties.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dj.html" beforeDir="false" afterPath="$PROJECT_DIR$/dj.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.pug" beforeDir="false" afterPath="$PROJECT_DIR$/faq.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fundraisers.html" beforeDir="false" afterPath="$PROJECT_DIR$/fundraisers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fundraisers.pug" beforeDir="false" afterPath="$PROJECT_DIR$/fundraisers.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery.pug" beforeDir="false" afterPath="$PROJECT_DIR$/gallery.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/gallery/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/contact-form.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/contact-form.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/includes/layout.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo-booth.html" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/photo-booth.pug" beforeDir="false" afterPath="$PROJECT_DIR$/photo-booth.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poker-tournaments.html" beforeDir="false" afterPath="$PROJECT_DIR$/poker-tournaments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poker-tournaments.pug" beforeDir="false" afterPath="$PROJECT_DIR$/poker-tournaments.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private-parties.html" beforeDir="false" afterPath="$PROJECT_DIR$/private-parties.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private-parties.pug" beforeDir="false" afterPath="$PROJECT_DIR$/private-parties.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/site.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thank-you.html" beforeDir="false" afterPath="$PROJECT_DIR$/thank-you.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thank-you.pug" beforeDir="false" afterPath="$PROJECT_DIR$/thank-you.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +152,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="games lists" />
     <MESSAGE value="footer cta on mobile" />
     <MESSAGE value="show mobile cta only after scrolled" />
     <MESSAGE value="bump version, use real instagram account" />
@@ -203,17 +176,18 @@
     <MESSAGE value="add pages" />
     <MESSAGE value="latest" />
     <MESSAGE value="update web.config &amp; sitemap" />
-    <option name="LAST_COMMIT_MESSAGE" value="update web.config &amp; sitemap" />
+    <MESSAGE value="form redirect" />
+    <option name="LAST_COMMIT_MESSAGE" value="form redirect" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="468" y="141" key="CommitChangelistDialog2" timestamp="1577848139579">
+    <state x="468" y="141" key="CommitChangelistDialog2" timestamp="1577854522354">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="468" y="141" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1577848139579" />
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1577850231212">
+    <state x="468" y="141" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1577854522354" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1577854524640">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1577850231212" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1577854524640" />
     <state x="451" y="308" width="815" height="567" key="find.popup" timestamp="1577852622465">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
