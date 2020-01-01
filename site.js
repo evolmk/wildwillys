@@ -7,6 +7,8 @@ $(function () {
 
   var body = $("body");
   var scrollOffset = 0;
+  var formload = 0;
+  var formFocus = 0;
   //console.log('scroll pos: ', $(window).scrollTop());
 
   // Back to Top Button
@@ -68,6 +70,29 @@ $(function () {
       $('html, body').animate({ scrollTop: $('#' + scrollToId).offset().top - ($navbarHeader.height() + scrollOffset) + 'px' }, 400, 'easeOutQuad');
     });
   }
+
+
+  // Form Redirect Handler
+  window.addEventListener('blur',function(){
+    window.setTimeout(function () {
+      if (document.activeElement instanceof HTMLIFrameElement) {
+        //Click in Iframe.
+        formFocus = 1;
+      }
+    }, 0);
+  });
+
+  $('#contactform').on('load', function() {
+    formload = formload + 1;
+    //console.log('form loaded ' + formload + ' times');
+    if (formload > 1 && formFocus === 1) {
+      //form completed
+      $(location).attr('href', 'thank-you.html');
+      //window.location.href="thank-you.html";
+    }
+  });
+
+
 
 });
 

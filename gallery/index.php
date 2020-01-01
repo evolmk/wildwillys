@@ -96,7 +96,7 @@
       <div class="column is-2">
         <ul class="nav-footer">
           <li><a href="/index.html#top" data-scrollid="top">Home</a></li>
-          <li><a href="//gallery">Gallery</a></li>
+          <li><a href="/gallery">Gallery</a></li>
           <li><a href="/about.html">About Us</a></li>
           <li><a href="/faq.html">FAQ</a></li>
           <li><a href="/contact.html">Contact Us</a></li>
@@ -115,7 +115,7 @@
       </div>
       <div class="column is-3 has-text-centered"><a class="button is-primary" href="/contact.html" data-scrollid="contact">Get Started</a></div>
     </div>
-    <div class="copyright has-text-centered-mobile">&copy; 2019 Wild Willy's Casino Parties - All Rights Reserved</div>
+    <div class="copyright has-text-centered-mobile">&copy; 2020 Wild Willy's Casino Parties - All Rights Reserved</div>
   </div>
 </footer>
 <script src="/js/fslightbox.js"></script>
